@@ -1,0 +1,32 @@
+acVorbis	nestegg.html#acVorbis	AudioCodec.acVorbis	
+acOpus	nestegg.html#acOpus	AudioCodec.acOpus	
+acUnknown	nestegg.html#acUnknown	AudioCodec.acUnknown	
+AudioCodec	nestegg.html#AudioCodec	nestegg: AudioCodec	
+vcVp8	nestegg.html#vcVp8	VideoCodec.vcVp8	
+vcVp9	nestegg.html#vcVp9	VideoCodec.vcVp9	
+vcAv1	nestegg.html#vcAv1	VideoCodec.vcAv1	
+vcUnknown	nestegg.html#vcUnknown	VideoCodec.vcUnknown	
+VideoCodec	nestegg.html#VideoCodec	nestegg: VideoCodec	
+tkVideo	nestegg.html#tkVideo	TrackKind.tkVideo	
+tkAudio	nestegg.html#tkAudio	TrackKind.tkAudio	
+tkUnknown	nestegg.html#tkUnknown	TrackKind.tkUnknown	
+TrackKind	nestegg.html#TrackKind	nestegg: TrackKind	
+InitError	nestegg.html#InitError	nestegg: InitError	
+DemuxError	nestegg.html#DemuxError	nestegg: DemuxError	
+TrackObj	nestegg.html#TrackObj	nestegg: TrackObj	
+Track	nestegg.html#Track	nestegg: Track	
+ChunkObj	nestegg.html#ChunkObj	nestegg: ChunkObj	
+Chunk	nestegg.html#Chunk	nestegg: Chunk	
+CodecChunkObj	nestegg.html#CodecChunkObj	nestegg: CodecChunkObj	
+CodecChunk	nestegg.html#CodecChunk	nestegg: CodecChunk	
+PacketObj	nestegg.html#PacketObj	nestegg: PacketObj	
+Packet	nestegg.html#Packet	nestegg: Packet	
+SourceObj	nestegg.html#SourceObj	nestegg: SourceObj	
+Source	nestegg.html#Source	nestegg: Source	
+DemuxerObj	nestegg.html#DemuxerObj	nestegg: DemuxerObj	
+Demuxer	nestegg.html#Demuxer	nestegg: Demuxer	
+newTrack	nestegg.html#newTrack,ptr.nestegg,cuint	nestegg: newTrack(context: ptr nestegg; trackNum: cuint): Track	
+newDemuxer	nestegg.html#newDemuxer,Source	nestegg: newDemuxer(source: Source): Demuxer	
+newDemuxer	nestegg.html#newDemuxer.t,File	nestegg: newDemuxer(file: File): Demuxer	
+items	nestegg.html#items.i,Demuxer	nestegg: items(demuxer: Demuxer): Packet	
+toOpenArray	nestegg.html#toOpenArray.t,,int,int	nestegg: toOpenArray(chunk: Chunk | CodecChunk; first, last: int): openArray[byte]	

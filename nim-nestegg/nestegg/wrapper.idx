@@ -1,0 +1,81 @@
+nesteggStd	nestegg/wrapper.html#nesteggStd	wrapper: nesteggStd	
+nesteggGit	nestegg/wrapper.html#nesteggGit	wrapper: nesteggGit	
+nesteggDL	nestegg/wrapper.html#nesteggDL	wrapper: nesteggDL	
+nesteggConan	nestegg/wrapper.html#nesteggConan	wrapper: nesteggConan	
+nesteggJBB	nestegg/wrapper.html#nesteggJBB	wrapper: nesteggJBB	
+nesteggStatic	nestegg/wrapper.html#nesteggStatic	wrapper: nesteggStatic	
+nesteggSetVer	nestegg/wrapper.html#nesteggSetVer	wrapper: nesteggSetVer	
+nesteggPath	nestegg/wrapper.html#nesteggPath	wrapper: nesteggPath	
+nesteggLPath	nestegg/wrapper.html#nesteggLPath	wrapper: nesteggLPath	
+nesteggLDeps	nestegg/wrapper.html#nesteggLDeps	wrapper: nesteggLDeps	
+CODEC_UNKNOWN	nestegg/wrapper.html#CODEC_UNKNOWN	wrapper: CODEC_UNKNOWN	
+TRACK_UNKNOWN	nestegg/wrapper.html#TRACK_UNKNOWN	wrapper: TRACK_UNKNOWN	
+TRACK_VIDEO	nestegg/wrapper.html#TRACK_VIDEO	wrapper: TRACK_VIDEO	
+TRACK_AUDIO	nestegg/wrapper.html#TRACK_AUDIO	wrapper: TRACK_AUDIO	
+CODEC_VP8	nestegg/wrapper.html#CODEC_VP8	wrapper: CODEC_VP8	
+CODEC_VORBIS	nestegg/wrapper.html#CODEC_VORBIS	wrapper: CODEC_VORBIS	
+CODEC_VP9	nestegg/wrapper.html#CODEC_VP9	wrapper: CODEC_VP9	
+CODEC_OPUS	nestegg/wrapper.html#CODEC_OPUS	wrapper: CODEC_OPUS	
+CODEC_AV1	nestegg/wrapper.html#CODEC_AV1	wrapper: CODEC_AV1	
+VIDEO_MONO	nestegg/wrapper.html#VIDEO_MONO	wrapper: VIDEO_MONO	
+VIDEO_STEREO_LEFT_RIGHT	nestegg/wrapper.html#VIDEO_STEREO_LEFT_RIGHT	wrapper: VIDEO_STEREO_LEFT_RIGHT	
+VIDEO_STEREO_BOTTOM_TOP	nestegg/wrapper.html#VIDEO_STEREO_BOTTOM_TOP	wrapper: VIDEO_STEREO_BOTTOM_TOP	
+VIDEO_STEREO_TOP_BOTTOM	nestegg/wrapper.html#VIDEO_STEREO_TOP_BOTTOM	wrapper: VIDEO_STEREO_TOP_BOTTOM	
+VIDEO_STEREO_RIGHT_LEFT	nestegg/wrapper.html#VIDEO_STEREO_RIGHT_LEFT	wrapper: VIDEO_STEREO_RIGHT_LEFT	
+SEEK_SET	nestegg/wrapper.html#SEEK_SET	wrapper: SEEK_SET	
+SEEK_CUR	nestegg/wrapper.html#SEEK_CUR	wrapper: SEEK_CUR	
+SEEK_END	nestegg/wrapper.html#SEEK_END	wrapper: SEEK_END	
+LOG_DEBUG	nestegg/wrapper.html#LOG_DEBUG	wrapper: LOG_DEBUG	
+LOG_INFO	nestegg/wrapper.html#LOG_INFO	wrapper: LOG_INFO	
+LOG_WARNING	nestegg/wrapper.html#LOG_WARNING	wrapper: LOG_WARNING	
+LOG_ERROR	nestegg/wrapper.html#LOG_ERROR	wrapper: LOG_ERROR	
+LOG_CRITICAL	nestegg/wrapper.html#LOG_CRITICAL	wrapper: LOG_CRITICAL	
+ENCODING_COMPRESSION	nestegg/wrapper.html#ENCODING_COMPRESSION	wrapper: ENCODING_COMPRESSION	
+ENCODING_ENCRYPTION	nestegg/wrapper.html#ENCODING_ENCRYPTION	wrapper: ENCODING_ENCRYPTION	
+PACKET_HAS_SIGNAL_BYTE_FALSE	nestegg/wrapper.html#PACKET_HAS_SIGNAL_BYTE_FALSE	wrapper: PACKET_HAS_SIGNAL_BYTE_FALSE	
+PACKET_HAS_SIGNAL_BYTE_UNENCRYPTED	nestegg/wrapper.html#PACKET_HAS_SIGNAL_BYTE_UNENCRYPTED	wrapper: PACKET_HAS_SIGNAL_BYTE_UNENCRYPTED	
+PACKET_HAS_SIGNAL_BYTE_ENCRYPTED	nestegg/wrapper.html#PACKET_HAS_SIGNAL_BYTE_ENCRYPTED	wrapper: PACKET_HAS_SIGNAL_BYTE_ENCRYPTED	
+PACKET_HAS_SIGNAL_BYTE_PARTITIONED	nestegg/wrapper.html#PACKET_HAS_SIGNAL_BYTE_PARTITIONED	wrapper: PACKET_HAS_SIGNAL_BYTE_PARTITIONED	
+PACKET_HAS_KEYFRAME_FALSE	nestegg/wrapper.html#PACKET_HAS_KEYFRAME_FALSE	wrapper: PACKET_HAS_KEYFRAME_FALSE	
+PACKET_HAS_KEYFRAME_TRUE	nestegg/wrapper.html#PACKET_HAS_KEYFRAME_TRUE	wrapper: PACKET_HAS_KEYFRAME_TRUE	
+PACKET_HAS_KEYFRAME_UNKNOWN	nestegg/wrapper.html#PACKET_HAS_KEYFRAME_UNKNOWN	wrapper: PACKET_HAS_KEYFRAME_UNKNOWN	
+nestegg	nestegg/wrapper.html#nestegg	wrapper: nestegg	
+cpacket	nestegg/wrapper.html#cpacket	wrapper: cpacket	
+io	nestegg/wrapper.html#io	wrapper: io	
+video_params	nestegg/wrapper.html#video_params	wrapper: video_params	
+audio_params	nestegg/wrapper.html#audio_params	wrapper: audio_params	
+log	nestegg/wrapper.html#log	wrapper: log	
+init	nestegg/wrapper.html#init,ptr.ptr.nestegg,io,log,int64	wrapper: init(context: ptr ptr nestegg; io: io; callback: log; max_offset: int64): cint	
+destroy	nestegg/wrapper.html#destroy,ptr.nestegg	wrapper: destroy(context: ptr nestegg)	
+duration	nestegg/wrapper.html#duration,ptr.nestegg,ptr.uint64	wrapper: duration(context: ptr nestegg; duration: ptr uint64): cint	
+tstamp_scale	nestegg/wrapper.html#tstamp_scale,ptr.nestegg,ptr.uint64	wrapper: tstamp_scale(context: ptr nestegg; scale: ptr uint64): cint	
+track_count	nestegg/wrapper.html#track_count,ptr.nestegg,ptr.cuint	wrapper: track_count(context: ptr nestegg; tracks: ptr cuint): cint	
+get_cue_point	nestegg/wrapper.html#get_cue_point,ptr.nestegg,cuint,int64,ptr.int64,ptr.int64,ptr.uint64	wrapper: get_cue_point(context: ptr nestegg; cluster_num: cuint; max_offset: int64;\n              start_pos: ptr int64; end_pos: ptr int64; tstamp: ptr uint64): cint	
+offset_seek	nestegg/wrapper.html#offset_seek,ptr.nestegg,uint64	wrapper: offset_seek(context: ptr nestegg; offset: uint64): cint	
+track_seek	nestegg/wrapper.html#track_seek,ptr.nestegg,cuint,uint64	wrapper: track_seek(context: ptr nestegg; track: cuint; tstamp: uint64): cint	
+track_type	nestegg/wrapper.html#track_type,ptr.nestegg,cuint	wrapper: track_type(context: ptr nestegg; track: cuint): cint	
+track_codec_id	nestegg/wrapper.html#track_codec_id,ptr.nestegg,cuint	wrapper: track_codec_id(context: ptr nestegg; track: cuint): cint	
+track_codec_data_count	nestegg/wrapper.html#track_codec_data_count,ptr.nestegg,cuint,ptr.cuint	wrapper: track_codec_data_count(context: ptr nestegg; track: cuint; count: ptr cuint): cint	
+track_codec_data	nestegg/wrapper.html#track_codec_data,ptr.nestegg,cuint,cuint,ptr.ptr.cuchar,ptr.uint	wrapper: track_codec_data(context: ptr nestegg; track: cuint; item: cuint;\n                 data: ptr ptr cuchar; length: ptr uint): cint	
+track_video_params	nestegg/wrapper.html#track_video_params,ptr.nestegg,cuint,ptr.video_params	wrapper: track_video_params(context: ptr nestegg; track: cuint; params: ptr video_params): cint	
+track_audio_params	nestegg/wrapper.html#track_audio_params,ptr.nestegg,cuint,ptr.audio_params	wrapper: track_audio_params(context: ptr nestegg; track: cuint; params: ptr audio_params): cint	
+track_encoding	nestegg/wrapper.html#track_encoding,ptr.nestegg,cuint	wrapper: track_encoding(context: ptr nestegg; track: cuint): cint	
+track_content_enc_key_id	nestegg/wrapper.html#track_content_enc_key_id,ptr.nestegg,cuint,ptr.ptr.cuchar,ptr.uint	wrapper: track_content_enc_key_id(context: ptr nestegg; track: cuint;\n                         content_enc_key_id: ptr ptr cuchar;\n                         content_enc_key_id_length: ptr uint): cint	
+track_default_duration	nestegg/wrapper.html#track_default_duration,ptr.nestegg,cuint,ptr.uint64	wrapper: track_default_duration(context: ptr nestegg; track: cuint; duration: ptr uint64): cint	
+read_reset	nestegg/wrapper.html#read_reset,ptr.nestegg	wrapper: read_reset(context: ptr nestegg): cint	
+read_packet	nestegg/wrapper.html#read_packet,ptr.nestegg,ptr.ptr.cpacket	wrapper: read_packet(context: ptr nestegg; packet: ptr ptr cpacket): cint	
+free_packet	nestegg/wrapper.html#free_packet,ptr.cpacket	wrapper: free_packet(packet: ptr cpacket)	
+packet_has_keyframe	nestegg/wrapper.html#packet_has_keyframe,ptr.cpacket	wrapper: packet_has_keyframe(packet: ptr cpacket): cint	
+packet_track	nestegg/wrapper.html#packet_track,ptr.cpacket,ptr.cuint	wrapper: packet_track(packet: ptr cpacket; track: ptr cuint): cint	
+packet_tstamp	nestegg/wrapper.html#packet_tstamp,ptr.cpacket,ptr.uint64	wrapper: packet_tstamp(packet: ptr cpacket; tstamp: ptr uint64): cint	
+packet_duration	nestegg/wrapper.html#packet_duration,ptr.cpacket,ptr.uint64	wrapper: packet_duration(packet: ptr cpacket; duration: ptr uint64): cint	
+packet_count	nestegg/wrapper.html#packet_count,ptr.cpacket,ptr.cuint	wrapper: packet_count(packet: ptr cpacket; count: ptr cuint): cint	
+packet_data	nestegg/wrapper.html#packet_data,ptr.cpacket,cuint,ptr.ptr.cuchar,ptr.uint	wrapper: packet_data(packet: ptr cpacket; item: cuint; data: ptr ptr cuchar;\n            length: ptr uint): cint	
+packet_additional_data	nestegg/wrapper.html#packet_additional_data,ptr.cpacket,cuint,ptr.ptr.cuchar,ptr.uint	wrapper: packet_additional_data(packet: ptr cpacket; id: cuint; data: ptr ptr cuchar;\n                       length: ptr uint): cint	
+packet_discard_padding	nestegg/wrapper.html#packet_discard_padding,ptr.cpacket,ptr.int64	wrapper: packet_discard_padding(packet: ptr cpacket; discard_padding: ptr int64): cint	
+packet_encryption	nestegg/wrapper.html#packet_encryption,ptr.cpacket	wrapper: packet_encryption(packet: ptr cpacket): cint	
+packet_iv	nestegg/wrapper.html#packet_iv,ptr.cpacket,ptr.ptr.cuchar,ptr.uint	wrapper: packet_iv(packet: ptr cpacket; iv: ptr ptr cuchar; length: ptr uint): cint	
+packet_offsets	nestegg/wrapper.html#packet_offsets,ptr.cpacket,ptr.ptr.uint32,ptr.uint8	wrapper: packet_offsets(packet: ptr cpacket; partition_offsets: ptr ptr uint32;\n               num_offsets: ptr uint8): cint	
+packet_reference_block	nestegg/wrapper.html#packet_reference_block,ptr.cpacket,ptr.int64	wrapper: packet_reference_block(packet: ptr cpacket; reference_block: ptr int64): cint	
+has_cues	nestegg/wrapper.html#has_cues,ptr.nestegg	wrapper: has_cues(context: ptr nestegg): cint	
+sniff	nestegg/wrapper.html#sniff,ptr.cuchar,uint	wrapper: sniff(buffer: ptr cuchar; length: uint): cint	
