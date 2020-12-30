@@ -105,7 +105,7 @@ function main() {
   acVorbis = (1, &quot;vorbis&quot;), acOpus = (3, &quot;opus&quot;), acUnknown = (127, &quot;unkown&quot;)">AudioCodec</a></li>
   <li><a class="reference" href="#VideoCodec"
     title="VideoCodec = enum
-  vcVp8 = (0, &quot;vp8&quot;), vcVp9 = (2, &quot;vp9&quot;), vcAv1 = (4, &quot;av1&quot;),
+  vcVp8 = (0, &quot;vp8&quot;), vcVp9 = (2, &quot;vp9&quot;), vcAv1 = (4, &quot;av1&quot;), ## av1 is de-facto part of webm and assumed to become official
   vcUnknown = (127, &quot;unkown&quot;)">VideoCodec</a></li>
   <li><a class="reference" href="#TrackKind"
     title="TrackKind = enum
@@ -129,21 +129,13 @@ function main() {
       nil
 
   num*: cuint
-  codecData*: seq[CodecChunk]">TrackObj</a></li>
+  codecData*: seq[Chunk]">TrackObj</a></li>
   <li><a class="reference" href="#Track"
     title="Track = ref TrackObj">Track</a></li>
-  <li><a class="reference" href="#ChunkObj"
-    title="ChunkObj = object
-  size*: csize_t
-  data*: ptr UncheckedArray[byte]">ChunkObj</a></li>
   <li><a class="reference" href="#Chunk"
-    title="Chunk = ref ChunkObj">Chunk</a></li>
-  <li><a class="reference" href="#CodecChunkObj"
-    title="CodecChunkObj = object
-  size*: csize_t
-  data*: ptr UncheckedArray[byte]">CodecChunkObj</a></li>
-  <li><a class="reference" href="#CodecChunk"
-    title="CodecChunk = ref CodecChunkObj">CodecChunk</a></li>
+    title="Chunk = object
+  len*: int
+  data*: ptr UncheckedArray[byte]">Chunk</a></li>
   <li><a class="reference" href="#PacketObj"
     title="PacketObj = object
   raw*: ptr cpacket
@@ -191,6 +183,8 @@ function main() {
   <ul class="simple simple-toc-section">
       <li><a class="reference" href="#items.i%2CDemuxer"
     title="items(demuxer: Demuxer): Packet">items</a></li>
+  <li><a class="reference" href="#items.i%2CPacket"
+    title="items(packet: Packet): Chunk">items</a></li>
 
   </ul>
 </li>
@@ -199,8 +193,8 @@ function main() {
   <ul class="simple simple-toc-section">
       <li><a class="reference" href="#newDemuxer.t%2CFile"
     title="newDemuxer(file: File): Demuxer">newDemuxer</a></li>
-  <li><a class="reference" href="#toOpenArray.t%2C%2Cint%2Cint"
-    title="toOpenArray(chunk: Chunk | CodecChunk; first, last: int): openArray[byte]">toOpenArray</a></li>
+  <li><a class="reference" href="#toOpenArray.t%2CChunk%2Cint%2Cint"
+    title="toOpenArray(chunk: Chunk; first, last: int): openArray[byte]">toOpenArray</a></li>
 
   </ul>
 </li>
@@ -223,7 +217,7 @@ function main() {
   <div class="section" id="6">
 <h1><a class="toc-backref" href="#6">Imports</a></h1>
 <dl class="item">
-<a class="reference external" href="nestegg/wrapper.html">nestegg/wrapper</a>
+<a class="reference external" href="wrapper.html">wrapper</a>
 </dl></div>
 <div class="section" id="7">
 <h1><a class="toc-backref" href="#7">Types</a></h1>
@@ -238,11 +232,11 @@ Allowed codecs for WebM audio, or flag unknown
 </dd>
 <a id="VideoCodec"></a>
 <dt><pre><a href="nestegg.html#VideoCodec"><span class="Identifier">VideoCodec</span></a> <span class="Other">=</span> <span class="Keyword">enum</span>
-  <span class="Identifier">vcVp8</span> <span class="Other">=</span> <span class="Other">(</span><span class="DecNumber">0</span><span class="Other">,</span> <span class="StringLit">&quot;vp8&quot;</span><span class="Other">)</span><span class="Other">,</span> <span class="Identifier">vcVp9</span> <span class="Other">=</span> <span class="Other">(</span><span class="DecNumber">2</span><span class="Other">,</span> <span class="StringLit">&quot;vp9&quot;</span><span class="Other">)</span><span class="Other">,</span> <span class="Identifier">vcAv1</span> <span class="Other">=</span> <span class="Other">(</span><span class="DecNumber">4</span><span class="Other">,</span> <span class="StringLit">&quot;av1&quot;</span><span class="Other">)</span><span class="Other">,</span>
+  <span class="Identifier">vcVp8</span> <span class="Other">=</span> <span class="Other">(</span><span class="DecNumber">0</span><span class="Other">,</span> <span class="StringLit">&quot;vp8&quot;</span><span class="Other">)</span><span class="Other">,</span> <span class="Identifier">vcVp9</span> <span class="Other">=</span> <span class="Other">(</span><span class="DecNumber">2</span><span class="Other">,</span> <span class="StringLit">&quot;vp9&quot;</span><span class="Other">)</span><span class="Other">,</span> <span class="Identifier">vcAv1</span> <span class="Other">=</span> <span class="Other">(</span><span class="DecNumber">4</span><span class="Other">,</span> <span class="StringLit">&quot;av1&quot;</span><span class="Other">)</span><span class="Other">,</span> <span class="Comment">## av1 is de-facto part of webm and assumed to become official</span>
   <span class="Identifier">vcUnknown</span> <span class="Other">=</span> <span class="Other">(</span><span class="DecNumber">127</span><span class="Other">,</span> <span class="StringLit">&quot;unkown&quot;</span><span class="Other">)</span></pre></dt>
 <dd>
 
-Allowed codecs for WebM video, or flag unknown (av1 is unofficial but widely supported)
+Allowed codecs for WebM video, or flag unknown
 
 </dd>
 <a id="TrackKind"></a>
@@ -274,17 +268,17 @@ An error that happens during the demuxing process itself
   <span class="Keyword">case</span> <span class="Identifier">kind</span><span class="Operator">*</span><span class="Other">:</span> <a href="nestegg.html#TrackKind"><span class="Identifier">TrackKind</span></a>
   <span class="Keyword">of</span> <span class="Identifier">tkVideo</span><span class="Other">:</span>
       <span class="Identifier">videoCodec</span><span class="Operator">*</span><span class="Other">:</span> <a href="nestegg.html#VideoCodec"><span class="Identifier">VideoCodec</span></a>
-      <span class="Identifier">videoParams</span><span class="Operator">*</span><span class="Other">:</span> <a href="nestegg/wrapper.html#video_params"><span class="Identifier">video_params</span></a>
+      <span class="Identifier">videoParams</span><span class="Operator">*</span><span class="Other">:</span> <a href="wrapper.html#video_params"><span class="Identifier">video_params</span></a>
 
   <span class="Keyword">of</span> <span class="Identifier">tkAudio</span><span class="Other">:</span>
       <span class="Identifier">audioCodec</span><span class="Operator">*</span><span class="Other">:</span> <a href="nestegg.html#AudioCodec"><span class="Identifier">AudioCodec</span></a>
-      <span class="Identifier">audioParams</span><span class="Operator">*</span><span class="Other">:</span> <a href="nestegg/wrapper.html#audio_params"><span class="Identifier">audio_params</span></a>
+      <span class="Identifier">audioParams</span><span class="Operator">*</span><span class="Other">:</span> <a href="wrapper.html#audio_params"><span class="Identifier">audio_params</span></a>
 
   <span class="Keyword">of</span> <span class="Identifier">tkUnknown</span><span class="Other">:</span>
       <span class="Keyword">nil</span>
 
   <span class="Identifier">num</span><span class="Operator">*</span><span class="Other">:</span> <span class="Identifier">cuint</span>
-  <span class="Identifier">codecData</span><span class="Operator">*</span><span class="Other">:</span> <span class="Identifier">seq</span><span class="Other">[</span><a href="nestegg.html#CodecChunk"><span class="Identifier">CodecChunk</span></a><span class="Other">]</span>
+  <span class="Identifier">codecData</span><span class="Operator">*</span><span class="Other">:</span> <span class="Identifier">seq</span><span class="Other">[</span><a href="nestegg.html#Chunk"><span class="Identifier">Chunk</span></a><span class="Other">]</span>
 </pre></dt>
 <dd>
 
@@ -298,9 +292,9 @@ Contains initialization data and metadata about one of the tracks multiplexed in
 
 
 </dd>
-<a id="ChunkObj"></a>
-<dt><pre><a href="nestegg.html#ChunkObj"><span class="Identifier">ChunkObj</span></a> <span class="Other">=</span> <span class="Keyword">object</span>
-  <span class="Identifier">size</span><span class="Operator">*</span><span class="Other">:</span> <span class="Identifier">csize_t</span>
+<a id="Chunk"></a>
+<dt><pre><a href="nestegg.html#Chunk"><span class="Identifier">Chunk</span></a> <span class="Other">=</span> <span class="Keyword">object</span>
+  <span class="Identifier">len</span><span class="Operator">*</span><span class="Other">:</span> <span class="Identifier">int</span>
   <span class="Identifier">data</span><span class="Operator">*</span><span class="Other">:</span> <span class="Keyword">ptr</span> <span class="Identifier">UncheckedArray</span><span class="Other">[</span><span class="Identifier">byte</span><span class="Other">]</span>
 </pre></dt>
 <dd>
@@ -308,33 +302,9 @@ Contains initialization data and metadata about one of the tracks multiplexed in
 A chunk of data. Each multiplexed packet contains a series of these chunks that make up the actual encoded data to be sent to the decoder
 
 </dd>
-<a id="Chunk"></a>
-<dt><pre><a href="nestegg.html#Chunk"><span class="Identifier">Chunk</span></a> <span class="Other">=</span> <span class="Keyword">ref</span> <a href="nestegg.html#ChunkObj"><span class="Identifier">ChunkObj</span></a></pre></dt>
-<dd>
-
-
-
-</dd>
-<a id="CodecChunkObj"></a>
-<dt><pre><a href="nestegg.html#CodecChunkObj"><span class="Identifier">CodecChunkObj</span></a> <span class="Other">=</span> <span class="Keyword">object</span>
-  <span class="Identifier">size</span><span class="Operator">*</span><span class="Other">:</span> <span class="Identifier">csize_t</span>
-  <span class="Identifier">data</span><span class="Operator">*</span><span class="Other">:</span> <span class="Keyword">ptr</span> <span class="Identifier">UncheckedArray</span><span class="Other">[</span><span class="Identifier">byte</span><span class="Other">]</span>
-</pre></dt>
-<dd>
-
-A chunk of initialization data preperaed by the encoder and used to intialize a decoder
-
-</dd>
-<a id="CodecChunk"></a>
-<dt><pre><a href="nestegg.html#CodecChunk"><span class="Identifier">CodecChunk</span></a> <span class="Other">=</span> <span class="Keyword">ref</span> <a href="nestegg.html#CodecChunkObj"><span class="Identifier">CodecChunkObj</span></a></pre></dt>
-<dd>
-
-
-
-</dd>
 <a id="PacketObj"></a>
 <dt><pre><a href="nestegg.html#PacketObj"><span class="Identifier">PacketObj</span></a> <span class="Other">=</span> <span class="Keyword">object</span>
-  <span class="Identifier">raw</span><span class="Operator">*</span><span class="Other">:</span> <span class="Keyword">ptr</span> <a href="nestegg/wrapper.html#cpacket"><span class="Identifier">cpacket</span></a>
+  <span class="Identifier">raw</span><span class="Operator">*</span><span class="Other">:</span> <span class="Keyword">ptr</span> <a href="wrapper.html#cpacket"><span class="Identifier">cpacket</span></a>
   <span class="Identifier">length</span><span class="Operator">*</span><span class="Other">:</span> <span class="Identifier">cuint</span>
   <span class="Identifier">timestamp</span><span class="Operator">*</span><span class="Other">:</span> <span class="Identifier">culonglong</span>
   <span class="Identifier">track</span><span class="Operator">*</span><span class="Other">:</span> <a href="nestegg.html#Track"><span class="Identifier">Track</span></a>
@@ -354,7 +324,7 @@ An individual data packet. A stream of these is sent over a file or a network, e
 </dd>
 <a id="SourceObj"></a>
 <dt><pre><a href="nestegg.html#SourceObj"><span class="Identifier">SourceObj</span></a> <span class="Other">=</span> <span class="Keyword">object</span>
-  <span class="Identifier">io</span><span class="Operator">*</span><span class="Other">:</span> <a href="nestegg/wrapper.html#io"><span class="Identifier">io</span></a>
+  <span class="Identifier">io</span><span class="Operator">*</span><span class="Other">:</span> <a href="wrapper.html#io"><span class="Identifier">io</span></a>
 </pre></dt>
 <dd>
 
@@ -371,7 +341,7 @@ A data source interface that is mapped to a file by default, but other data sour
 <a id="DemuxerObj"></a>
 <dt><pre><a href="nestegg.html#DemuxerObj"><span class="Identifier">DemuxerObj</span></a> <span class="Other">=</span> <span class="Keyword">object</span>
   <span class="Identifier">file</span><span class="Operator">*</span><span class="Other">:</span> <span class="Identifier">File</span>
-  <span class="Identifier">context</span><span class="Operator">*</span><span class="Other">:</span> <span class="Keyword">ptr</span> <a href="nestegg/wrapper.html#nestegg"><span class="Identifier">nestegg</span></a>
+  <span class="Identifier">context</span><span class="Operator">*</span><span class="Other">:</span> <span class="Keyword">ptr</span> <a href="wrapper.html#nestegg"><span class="Identifier">nestegg</span></a>
   <span class="Identifier">duration</span><span class="Operator">*</span><span class="Other">:</span> <span class="Identifier">uint64</span>
   <span class="Identifier">source</span><span class="Operator">*</span><span class="Other">:</span> <a href="nestegg.html#Source"><span class="Identifier">Source</span></a>
   <span class="Identifier">tracks</span><span class="Operator">*</span><span class="Other">:</span> <span class="Identifier">seq</span><span class="Other">[</span><a href="nestegg.html#Track"><span class="Identifier">Track</span></a><span class="Other">]</span>
@@ -394,7 +364,7 @@ The demuxer object that wraps the actual demux process. Can be iterated over to 
 <h1><a class="toc-backref" href="#12">Procs</a></h1>
 <dl class="item">
 <a id="newTrack,ptr.nestegg,cuint"></a>
-<dt><pre><span class="Keyword">proc</span> <a href="#newTrack%2Cptr.nestegg%2Ccuint"><span class="Identifier">newTrack</span></a><span class="Other">(</span><span class="Identifier">context</span><span class="Other">:</span> <span class="Keyword">ptr</span> <a href="nestegg/wrapper.html#nestegg"><span class="Identifier">nestegg</span></a><span class="Other">;</span> <span class="Identifier">trackNum</span><span class="Other">:</span> <span class="Identifier">cuint</span><span class="Other">)</span><span class="Other">:</span> <a href="nestegg.html#Track"><span class="Identifier">Track</span></a> <span><span class="Other">{</span><span class="Other pragmadots">...</span><span class="Other">}</span></span><span class="pragmawrap"><span class="Other">{.</span><span class="pragma">
+<dt><pre><span class="Keyword">proc</span> <a href="#newTrack%2Cptr.nestegg%2Ccuint"><span class="Identifier">newTrack</span></a><span class="Other">(</span><span class="Identifier">context</span><span class="Other">:</span> <span class="Keyword">ptr</span> <a href="wrapper.html#nestegg"><span class="Identifier">nestegg</span></a><span class="Other">;</span> <span class="Identifier">trackNum</span><span class="Other">:</span> <span class="Identifier">cuint</span><span class="Other">)</span><span class="Other">:</span> <a href="nestegg.html#Track"><span class="Identifier">Track</span></a> <span><span class="Other">{</span><span class="Other pragmadots">...</span><span class="Other">}</span></span><span class="pragmawrap"><span class="Other">{.</span><span class="pragma">
     <span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">InitError</span><span class="Other">,</span> <span class="Identifier">ValueError</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span><span class="Other">.}</span></span></pre></dt>
 <dd>
 
@@ -422,6 +392,13 @@ Initialize a demuxer object from a data source. Reads all the initialization dat
 The iterater that retrieves packets from the demuxer. Note that a packet can be from various tracks, no guarantees are made in which order packets arrive in. Within the iterator, select codecs to handle the data and perform buffering as needed.
 
 </dd>
+<a id="items.i,Packet"></a>
+<dt><pre><span class="Keyword">iterator</span> <a href="#items.i%2CPacket"><span class="Identifier">items</span></a><span class="Other">(</span><span class="Identifier">packet</span><span class="Other">:</span> <a href="nestegg.html#Packet"><span class="Identifier">Packet</span></a><span class="Other">)</span><span class="Other">:</span> <a href="nestegg.html#Chunk"><span class="Identifier">Chunk</span></a> <span><span class="Other">{</span><span class="Other pragmadots">...</span><span class="Other">}</span></span><span class="pragmawrap"><span class="Other">{.</span><span class="pragma"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span><span class="Other">.}</span></span></pre></dt>
+<dd>
+
+
+
+</dd>
 
 </dl></div>
 <div class="section" id="18">
@@ -434,9 +411,8 @@ The iterater that retrieves packets from the demuxer. Note that a packet can be 
 Convenience template to create a demuxer from a file objcet If other sources are created, adding one of these keeps the interface friendly
 
 </dd>
-<a id="toOpenArray.t,,int,int"></a>
-<dt><pre><span class="Keyword">template</span> <a href="#toOpenArray.t%2C%2Cint%2Cint"><span class="Identifier">toOpenArray</span></a><span class="Other">(</span><span class="Identifier">chunk</span><span class="Other">:</span> <a href="nestegg.html#Chunk"><span class="Identifier">Chunk</span></a> <span class="Operator">|</span> <a href="nestegg.html#CodecChunk"><span class="Identifier">CodecChunk</span></a><span class="Other">;</span> <span class="Identifier">first</span><span class="Other">,</span> <span class="Identifier">last</span><span class="Other">:</span> <span class="Identifier">int</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">openArray</span><span class="Other">[</span>
-    <span class="Identifier">byte</span><span class="Other">]</span></pre></dt>
+<a id="toOpenArray.t,Chunk,int,int"></a>
+<dt><pre><span class="Keyword">template</span> <a href="#toOpenArray.t%2CChunk%2Cint%2Cint"><span class="Identifier">toOpenArray</span></a><span class="Other">(</span><span class="Identifier">chunk</span><span class="Other">:</span> <a href="nestegg.html#Chunk"><span class="Identifier">Chunk</span></a><span class="Other">;</span> <span class="Identifier">first</span><span class="Other">,</span> <span class="Identifier">last</span><span class="Other">:</span> <span class="Identifier">int</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">openArray</span><span class="Other">[</span><span class="Identifier">byte</span><span class="Other">]</span></pre></dt>
 <dd>
 
 Allows passing a chunk of data to various collection functions that take an openArray for data analysis or processing. This is always a copy operation.
@@ -447,7 +423,7 @@ Allows passing a chunk of data to various collection functions that take an open
 <div class="section" id="19">
 <h1><a class="toc-backref" href="#19">Exports</a></h1>
 <dl class="item">
-<a href="nestegg/wrapper.html#audio_params"><span class="Identifier">audio_params</span></a>, <a href="nestegg/wrapper.html#video_params"><span class="Identifier">video_params</span></a>
+<a href="wrapper.html#audio_params"><span class="Identifier">audio_params</span></a>, <a href="wrapper.html#video_params"><span class="Identifier">video_params</span></a>
 </dl></div>
 
   </div>
@@ -457,7 +433,7 @@ Allows passing a chunk of data to various collection functions that take an open
       <div class="twelve-columns footer">
         <span class="nim-sprite"></span>
         <br/>
-        <small style="color: var(--hint);">Made with Nim. Generated: 2020-12-21 08:37:06 UTC</small>
+        <small style="color: var(--hint);">Made with Nim. Generated: 2020-12-30 08:54:00 UTC</small>
       </div>
     </div>
   </div>
