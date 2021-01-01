@@ -1,0 +1,19 @@
+sr8k	opus.html#sr8k	SampleRate.sr8k	
+sr12k	opus.html#sr12k	SampleRate.sr12k	
+sr16k	opus.html#sr16k	SampleRate.sr16k	
+sr24k	opus.html#sr24k	SampleRate.sr24k	
+sr48k	opus.html#sr48k	SampleRate.sr48k	
+SampleRate	opus.html#SampleRate	opus: SampleRate	
+chMono	opus.html#chMono	Channels.chMono	
+chStereo	opus.html#chStereo	Channels.chStereo	
+Channels	opus.html#Channels	opus: Channels	
+DecoderObj	opus.html#DecoderObj	opus: DecoderObj	
+Decoder	opus.html#Decoder	opus: Decoder	
+SamplesObj	opus.html#SamplesObj	opus: SamplesObj	
+Samples	opus.html#Samples	opus: Samples	
+InitError	opus.html#InitError	opus: InitError	
+DecodeError	opus.html#DecodeError	opus: DecodeError	
+newDecoder	opus.html#newDecoder,SampleRate,Channels	opus: newDecoder(sampleRate: SampleRate; channels: Channels): Decoder	
+bytes	opus.html#bytes.t,Samples	opus: bytes(samples: Samples): int	
+decode	opus.html#decode,Decoder,openArray[byte],bool	opus: decode(decoder: Decoder; encoded: openArray[byte]; errorCorrection: bool = false): Samples	
+decode	opus.html#decode.t,Decoder,ptr.UncheckedArray[byte],int,bool	opus: decode(decoder: Decoder; encoded: ptr UncheckedArray[byte]; len: int;\n       errorCorrection: bool = false): Samples	

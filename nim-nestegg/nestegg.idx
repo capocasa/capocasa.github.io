@@ -15,10 +15,7 @@ InitError	nestegg.html#InitError	nestegg: InitError
 DemuxError	nestegg.html#DemuxError	nestegg: DemuxError	
 TrackObj	nestegg.html#TrackObj	nestegg: TrackObj	
 Track	nestegg.html#Track	nestegg: Track	
-ChunkObj	nestegg.html#ChunkObj	nestegg: ChunkObj	
 Chunk	nestegg.html#Chunk	nestegg: Chunk	
-CodecChunkObj	nestegg.html#CodecChunkObj	nestegg: CodecChunkObj	
-CodecChunk	nestegg.html#CodecChunk	nestegg: CodecChunk	
 PacketObj	nestegg.html#PacketObj	nestegg: PacketObj	
 Packet	nestegg.html#Packet	nestegg: Packet	
 SourceObj	nestegg.html#SourceObj	nestegg: SourceObj	
@@ -29,4 +26,5 @@ newTrack	nestegg.html#newTrack,ptr.nestegg,cuint	nestegg: newTrack(context: ptr 
 newDemuxer	nestegg.html#newDemuxer,Source	nestegg: newDemuxer(source: Source): Demuxer	
 newDemuxer	nestegg.html#newDemuxer.t,File	nestegg: newDemuxer(file: File): Demuxer	
 items	nestegg.html#items.i,Demuxer	nestegg: items(demuxer: Demuxer): Packet	
-toOpenArray	nestegg.html#toOpenArray.t,,int,int	nestegg: toOpenArray(chunk: Chunk | CodecChunk; first, last: int): openArray[byte]	
+items	nestegg.html#items.i,Packet	nestegg: items(packet: Packet): Chunk	
+toOpenArray	nestegg.html#toOpenArray.t,Chunk,int,int	nestegg: toOpenArray(chunk: Chunk; first, last: int): openArray[byte]	

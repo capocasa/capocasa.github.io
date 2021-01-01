@@ -1,0 +1,1155 @@
+dav1dStd	dav1d/wrapper.html#dav1dStd	wrapper: dav1dStd	
+dav1dGit	dav1d/wrapper.html#dav1dGit	wrapper: dav1dGit	
+dav1dDL	dav1d/wrapper.html#dav1dDL	wrapper: dav1dDL	
+dav1dConan	dav1d/wrapper.html#dav1dConan	wrapper: dav1dConan	
+dav1dJBB	dav1d/wrapper.html#dav1dJBB	wrapper: dav1dJBB	
+dav1dStatic	dav1d/wrapper.html#dav1dStatic	wrapper: dav1dStatic	
+dav1dSetVer	dav1d/wrapper.html#dav1dSetVer	wrapper: dav1dSetVer	
+dav1dPath	dav1d/wrapper.html#dav1dPath	wrapper: dav1dPath	
+dav1dLPath	dav1d/wrapper.html#dav1dLPath	wrapper: dav1dLPath	
+dav1dLDeps	dav1d/wrapper.html#dav1dLDeps	wrapper: dav1dLDeps	
+va_list	dav1d/wrapper.html#va_list	wrapper: va_list	
+ObuType	dav1d/wrapper.html#ObuType	wrapper: ObuType	
+`+`	dav1d/wrapper.html#+,ObuType,cint	wrapper: `+`(x`gensym23: ObuType; y`gensym23: cint): ObuType	
+`+`	dav1d/wrapper.html#+,cint,ObuType	wrapper: `+`(x`gensym23: cint; y`gensym23: ObuType): ObuType	
+`+`	dav1d/wrapper.html#+,ObuType,ObuType	wrapper: `+`(x`gensym23, y`gensym23: ObuType): ObuType	
+`+`	dav1d/wrapper.html#+,ObuType,int	wrapper: `+`(x`gensym24: ObuType; y`gensym24: int): ObuType	
+`+`	dav1d/wrapper.html#+,int,ObuType	wrapper: `+`(x`gensym24: int; y`gensym24: ObuType): ObuType	
+`-`	dav1d/wrapper.html#-,ObuType,cint	wrapper: `-`(x`gensym25: ObuType; y`gensym25: cint): ObuType	
+`-`	dav1d/wrapper.html#-,cint,ObuType	wrapper: `-`(x`gensym25: cint; y`gensym25: ObuType): ObuType	
+`-`	dav1d/wrapper.html#-,ObuType,ObuType	wrapper: `-`(x`gensym25, y`gensym25: ObuType): ObuType	
+`-`	dav1d/wrapper.html#-,ObuType,int	wrapper: `-`(x`gensym26: ObuType; y`gensym26: int): ObuType	
+`-`	dav1d/wrapper.html#-,int,ObuType	wrapper: `-`(x`gensym26: int; y`gensym26: ObuType): ObuType	
+`*`	dav1d/wrapper.html#*,ObuType,cint	wrapper: `*`(x`gensym27: ObuType; y`gensym27: cint): ObuType	
+`*`	dav1d/wrapper.html#*,cint,ObuType	wrapper: `*`(x`gensym27: cint; y`gensym27: ObuType): ObuType	
+`*`	dav1d/wrapper.html#*,ObuType,ObuType	wrapper: `*`(x`gensym27, y`gensym27: ObuType): ObuType	
+`*`	dav1d/wrapper.html#*,ObuType,int	wrapper: `*`(x`gensym28: ObuType; y`gensym28: int): ObuType	
+`*`	dav1d/wrapper.html#*,int,ObuType	wrapper: `*`(x`gensym28: int; y`gensym28: ObuType): ObuType	
+`div`	dav1d/wrapper.html#div,ObuType,cint	wrapper: `div`(x`gensym29: ObuType; y`gensym29: cint): ObuType	
+`div`	dav1d/wrapper.html#div,cint,ObuType	wrapper: `div`(x`gensym29: cint; y`gensym29: ObuType): ObuType	
+`div`	dav1d/wrapper.html#div,ObuType,ObuType	wrapper: `div`(x`gensym29, y`gensym29: ObuType): ObuType	
+`div`	dav1d/wrapper.html#div,ObuType,int	wrapper: `div`(x`gensym30: ObuType; y`gensym30: int): ObuType	
+`div`	dav1d/wrapper.html#div,int,ObuType	wrapper: `div`(x`gensym30: int; y`gensym30: ObuType): ObuType	
+`mod`	dav1d/wrapper.html#mod,ObuType,cint	wrapper: `mod`(x`gensym31: ObuType; y`gensym31: cint): ObuType	
+`mod`	dav1d/wrapper.html#mod,cint,ObuType	wrapper: `mod`(x`gensym31: cint; y`gensym31: ObuType): ObuType	
+`mod`	dav1d/wrapper.html#mod,ObuType,ObuType	wrapper: `mod`(x`gensym31, y`gensym31: ObuType): ObuType	
+`mod`	dav1d/wrapper.html#mod,ObuType,int	wrapper: `mod`(x`gensym32: ObuType; y`gensym32: int): ObuType	
+`mod`	dav1d/wrapper.html#mod,int,ObuType	wrapper: `mod`(x`gensym32: int; y`gensym32: ObuType): ObuType	
+`shl`	dav1d/wrapper.html#shl,ObuType,cint	wrapper: `shl`(x`gensym33: ObuType; y`gensym33: cint): ObuType	
+`shl`	dav1d/wrapper.html#shl,cint,ObuType	wrapper: `shl`(x`gensym33: cint; y`gensym33: ObuType): ObuType	
+`shl`	dav1d/wrapper.html#shl,ObuType,ObuType	wrapper: `shl`(x`gensym33, y`gensym33: ObuType): ObuType	
+`shl`	dav1d/wrapper.html#shl,ObuType,int	wrapper: `shl`(x`gensym34: ObuType; y`gensym34: int): ObuType	
+`shl`	dav1d/wrapper.html#shl,int,ObuType	wrapper: `shl`(x`gensym34: int; y`gensym34: ObuType): ObuType	
+`shr`	dav1d/wrapper.html#shr,ObuType,cint	wrapper: `shr`(x`gensym35: ObuType; y`gensym35: cint): ObuType	
+`shr`	dav1d/wrapper.html#shr,cint,ObuType	wrapper: `shr`(x`gensym35: cint; y`gensym35: ObuType): ObuType	
+`shr`	dav1d/wrapper.html#shr,ObuType,ObuType	wrapper: `shr`(x`gensym35, y`gensym35: ObuType): ObuType	
+`shr`	dav1d/wrapper.html#shr,ObuType,int	wrapper: `shr`(x`gensym36: ObuType; y`gensym36: int): ObuType	
+`shr`	dav1d/wrapper.html#shr,int,ObuType	wrapper: `shr`(x`gensym36: int; y`gensym36: ObuType): ObuType	
+`or`	dav1d/wrapper.html#or,ObuType,cint	wrapper: `or`(x`gensym37: ObuType; y`gensym37: cint): ObuType	
+`or`	dav1d/wrapper.html#or,cint,ObuType	wrapper: `or`(x`gensym37: cint; y`gensym37: ObuType): ObuType	
+`or`	dav1d/wrapper.html#or,ObuType,ObuType	wrapper: `or`(x`gensym37, y`gensym37: ObuType): ObuType	
+`or`	dav1d/wrapper.html#or,ObuType,int	wrapper: `or`(x`gensym38: ObuType; y`gensym38: int): ObuType	
+`or`	dav1d/wrapper.html#or,int,ObuType	wrapper: `or`(x`gensym38: int; y`gensym38: ObuType): ObuType	
+`and`	dav1d/wrapper.html#and,ObuType,cint	wrapper: `and`(x`gensym39: ObuType; y`gensym39: cint): ObuType	
+`and`	dav1d/wrapper.html#and,cint,ObuType	wrapper: `and`(x`gensym39: cint; y`gensym39: ObuType): ObuType	
+`and`	dav1d/wrapper.html#and,ObuType,ObuType	wrapper: `and`(x`gensym39, y`gensym39: ObuType): ObuType	
+`and`	dav1d/wrapper.html#and,ObuType,int	wrapper: `and`(x`gensym40: ObuType; y`gensym40: int): ObuType	
+`and`	dav1d/wrapper.html#and,int,ObuType	wrapper: `and`(x`gensym40: int; y`gensym40: ObuType): ObuType	
+`xor`	dav1d/wrapper.html#xor,ObuType,cint	wrapper: `xor`(x`gensym41: ObuType; y`gensym41: cint): ObuType	
+`xor`	dav1d/wrapper.html#xor,cint,ObuType	wrapper: `xor`(x`gensym41: cint; y`gensym41: ObuType): ObuType	
+`xor`	dav1d/wrapper.html#xor,ObuType,ObuType	wrapper: `xor`(x`gensym41, y`gensym41: ObuType): ObuType	
+`xor`	dav1d/wrapper.html#xor,ObuType,int	wrapper: `xor`(x`gensym42: ObuType; y`gensym42: int): ObuType	
+`xor`	dav1d/wrapper.html#xor,int,ObuType	wrapper: `xor`(x`gensym42: int; y`gensym42: ObuType): ObuType	
+`&lt;`	dav1d/wrapper.html#<,ObuType,cint	wrapper: `&lt;`(x`gensym43: ObuType; y`gensym43: cint): bool	
+`&lt;`	dav1d/wrapper.html#<,cint,ObuType	wrapper: `&lt;`(x`gensym43: cint; y`gensym43: ObuType): bool	
+`&lt;`	dav1d/wrapper.html#<,ObuType,ObuType	wrapper: `&lt;`(x`gensym43, y`gensym43: ObuType): bool	
+`&lt;`	dav1d/wrapper.html#<,ObuType,int	wrapper: `&lt;`(x`gensym44: ObuType; y`gensym44: int): bool	
+`&lt;`	dav1d/wrapper.html#<,int,ObuType	wrapper: `&lt;`(x`gensym44: int; y`gensym44: ObuType): bool	
+`&lt;=`	dav1d/wrapper.html#<=,ObuType,cint	wrapper: `&lt;=`(x`gensym45: ObuType; y`gensym45: cint): bool	
+`&lt;=`	dav1d/wrapper.html#<=,cint,ObuType	wrapper: `&lt;=`(x`gensym45: cint; y`gensym45: ObuType): bool	
+`&lt;=`	dav1d/wrapper.html#<=,ObuType,ObuType	wrapper: `&lt;=`(x`gensym45, y`gensym45: ObuType): bool	
+`&lt;=`	dav1d/wrapper.html#<=,ObuType,int	wrapper: `&lt;=`(x`gensym46: ObuType; y`gensym46: int): bool	
+`&lt;=`	dav1d/wrapper.html#<=,int,ObuType	wrapper: `&lt;=`(x`gensym46: int; y`gensym46: ObuType): bool	
+`==`	dav1d/wrapper.html#==,ObuType,cint	wrapper: `==`(x`gensym47: ObuType; y`gensym47: cint): bool	
+`==`	dav1d/wrapper.html#==,cint,ObuType	wrapper: `==`(x`gensym47: cint; y`gensym47: ObuType): bool	
+`==`	dav1d/wrapper.html#==,ObuType,ObuType	wrapper: `==`(x`gensym47, y`gensym47: ObuType): bool	
+`==`	dav1d/wrapper.html#==,ObuType,int	wrapper: `==`(x`gensym48: ObuType; y`gensym48: int): bool	
+`==`	dav1d/wrapper.html#==,int,ObuType	wrapper: `==`(x`gensym48: int; y`gensym48: ObuType): bool	
+`&gt;`	dav1d/wrapper.html#>,ObuType,cint	wrapper: `&gt;`(x`gensym49: ObuType; y`gensym49: cint): bool	
+`&gt;`	dav1d/wrapper.html#>,cint,ObuType	wrapper: `&gt;`(x`gensym49: cint; y`gensym49: ObuType): bool	
+`&gt;`	dav1d/wrapper.html#>,ObuType,ObuType	wrapper: `&gt;`(x`gensym49, y`gensym49: ObuType): bool	
+`&gt;`	dav1d/wrapper.html#>,ObuType,int	wrapper: `&gt;`(x`gensym50: ObuType; y`gensym50: int): bool	
+`&gt;`	dav1d/wrapper.html#>,int,ObuType	wrapper: `&gt;`(x`gensym50: int; y`gensym50: ObuType): bool	
+`&gt;=`	dav1d/wrapper.html#>=,ObuType,cint	wrapper: `&gt;=`(x`gensym51: ObuType; y`gensym51: cint): bool	
+`&gt;=`	dav1d/wrapper.html#>=,cint,ObuType	wrapper: `&gt;=`(x`gensym51: cint; y`gensym51: ObuType): bool	
+`&gt;=`	dav1d/wrapper.html#>=,ObuType,ObuType	wrapper: `&gt;=`(x`gensym51, y`gensym51: ObuType): bool	
+`&gt;=`	dav1d/wrapper.html#>=,ObuType,int	wrapper: `&gt;=`(x`gensym52: ObuType; y`gensym52: int): bool	
+`&gt;=`	dav1d/wrapper.html#>=,int,ObuType	wrapper: `&gt;=`(x`gensym52: int; y`gensym52: ObuType): bool	
+`/`	dav1d/wrapper.html#/,ObuType,ObuType	wrapper: `/`(x`gensym53, y`gensym53: ObuType): ObuType	
+`/`	dav1d/wrapper.html#/,ObuType,cint	wrapper: `/`(x`gensym53: ObuType; y`gensym53: cint): ObuType	
+`/`	dav1d/wrapper.html#/,cint,ObuType	wrapper: `/`(x`gensym53: cint; y`gensym53: ObuType): ObuType	
+`/`	dav1d/wrapper.html#/,ObuType,int	wrapper: `/`(x`gensym53: ObuType; y`gensym53: int): ObuType	
+`/`	dav1d/wrapper.html#/,int,ObuType	wrapper: `/`(x`gensym53: int; y`gensym53: ObuType): ObuType	
+`$`	dav1d/wrapper.html#$,ObuType	wrapper: `$`(x`gensym53: ObuType): string	
+`not`	dav1d/wrapper.html#not,ObuType	wrapper: `not`(x`gensym53: ObuType): ObuType	
+TxfmMode	dav1d/wrapper.html#TxfmMode	wrapper: TxfmMode	
+`+`	dav1d/wrapper.html#+,TxfmMode,cint	wrapper: `+`(x`gensym55: TxfmMode; y`gensym55: cint): TxfmMode	
+`+`	dav1d/wrapper.html#+,cint,TxfmMode	wrapper: `+`(x`gensym55: cint; y`gensym55: TxfmMode): TxfmMode	
+`+`	dav1d/wrapper.html#+,TxfmMode,TxfmMode	wrapper: `+`(x`gensym55, y`gensym55: TxfmMode): TxfmMode	
+`+`	dav1d/wrapper.html#+,TxfmMode,int	wrapper: `+`(x`gensym56: TxfmMode; y`gensym56: int): TxfmMode	
+`+`	dav1d/wrapper.html#+,int,TxfmMode	wrapper: `+`(x`gensym56: int; y`gensym56: TxfmMode): TxfmMode	
+`-`	dav1d/wrapper.html#-,TxfmMode,cint	wrapper: `-`(x`gensym57: TxfmMode; y`gensym57: cint): TxfmMode	
+`-`	dav1d/wrapper.html#-,cint,TxfmMode	wrapper: `-`(x`gensym57: cint; y`gensym57: TxfmMode): TxfmMode	
+`-`	dav1d/wrapper.html#-,TxfmMode,TxfmMode	wrapper: `-`(x`gensym57, y`gensym57: TxfmMode): TxfmMode	
+`-`	dav1d/wrapper.html#-,TxfmMode,int	wrapper: `-`(x`gensym58: TxfmMode; y`gensym58: int): TxfmMode	
+`-`	dav1d/wrapper.html#-,int,TxfmMode	wrapper: `-`(x`gensym58: int; y`gensym58: TxfmMode): TxfmMode	
+`*`	dav1d/wrapper.html#*,TxfmMode,cint	wrapper: `*`(x`gensym59: TxfmMode; y`gensym59: cint): TxfmMode	
+`*`	dav1d/wrapper.html#*,cint,TxfmMode	wrapper: `*`(x`gensym59: cint; y`gensym59: TxfmMode): TxfmMode	
+`*`	dav1d/wrapper.html#*,TxfmMode,TxfmMode	wrapper: `*`(x`gensym59, y`gensym59: TxfmMode): TxfmMode	
+`*`	dav1d/wrapper.html#*,TxfmMode,int	wrapper: `*`(x`gensym60: TxfmMode; y`gensym60: int): TxfmMode	
+`*`	dav1d/wrapper.html#*,int,TxfmMode	wrapper: `*`(x`gensym60: int; y`gensym60: TxfmMode): TxfmMode	
+`div`	dav1d/wrapper.html#div,TxfmMode,cint	wrapper: `div`(x`gensym61: TxfmMode; y`gensym61: cint): TxfmMode	
+`div`	dav1d/wrapper.html#div,cint,TxfmMode	wrapper: `div`(x`gensym61: cint; y`gensym61: TxfmMode): TxfmMode	
+`div`	dav1d/wrapper.html#div,TxfmMode,TxfmMode	wrapper: `div`(x`gensym61, y`gensym61: TxfmMode): TxfmMode	
+`div`	dav1d/wrapper.html#div,TxfmMode,int	wrapper: `div`(x`gensym62: TxfmMode; y`gensym62: int): TxfmMode	
+`div`	dav1d/wrapper.html#div,int,TxfmMode	wrapper: `div`(x`gensym62: int; y`gensym62: TxfmMode): TxfmMode	
+`mod`	dav1d/wrapper.html#mod,TxfmMode,cint	wrapper: `mod`(x`gensym63: TxfmMode; y`gensym63: cint): TxfmMode	
+`mod`	dav1d/wrapper.html#mod,cint,TxfmMode	wrapper: `mod`(x`gensym63: cint; y`gensym63: TxfmMode): TxfmMode	
+`mod`	dav1d/wrapper.html#mod,TxfmMode,TxfmMode	wrapper: `mod`(x`gensym63, y`gensym63: TxfmMode): TxfmMode	
+`mod`	dav1d/wrapper.html#mod,TxfmMode,int	wrapper: `mod`(x`gensym64: TxfmMode; y`gensym64: int): TxfmMode	
+`mod`	dav1d/wrapper.html#mod,int,TxfmMode	wrapper: `mod`(x`gensym64: int; y`gensym64: TxfmMode): TxfmMode	
+`shl`	dav1d/wrapper.html#shl,TxfmMode,cint	wrapper: `shl`(x`gensym65: TxfmMode; y`gensym65: cint): TxfmMode	
+`shl`	dav1d/wrapper.html#shl,cint,TxfmMode	wrapper: `shl`(x`gensym65: cint; y`gensym65: TxfmMode): TxfmMode	
+`shl`	dav1d/wrapper.html#shl,TxfmMode,TxfmMode	wrapper: `shl`(x`gensym65, y`gensym65: TxfmMode): TxfmMode	
+`shl`	dav1d/wrapper.html#shl,TxfmMode,int	wrapper: `shl`(x`gensym66: TxfmMode; y`gensym66: int): TxfmMode	
+`shl`	dav1d/wrapper.html#shl,int,TxfmMode	wrapper: `shl`(x`gensym66: int; y`gensym66: TxfmMode): TxfmMode	
+`shr`	dav1d/wrapper.html#shr,TxfmMode,cint	wrapper: `shr`(x`gensym67: TxfmMode; y`gensym67: cint): TxfmMode	
+`shr`	dav1d/wrapper.html#shr,cint,TxfmMode	wrapper: `shr`(x`gensym67: cint; y`gensym67: TxfmMode): TxfmMode	
+`shr`	dav1d/wrapper.html#shr,TxfmMode,TxfmMode	wrapper: `shr`(x`gensym67, y`gensym67: TxfmMode): TxfmMode	
+`shr`	dav1d/wrapper.html#shr,TxfmMode,int	wrapper: `shr`(x`gensym68: TxfmMode; y`gensym68: int): TxfmMode	
+`shr`	dav1d/wrapper.html#shr,int,TxfmMode	wrapper: `shr`(x`gensym68: int; y`gensym68: TxfmMode): TxfmMode	
+`or`	dav1d/wrapper.html#or,TxfmMode,cint	wrapper: `or`(x`gensym69: TxfmMode; y`gensym69: cint): TxfmMode	
+`or`	dav1d/wrapper.html#or,cint,TxfmMode	wrapper: `or`(x`gensym69: cint; y`gensym69: TxfmMode): TxfmMode	
+`or`	dav1d/wrapper.html#or,TxfmMode,TxfmMode	wrapper: `or`(x`gensym69, y`gensym69: TxfmMode): TxfmMode	
+`or`	dav1d/wrapper.html#or,TxfmMode,int	wrapper: `or`(x`gensym70: TxfmMode; y`gensym70: int): TxfmMode	
+`or`	dav1d/wrapper.html#or,int,TxfmMode	wrapper: `or`(x`gensym70: int; y`gensym70: TxfmMode): TxfmMode	
+`and`	dav1d/wrapper.html#and,TxfmMode,cint	wrapper: `and`(x`gensym71: TxfmMode; y`gensym71: cint): TxfmMode	
+`and`	dav1d/wrapper.html#and,cint,TxfmMode	wrapper: `and`(x`gensym71: cint; y`gensym71: TxfmMode): TxfmMode	
+`and`	dav1d/wrapper.html#and,TxfmMode,TxfmMode	wrapper: `and`(x`gensym71, y`gensym71: TxfmMode): TxfmMode	
+`and`	dav1d/wrapper.html#and,TxfmMode,int	wrapper: `and`(x`gensym72: TxfmMode; y`gensym72: int): TxfmMode	
+`and`	dav1d/wrapper.html#and,int,TxfmMode	wrapper: `and`(x`gensym72: int; y`gensym72: TxfmMode): TxfmMode	
+`xor`	dav1d/wrapper.html#xor,TxfmMode,cint	wrapper: `xor`(x`gensym73: TxfmMode; y`gensym73: cint): TxfmMode	
+`xor`	dav1d/wrapper.html#xor,cint,TxfmMode	wrapper: `xor`(x`gensym73: cint; y`gensym73: TxfmMode): TxfmMode	
+`xor`	dav1d/wrapper.html#xor,TxfmMode,TxfmMode	wrapper: `xor`(x`gensym73, y`gensym73: TxfmMode): TxfmMode	
+`xor`	dav1d/wrapper.html#xor,TxfmMode,int	wrapper: `xor`(x`gensym74: TxfmMode; y`gensym74: int): TxfmMode	
+`xor`	dav1d/wrapper.html#xor,int,TxfmMode	wrapper: `xor`(x`gensym74: int; y`gensym74: TxfmMode): TxfmMode	
+`&lt;`	dav1d/wrapper.html#<,TxfmMode,cint	wrapper: `&lt;`(x`gensym75: TxfmMode; y`gensym75: cint): bool	
+`&lt;`	dav1d/wrapper.html#<,cint,TxfmMode	wrapper: `&lt;`(x`gensym75: cint; y`gensym75: TxfmMode): bool	
+`&lt;`	dav1d/wrapper.html#<,TxfmMode,TxfmMode	wrapper: `&lt;`(x`gensym75, y`gensym75: TxfmMode): bool	
+`&lt;`	dav1d/wrapper.html#<,TxfmMode,int	wrapper: `&lt;`(x`gensym76: TxfmMode; y`gensym76: int): bool	
+`&lt;`	dav1d/wrapper.html#<,int,TxfmMode	wrapper: `&lt;`(x`gensym76: int; y`gensym76: TxfmMode): bool	
+`&lt;=`	dav1d/wrapper.html#<=,TxfmMode,cint	wrapper: `&lt;=`(x`gensym77: TxfmMode; y`gensym77: cint): bool	
+`&lt;=`	dav1d/wrapper.html#<=,cint,TxfmMode	wrapper: `&lt;=`(x`gensym77: cint; y`gensym77: TxfmMode): bool	
+`&lt;=`	dav1d/wrapper.html#<=,TxfmMode,TxfmMode	wrapper: `&lt;=`(x`gensym77, y`gensym77: TxfmMode): bool	
+`&lt;=`	dav1d/wrapper.html#<=,TxfmMode,int	wrapper: `&lt;=`(x`gensym78: TxfmMode; y`gensym78: int): bool	
+`&lt;=`	dav1d/wrapper.html#<=,int,TxfmMode	wrapper: `&lt;=`(x`gensym78: int; y`gensym78: TxfmMode): bool	
+`==`	dav1d/wrapper.html#==,TxfmMode,cint	wrapper: `==`(x`gensym79: TxfmMode; y`gensym79: cint): bool	
+`==`	dav1d/wrapper.html#==,cint,TxfmMode	wrapper: `==`(x`gensym79: cint; y`gensym79: TxfmMode): bool	
+`==`	dav1d/wrapper.html#==,TxfmMode,TxfmMode	wrapper: `==`(x`gensym79, y`gensym79: TxfmMode): bool	
+`==`	dav1d/wrapper.html#==,TxfmMode,int	wrapper: `==`(x`gensym80: TxfmMode; y`gensym80: int): bool	
+`==`	dav1d/wrapper.html#==,int,TxfmMode	wrapper: `==`(x`gensym80: int; y`gensym80: TxfmMode): bool	
+`&gt;`	dav1d/wrapper.html#>,TxfmMode,cint	wrapper: `&gt;`(x`gensym81: TxfmMode; y`gensym81: cint): bool	
+`&gt;`	dav1d/wrapper.html#>,cint,TxfmMode	wrapper: `&gt;`(x`gensym81: cint; y`gensym81: TxfmMode): bool	
+`&gt;`	dav1d/wrapper.html#>,TxfmMode,TxfmMode	wrapper: `&gt;`(x`gensym81, y`gensym81: TxfmMode): bool	
+`&gt;`	dav1d/wrapper.html#>,TxfmMode,int	wrapper: `&gt;`(x`gensym82: TxfmMode; y`gensym82: int): bool	
+`&gt;`	dav1d/wrapper.html#>,int,TxfmMode	wrapper: `&gt;`(x`gensym82: int; y`gensym82: TxfmMode): bool	
+`&gt;=`	dav1d/wrapper.html#>=,TxfmMode,cint	wrapper: `&gt;=`(x`gensym83: TxfmMode; y`gensym83: cint): bool	
+`&gt;=`	dav1d/wrapper.html#>=,cint,TxfmMode	wrapper: `&gt;=`(x`gensym83: cint; y`gensym83: TxfmMode): bool	
+`&gt;=`	dav1d/wrapper.html#>=,TxfmMode,TxfmMode	wrapper: `&gt;=`(x`gensym83, y`gensym83: TxfmMode): bool	
+`&gt;=`	dav1d/wrapper.html#>=,TxfmMode,int	wrapper: `&gt;=`(x`gensym84: TxfmMode; y`gensym84: int): bool	
+`&gt;=`	dav1d/wrapper.html#>=,int,TxfmMode	wrapper: `&gt;=`(x`gensym84: int; y`gensym84: TxfmMode): bool	
+`/`	dav1d/wrapper.html#/,TxfmMode,TxfmMode	wrapper: `/`(x`gensym85, y`gensym85: TxfmMode): TxfmMode	
+`/`	dav1d/wrapper.html#/,TxfmMode,cint	wrapper: `/`(x`gensym85: TxfmMode; y`gensym85: cint): TxfmMode	
+`/`	dav1d/wrapper.html#/,cint,TxfmMode	wrapper: `/`(x`gensym85: cint; y`gensym85: TxfmMode): TxfmMode	
+`/`	dav1d/wrapper.html#/,TxfmMode,int	wrapper: `/`(x`gensym85: TxfmMode; y`gensym85: int): TxfmMode	
+`/`	dav1d/wrapper.html#/,int,TxfmMode	wrapper: `/`(x`gensym85: int; y`gensym85: TxfmMode): TxfmMode	
+`$`	dav1d/wrapper.html#$,TxfmMode	wrapper: `$`(x`gensym85: TxfmMode): string	
+`not`	dav1d/wrapper.html#not,TxfmMode	wrapper: `not`(x`gensym85: TxfmMode): TxfmMode	
+FilterMode	dav1d/wrapper.html#FilterMode	wrapper: FilterMode	
+`+`	dav1d/wrapper.html#+,FilterMode,cint	wrapper: `+`(x`gensym87: FilterMode; y`gensym87: cint): FilterMode	
+`+`	dav1d/wrapper.html#+,cint,FilterMode	wrapper: `+`(x`gensym87: cint; y`gensym87: FilterMode): FilterMode	
+`+`	dav1d/wrapper.html#+,FilterMode,FilterMode	wrapper: `+`(x`gensym87, y`gensym87: FilterMode): FilterMode	
+`+`	dav1d/wrapper.html#+,FilterMode,int	wrapper: `+`(x`gensym88: FilterMode; y`gensym88: int): FilterMode	
+`+`	dav1d/wrapper.html#+,int,FilterMode	wrapper: `+`(x`gensym88: int; y`gensym88: FilterMode): FilterMode	
+`-`	dav1d/wrapper.html#-,FilterMode,cint	wrapper: `-`(x`gensym89: FilterMode; y`gensym89: cint): FilterMode	
+`-`	dav1d/wrapper.html#-,cint,FilterMode	wrapper: `-`(x`gensym89: cint; y`gensym89: FilterMode): FilterMode	
+`-`	dav1d/wrapper.html#-,FilterMode,FilterMode	wrapper: `-`(x`gensym89, y`gensym89: FilterMode): FilterMode	
+`-`	dav1d/wrapper.html#-,FilterMode,int	wrapper: `-`(x`gensym90: FilterMode; y`gensym90: int): FilterMode	
+`-`	dav1d/wrapper.html#-,int,FilterMode	wrapper: `-`(x`gensym90: int; y`gensym90: FilterMode): FilterMode	
+`*`	dav1d/wrapper.html#*,FilterMode,cint	wrapper: `*`(x`gensym91: FilterMode; y`gensym91: cint): FilterMode	
+`*`	dav1d/wrapper.html#*,cint,FilterMode	wrapper: `*`(x`gensym91: cint; y`gensym91: FilterMode): FilterMode	
+`*`	dav1d/wrapper.html#*,FilterMode,FilterMode	wrapper: `*`(x`gensym91, y`gensym91: FilterMode): FilterMode	
+`*`	dav1d/wrapper.html#*,FilterMode,int	wrapper: `*`(x`gensym92: FilterMode; y`gensym92: int): FilterMode	
+`*`	dav1d/wrapper.html#*,int,FilterMode	wrapper: `*`(x`gensym92: int; y`gensym92: FilterMode): FilterMode	
+`div`	dav1d/wrapper.html#div,FilterMode,cint	wrapper: `div`(x`gensym93: FilterMode; y`gensym93: cint): FilterMode	
+`div`	dav1d/wrapper.html#div,cint,FilterMode	wrapper: `div`(x`gensym93: cint; y`gensym93: FilterMode): FilterMode	
+`div`	dav1d/wrapper.html#div,FilterMode,FilterMode	wrapper: `div`(x`gensym93, y`gensym93: FilterMode): FilterMode	
+`div`	dav1d/wrapper.html#div,FilterMode,int	wrapper: `div`(x`gensym94: FilterMode; y`gensym94: int): FilterMode	
+`div`	dav1d/wrapper.html#div,int,FilterMode	wrapper: `div`(x`gensym94: int; y`gensym94: FilterMode): FilterMode	
+`mod`	dav1d/wrapper.html#mod,FilterMode,cint	wrapper: `mod`(x`gensym95: FilterMode; y`gensym95: cint): FilterMode	
+`mod`	dav1d/wrapper.html#mod,cint,FilterMode	wrapper: `mod`(x`gensym95: cint; y`gensym95: FilterMode): FilterMode	
+`mod`	dav1d/wrapper.html#mod,FilterMode,FilterMode	wrapper: `mod`(x`gensym95, y`gensym95: FilterMode): FilterMode	
+`mod`	dav1d/wrapper.html#mod,FilterMode,int	wrapper: `mod`(x`gensym96: FilterMode; y`gensym96: int): FilterMode	
+`mod`	dav1d/wrapper.html#mod,int,FilterMode	wrapper: `mod`(x`gensym96: int; y`gensym96: FilterMode): FilterMode	
+`shl`	dav1d/wrapper.html#shl,FilterMode,cint	wrapper: `shl`(x`gensym97: FilterMode; y`gensym97: cint): FilterMode	
+`shl`	dav1d/wrapper.html#shl,cint,FilterMode	wrapper: `shl`(x`gensym97: cint; y`gensym97: FilterMode): FilterMode	
+`shl`	dav1d/wrapper.html#shl,FilterMode,FilterMode	wrapper: `shl`(x`gensym97, y`gensym97: FilterMode): FilterMode	
+`shl`	dav1d/wrapper.html#shl,FilterMode,int	wrapper: `shl`(x`gensym98: FilterMode; y`gensym98: int): FilterMode	
+`shl`	dav1d/wrapper.html#shl,int,FilterMode	wrapper: `shl`(x`gensym98: int; y`gensym98: FilterMode): FilterMode	
+`shr`	dav1d/wrapper.html#shr,FilterMode,cint	wrapper: `shr`(x`gensym99: FilterMode; y`gensym99: cint): FilterMode	
+`shr`	dav1d/wrapper.html#shr,cint,FilterMode	wrapper: `shr`(x`gensym99: cint; y`gensym99: FilterMode): FilterMode	
+`shr`	dav1d/wrapper.html#shr,FilterMode,FilterMode	wrapper: `shr`(x`gensym99, y`gensym99: FilterMode): FilterMode	
+`shr`	dav1d/wrapper.html#shr,FilterMode,int	wrapper: `shr`(x`gensym100: FilterMode; y`gensym100: int): FilterMode	
+`shr`	dav1d/wrapper.html#shr,int,FilterMode	wrapper: `shr`(x`gensym100: int; y`gensym100: FilterMode): FilterMode	
+`or`	dav1d/wrapper.html#or,FilterMode,cint	wrapper: `or`(x`gensym101: FilterMode; y`gensym101: cint): FilterMode	
+`or`	dav1d/wrapper.html#or,cint,FilterMode	wrapper: `or`(x`gensym101: cint; y`gensym101: FilterMode): FilterMode	
+`or`	dav1d/wrapper.html#or,FilterMode,FilterMode	wrapper: `or`(x`gensym101, y`gensym101: FilterMode): FilterMode	
+`or`	dav1d/wrapper.html#or,FilterMode,int	wrapper: `or`(x`gensym102: FilterMode; y`gensym102: int): FilterMode	
+`or`	dav1d/wrapper.html#or,int,FilterMode	wrapper: `or`(x`gensym102: int; y`gensym102: FilterMode): FilterMode	
+`and`	dav1d/wrapper.html#and,FilterMode,cint	wrapper: `and`(x`gensym103: FilterMode; y`gensym103: cint): FilterMode	
+`and`	dav1d/wrapper.html#and,cint,FilterMode	wrapper: `and`(x`gensym103: cint; y`gensym103: FilterMode): FilterMode	
+`and`	dav1d/wrapper.html#and,FilterMode,FilterMode	wrapper: `and`(x`gensym103, y`gensym103: FilterMode): FilterMode	
+`and`	dav1d/wrapper.html#and,FilterMode,int	wrapper: `and`(x`gensym104: FilterMode; y`gensym104: int): FilterMode	
+`and`	dav1d/wrapper.html#and,int,FilterMode	wrapper: `and`(x`gensym104: int; y`gensym104: FilterMode): FilterMode	
+`xor`	dav1d/wrapper.html#xor,FilterMode,cint	wrapper: `xor`(x`gensym105: FilterMode; y`gensym105: cint): FilterMode	
+`xor`	dav1d/wrapper.html#xor,cint,FilterMode	wrapper: `xor`(x`gensym105: cint; y`gensym105: FilterMode): FilterMode	
+`xor`	dav1d/wrapper.html#xor,FilterMode,FilterMode	wrapper: `xor`(x`gensym105, y`gensym105: FilterMode): FilterMode	
+`xor`	dav1d/wrapper.html#xor,FilterMode,int	wrapper: `xor`(x`gensym106: FilterMode; y`gensym106: int): FilterMode	
+`xor`	dav1d/wrapper.html#xor,int,FilterMode	wrapper: `xor`(x`gensym106: int; y`gensym106: FilterMode): FilterMode	
+`&lt;`	dav1d/wrapper.html#<,FilterMode,cint	wrapper: `&lt;`(x`gensym107: FilterMode; y`gensym107: cint): bool	
+`&lt;`	dav1d/wrapper.html#<,cint,FilterMode	wrapper: `&lt;`(x`gensym107: cint; y`gensym107: FilterMode): bool	
+`&lt;`	dav1d/wrapper.html#<,FilterMode,FilterMode	wrapper: `&lt;`(x`gensym107, y`gensym107: FilterMode): bool	
+`&lt;`	dav1d/wrapper.html#<,FilterMode,int	wrapper: `&lt;`(x`gensym108: FilterMode; y`gensym108: int): bool	
+`&lt;`	dav1d/wrapper.html#<,int,FilterMode	wrapper: `&lt;`(x`gensym108: int; y`gensym108: FilterMode): bool	
+`&lt;=`	dav1d/wrapper.html#<=,FilterMode,cint	wrapper: `&lt;=`(x`gensym109: FilterMode; y`gensym109: cint): bool	
+`&lt;=`	dav1d/wrapper.html#<=,cint,FilterMode	wrapper: `&lt;=`(x`gensym109: cint; y`gensym109: FilterMode): bool	
+`&lt;=`	dav1d/wrapper.html#<=,FilterMode,FilterMode	wrapper: `&lt;=`(x`gensym109, y`gensym109: FilterMode): bool	
+`&lt;=`	dav1d/wrapper.html#<=,FilterMode,int	wrapper: `&lt;=`(x`gensym110: FilterMode; y`gensym110: int): bool	
+`&lt;=`	dav1d/wrapper.html#<=,int,FilterMode	wrapper: `&lt;=`(x`gensym110: int; y`gensym110: FilterMode): bool	
+`==`	dav1d/wrapper.html#==,FilterMode,cint	wrapper: `==`(x`gensym111: FilterMode; y`gensym111: cint): bool	
+`==`	dav1d/wrapper.html#==,cint,FilterMode	wrapper: `==`(x`gensym111: cint; y`gensym111: FilterMode): bool	
+`==`	dav1d/wrapper.html#==,FilterMode,FilterMode	wrapper: `==`(x`gensym111, y`gensym111: FilterMode): bool	
+`==`	dav1d/wrapper.html#==,FilterMode,int	wrapper: `==`(x`gensym112: FilterMode; y`gensym112: int): bool	
+`==`	dav1d/wrapper.html#==,int,FilterMode	wrapper: `==`(x`gensym112: int; y`gensym112: FilterMode): bool	
+`&gt;`	dav1d/wrapper.html#>,FilterMode,cint	wrapper: `&gt;`(x`gensym113: FilterMode; y`gensym113: cint): bool	
+`&gt;`	dav1d/wrapper.html#>,cint,FilterMode	wrapper: `&gt;`(x`gensym113: cint; y`gensym113: FilterMode): bool	
+`&gt;`	dav1d/wrapper.html#>,FilterMode,FilterMode	wrapper: `&gt;`(x`gensym113, y`gensym113: FilterMode): bool	
+`&gt;`	dav1d/wrapper.html#>,FilterMode,int	wrapper: `&gt;`(x`gensym114: FilterMode; y`gensym114: int): bool	
+`&gt;`	dav1d/wrapper.html#>,int,FilterMode	wrapper: `&gt;`(x`gensym114: int; y`gensym114: FilterMode): bool	
+`&gt;=`	dav1d/wrapper.html#>=,FilterMode,cint	wrapper: `&gt;=`(x`gensym115: FilterMode; y`gensym115: cint): bool	
+`&gt;=`	dav1d/wrapper.html#>=,cint,FilterMode	wrapper: `&gt;=`(x`gensym115: cint; y`gensym115: FilterMode): bool	
+`&gt;=`	dav1d/wrapper.html#>=,FilterMode,FilterMode	wrapper: `&gt;=`(x`gensym115, y`gensym115: FilterMode): bool	
+`&gt;=`	dav1d/wrapper.html#>=,FilterMode,int	wrapper: `&gt;=`(x`gensym116: FilterMode; y`gensym116: int): bool	
+`&gt;=`	dav1d/wrapper.html#>=,int,FilterMode	wrapper: `&gt;=`(x`gensym116: int; y`gensym116: FilterMode): bool	
+`/`	dav1d/wrapper.html#/,FilterMode,FilterMode	wrapper: `/`(x`gensym117, y`gensym117: FilterMode): FilterMode	
+`/`	dav1d/wrapper.html#/,FilterMode,cint	wrapper: `/`(x`gensym117: FilterMode; y`gensym117: cint): FilterMode	
+`/`	dav1d/wrapper.html#/,cint,FilterMode	wrapper: `/`(x`gensym117: cint; y`gensym117: FilterMode): FilterMode	
+`/`	dav1d/wrapper.html#/,FilterMode,int	wrapper: `/`(x`gensym117: FilterMode; y`gensym117: int): FilterMode	
+`/`	dav1d/wrapper.html#/,int,FilterMode	wrapper: `/`(x`gensym117: int; y`gensym117: FilterMode): FilterMode	
+`$`	dav1d/wrapper.html#$,FilterMode	wrapper: `$`(x`gensym117: FilterMode): string	
+`not`	dav1d/wrapper.html#not,FilterMode	wrapper: `not`(x`gensym117: FilterMode): FilterMode	
+AdaptiveBoolean	dav1d/wrapper.html#AdaptiveBoolean	wrapper: AdaptiveBoolean	
+`+`	dav1d/wrapper.html#+,AdaptiveBoolean,cint	wrapper: `+`(x`gensym119: AdaptiveBoolean; y`gensym119: cint): AdaptiveBoolean	
+`+`	dav1d/wrapper.html#+,cint,AdaptiveBoolean	wrapper: `+`(x`gensym119: cint; y`gensym119: AdaptiveBoolean): AdaptiveBoolean	
+`+`	dav1d/wrapper.html#+,AdaptiveBoolean,AdaptiveBoolean	wrapper: `+`(x`gensym119, y`gensym119: AdaptiveBoolean): AdaptiveBoolean	
+`+`	dav1d/wrapper.html#+,AdaptiveBoolean,int	wrapper: `+`(x`gensym120: AdaptiveBoolean; y`gensym120: int): AdaptiveBoolean	
+`+`	dav1d/wrapper.html#+,int,AdaptiveBoolean	wrapper: `+`(x`gensym120: int; y`gensym120: AdaptiveBoolean): AdaptiveBoolean	
+`-`	dav1d/wrapper.html#-,AdaptiveBoolean,cint	wrapper: `-`(x`gensym121: AdaptiveBoolean; y`gensym121: cint): AdaptiveBoolean	
+`-`	dav1d/wrapper.html#-,cint,AdaptiveBoolean	wrapper: `-`(x`gensym121: cint; y`gensym121: AdaptiveBoolean): AdaptiveBoolean	
+`-`	dav1d/wrapper.html#-,AdaptiveBoolean,AdaptiveBoolean	wrapper: `-`(x`gensym121, y`gensym121: AdaptiveBoolean): AdaptiveBoolean	
+`-`	dav1d/wrapper.html#-,AdaptiveBoolean,int	wrapper: `-`(x`gensym122: AdaptiveBoolean; y`gensym122: int): AdaptiveBoolean	
+`-`	dav1d/wrapper.html#-,int,AdaptiveBoolean	wrapper: `-`(x`gensym122: int; y`gensym122: AdaptiveBoolean): AdaptiveBoolean	
+`*`	dav1d/wrapper.html#*,AdaptiveBoolean,cint	wrapper: `*`(x`gensym123: AdaptiveBoolean; y`gensym123: cint): AdaptiveBoolean	
+`*`	dav1d/wrapper.html#*,cint,AdaptiveBoolean	wrapper: `*`(x`gensym123: cint; y`gensym123: AdaptiveBoolean): AdaptiveBoolean	
+`*`	dav1d/wrapper.html#*,AdaptiveBoolean,AdaptiveBoolean	wrapper: `*`(x`gensym123, y`gensym123: AdaptiveBoolean): AdaptiveBoolean	
+`*`	dav1d/wrapper.html#*,AdaptiveBoolean,int	wrapper: `*`(x`gensym124: AdaptiveBoolean; y`gensym124: int): AdaptiveBoolean	
+`*`	dav1d/wrapper.html#*,int,AdaptiveBoolean	wrapper: `*`(x`gensym124: int; y`gensym124: AdaptiveBoolean): AdaptiveBoolean	
+`div`	dav1d/wrapper.html#div,AdaptiveBoolean,cint	wrapper: `div`(x`gensym125: AdaptiveBoolean; y`gensym125: cint): AdaptiveBoolean	
+`div`	dav1d/wrapper.html#div,cint,AdaptiveBoolean	wrapper: `div`(x`gensym125: cint; y`gensym125: AdaptiveBoolean): AdaptiveBoolean	
+`div`	dav1d/wrapper.html#div,AdaptiveBoolean,AdaptiveBoolean	wrapper: `div`(x`gensym125, y`gensym125: AdaptiveBoolean): AdaptiveBoolean	
+`div`	dav1d/wrapper.html#div,AdaptiveBoolean,int	wrapper: `div`(x`gensym126: AdaptiveBoolean; y`gensym126: int): AdaptiveBoolean	
+`div`	dav1d/wrapper.html#div,int,AdaptiveBoolean	wrapper: `div`(x`gensym126: int; y`gensym126: AdaptiveBoolean): AdaptiveBoolean	
+`mod`	dav1d/wrapper.html#mod,AdaptiveBoolean,cint	wrapper: `mod`(x`gensym127: AdaptiveBoolean; y`gensym127: cint): AdaptiveBoolean	
+`mod`	dav1d/wrapper.html#mod,cint,AdaptiveBoolean	wrapper: `mod`(x`gensym127: cint; y`gensym127: AdaptiveBoolean): AdaptiveBoolean	
+`mod`	dav1d/wrapper.html#mod,AdaptiveBoolean,AdaptiveBoolean	wrapper: `mod`(x`gensym127, y`gensym127: AdaptiveBoolean): AdaptiveBoolean	
+`mod`	dav1d/wrapper.html#mod,AdaptiveBoolean,int	wrapper: `mod`(x`gensym128: AdaptiveBoolean; y`gensym128: int): AdaptiveBoolean	
+`mod`	dav1d/wrapper.html#mod,int,AdaptiveBoolean	wrapper: `mod`(x`gensym128: int; y`gensym128: AdaptiveBoolean): AdaptiveBoolean	
+`shl`	dav1d/wrapper.html#shl,AdaptiveBoolean,cint	wrapper: `shl`(x`gensym129: AdaptiveBoolean; y`gensym129: cint): AdaptiveBoolean	
+`shl`	dav1d/wrapper.html#shl,cint,AdaptiveBoolean	wrapper: `shl`(x`gensym129: cint; y`gensym129: AdaptiveBoolean): AdaptiveBoolean	
+`shl`	dav1d/wrapper.html#shl,AdaptiveBoolean,AdaptiveBoolean	wrapper: `shl`(x`gensym129, y`gensym129: AdaptiveBoolean): AdaptiveBoolean	
+`shl`	dav1d/wrapper.html#shl,AdaptiveBoolean,int	wrapper: `shl`(x`gensym130: AdaptiveBoolean; y`gensym130: int): AdaptiveBoolean	
+`shl`	dav1d/wrapper.html#shl,int,AdaptiveBoolean	wrapper: `shl`(x`gensym130: int; y`gensym130: AdaptiveBoolean): AdaptiveBoolean	
+`shr`	dav1d/wrapper.html#shr,AdaptiveBoolean,cint	wrapper: `shr`(x`gensym131: AdaptiveBoolean; y`gensym131: cint): AdaptiveBoolean	
+`shr`	dav1d/wrapper.html#shr,cint,AdaptiveBoolean	wrapper: `shr`(x`gensym131: cint; y`gensym131: AdaptiveBoolean): AdaptiveBoolean	
+`shr`	dav1d/wrapper.html#shr,AdaptiveBoolean,AdaptiveBoolean	wrapper: `shr`(x`gensym131, y`gensym131: AdaptiveBoolean): AdaptiveBoolean	
+`shr`	dav1d/wrapper.html#shr,AdaptiveBoolean,int	wrapper: `shr`(x`gensym132: AdaptiveBoolean; y`gensym132: int): AdaptiveBoolean	
+`shr`	dav1d/wrapper.html#shr,int,AdaptiveBoolean	wrapper: `shr`(x`gensym132: int; y`gensym132: AdaptiveBoolean): AdaptiveBoolean	
+`or`	dav1d/wrapper.html#or,AdaptiveBoolean,cint	wrapper: `or`(x`gensym133: AdaptiveBoolean; y`gensym133: cint): AdaptiveBoolean	
+`or`	dav1d/wrapper.html#or,cint,AdaptiveBoolean	wrapper: `or`(x`gensym133: cint; y`gensym133: AdaptiveBoolean): AdaptiveBoolean	
+`or`	dav1d/wrapper.html#or,AdaptiveBoolean,AdaptiveBoolean	wrapper: `or`(x`gensym133, y`gensym133: AdaptiveBoolean): AdaptiveBoolean	
+`or`	dav1d/wrapper.html#or,AdaptiveBoolean,int	wrapper: `or`(x`gensym134: AdaptiveBoolean; y`gensym134: int): AdaptiveBoolean	
+`or`	dav1d/wrapper.html#or,int,AdaptiveBoolean	wrapper: `or`(x`gensym134: int; y`gensym134: AdaptiveBoolean): AdaptiveBoolean	
+`and`	dav1d/wrapper.html#and,AdaptiveBoolean,cint	wrapper: `and`(x`gensym135: AdaptiveBoolean; y`gensym135: cint): AdaptiveBoolean	
+`and`	dav1d/wrapper.html#and,cint,AdaptiveBoolean	wrapper: `and`(x`gensym135: cint; y`gensym135: AdaptiveBoolean): AdaptiveBoolean	
+`and`	dav1d/wrapper.html#and,AdaptiveBoolean,AdaptiveBoolean	wrapper: `and`(x`gensym135, y`gensym135: AdaptiveBoolean): AdaptiveBoolean	
+`and`	dav1d/wrapper.html#and,AdaptiveBoolean,int	wrapper: `and`(x`gensym136: AdaptiveBoolean; y`gensym136: int): AdaptiveBoolean	
+`and`	dav1d/wrapper.html#and,int,AdaptiveBoolean	wrapper: `and`(x`gensym136: int; y`gensym136: AdaptiveBoolean): AdaptiveBoolean	
+`xor`	dav1d/wrapper.html#xor,AdaptiveBoolean,cint	wrapper: `xor`(x`gensym137: AdaptiveBoolean; y`gensym137: cint): AdaptiveBoolean	
+`xor`	dav1d/wrapper.html#xor,cint,AdaptiveBoolean	wrapper: `xor`(x`gensym137: cint; y`gensym137: AdaptiveBoolean): AdaptiveBoolean	
+`xor`	dav1d/wrapper.html#xor,AdaptiveBoolean,AdaptiveBoolean	wrapper: `xor`(x`gensym137, y`gensym137: AdaptiveBoolean): AdaptiveBoolean	
+`xor`	dav1d/wrapper.html#xor,AdaptiveBoolean,int	wrapper: `xor`(x`gensym138: AdaptiveBoolean; y`gensym138: int): AdaptiveBoolean	
+`xor`	dav1d/wrapper.html#xor,int,AdaptiveBoolean	wrapper: `xor`(x`gensym138: int; y`gensym138: AdaptiveBoolean): AdaptiveBoolean	
+`&lt;`	dav1d/wrapper.html#<,AdaptiveBoolean,cint	wrapper: `&lt;`(x`gensym139: AdaptiveBoolean; y`gensym139: cint): bool	
+`&lt;`	dav1d/wrapper.html#<,cint,AdaptiveBoolean	wrapper: `&lt;`(x`gensym139: cint; y`gensym139: AdaptiveBoolean): bool	
+`&lt;`	dav1d/wrapper.html#<,AdaptiveBoolean,AdaptiveBoolean	wrapper: `&lt;`(x`gensym139, y`gensym139: AdaptiveBoolean): bool	
+`&lt;`	dav1d/wrapper.html#<,AdaptiveBoolean,int	wrapper: `&lt;`(x`gensym140: AdaptiveBoolean; y`gensym140: int): bool	
+`&lt;`	dav1d/wrapper.html#<,int,AdaptiveBoolean	wrapper: `&lt;`(x`gensym140: int; y`gensym140: AdaptiveBoolean): bool	
+`&lt;=`	dav1d/wrapper.html#<=,AdaptiveBoolean,cint	wrapper: `&lt;=`(x`gensym141: AdaptiveBoolean; y`gensym141: cint): bool	
+`&lt;=`	dav1d/wrapper.html#<=,cint,AdaptiveBoolean	wrapper: `&lt;=`(x`gensym141: cint; y`gensym141: AdaptiveBoolean): bool	
+`&lt;=`	dav1d/wrapper.html#<=,AdaptiveBoolean,AdaptiveBoolean	wrapper: `&lt;=`(x`gensym141, y`gensym141: AdaptiveBoolean): bool	
+`&lt;=`	dav1d/wrapper.html#<=,AdaptiveBoolean,int	wrapper: `&lt;=`(x`gensym142: AdaptiveBoolean; y`gensym142: int): bool	
+`&lt;=`	dav1d/wrapper.html#<=,int,AdaptiveBoolean	wrapper: `&lt;=`(x`gensym142: int; y`gensym142: AdaptiveBoolean): bool	
+`==`	dav1d/wrapper.html#==,AdaptiveBoolean,cint	wrapper: `==`(x`gensym143: AdaptiveBoolean; y`gensym143: cint): bool	
+`==`	dav1d/wrapper.html#==,cint,AdaptiveBoolean	wrapper: `==`(x`gensym143: cint; y`gensym143: AdaptiveBoolean): bool	
+`==`	dav1d/wrapper.html#==,AdaptiveBoolean,AdaptiveBoolean	wrapper: `==`(x`gensym143, y`gensym143: AdaptiveBoolean): bool	
+`==`	dav1d/wrapper.html#==,AdaptiveBoolean,int	wrapper: `==`(x`gensym144: AdaptiveBoolean; y`gensym144: int): bool	
+`==`	dav1d/wrapper.html#==,int,AdaptiveBoolean	wrapper: `==`(x`gensym144: int; y`gensym144: AdaptiveBoolean): bool	
+`&gt;`	dav1d/wrapper.html#>,AdaptiveBoolean,cint	wrapper: `&gt;`(x`gensym145: AdaptiveBoolean; y`gensym145: cint): bool	
+`&gt;`	dav1d/wrapper.html#>,cint,AdaptiveBoolean	wrapper: `&gt;`(x`gensym145: cint; y`gensym145: AdaptiveBoolean): bool	
+`&gt;`	dav1d/wrapper.html#>,AdaptiveBoolean,AdaptiveBoolean	wrapper: `&gt;`(x`gensym145, y`gensym145: AdaptiveBoolean): bool	
+`&gt;`	dav1d/wrapper.html#>,AdaptiveBoolean,int	wrapper: `&gt;`(x`gensym146: AdaptiveBoolean; y`gensym146: int): bool	
+`&gt;`	dav1d/wrapper.html#>,int,AdaptiveBoolean	wrapper: `&gt;`(x`gensym146: int; y`gensym146: AdaptiveBoolean): bool	
+`&gt;=`	dav1d/wrapper.html#>=,AdaptiveBoolean,cint	wrapper: `&gt;=`(x`gensym147: AdaptiveBoolean; y`gensym147: cint): bool	
+`&gt;=`	dav1d/wrapper.html#>=,cint,AdaptiveBoolean	wrapper: `&gt;=`(x`gensym147: cint; y`gensym147: AdaptiveBoolean): bool	
+`&gt;=`	dav1d/wrapper.html#>=,AdaptiveBoolean,AdaptiveBoolean	wrapper: `&gt;=`(x`gensym147, y`gensym147: AdaptiveBoolean): bool	
+`&gt;=`	dav1d/wrapper.html#>=,AdaptiveBoolean,int	wrapper: `&gt;=`(x`gensym148: AdaptiveBoolean; y`gensym148: int): bool	
+`&gt;=`	dav1d/wrapper.html#>=,int,AdaptiveBoolean	wrapper: `&gt;=`(x`gensym148: int; y`gensym148: AdaptiveBoolean): bool	
+`/`	dav1d/wrapper.html#/,AdaptiveBoolean,AdaptiveBoolean	wrapper: `/`(x`gensym149, y`gensym149: AdaptiveBoolean): AdaptiveBoolean	
+`/`	dav1d/wrapper.html#/,AdaptiveBoolean,cint	wrapper: `/`(x`gensym149: AdaptiveBoolean; y`gensym149: cint): AdaptiveBoolean	
+`/`	dav1d/wrapper.html#/,cint,AdaptiveBoolean	wrapper: `/`(x`gensym149: cint; y`gensym149: AdaptiveBoolean): AdaptiveBoolean	
+`/`	dav1d/wrapper.html#/,AdaptiveBoolean,int	wrapper: `/`(x`gensym149: AdaptiveBoolean; y`gensym149: int): AdaptiveBoolean	
+`/`	dav1d/wrapper.html#/,int,AdaptiveBoolean	wrapper: `/`(x`gensym149: int; y`gensym149: AdaptiveBoolean): AdaptiveBoolean	
+`$`	dav1d/wrapper.html#$,AdaptiveBoolean	wrapper: `$`(x`gensym149: AdaptiveBoolean): string	
+`not`	dav1d/wrapper.html#not,AdaptiveBoolean	wrapper: `not`(x`gensym149: AdaptiveBoolean): AdaptiveBoolean	
+RestorationType	dav1d/wrapper.html#RestorationType	wrapper: RestorationType	
+`+`	dav1d/wrapper.html#+,RestorationType,cint	wrapper: `+`(x`gensym151: RestorationType; y`gensym151: cint): RestorationType	
+`+`	dav1d/wrapper.html#+,cint,RestorationType	wrapper: `+`(x`gensym151: cint; y`gensym151: RestorationType): RestorationType	
+`+`	dav1d/wrapper.html#+,RestorationType,RestorationType	wrapper: `+`(x`gensym151, y`gensym151: RestorationType): RestorationType	
+`+`	dav1d/wrapper.html#+,RestorationType,int	wrapper: `+`(x`gensym152: RestorationType; y`gensym152: int): RestorationType	
+`+`	dav1d/wrapper.html#+,int,RestorationType	wrapper: `+`(x`gensym152: int; y`gensym152: RestorationType): RestorationType	
+`-`	dav1d/wrapper.html#-,RestorationType,cint	wrapper: `-`(x`gensym153: RestorationType; y`gensym153: cint): RestorationType	
+`-`	dav1d/wrapper.html#-,cint,RestorationType	wrapper: `-`(x`gensym153: cint; y`gensym153: RestorationType): RestorationType	
+`-`	dav1d/wrapper.html#-,RestorationType,RestorationType	wrapper: `-`(x`gensym153, y`gensym153: RestorationType): RestorationType	
+`-`	dav1d/wrapper.html#-,RestorationType,int	wrapper: `-`(x`gensym154: RestorationType; y`gensym154: int): RestorationType	
+`-`	dav1d/wrapper.html#-,int,RestorationType	wrapper: `-`(x`gensym154: int; y`gensym154: RestorationType): RestorationType	
+`*`	dav1d/wrapper.html#*,RestorationType,cint	wrapper: `*`(x`gensym155: RestorationType; y`gensym155: cint): RestorationType	
+`*`	dav1d/wrapper.html#*,cint,RestorationType	wrapper: `*`(x`gensym155: cint; y`gensym155: RestorationType): RestorationType	
+`*`	dav1d/wrapper.html#*,RestorationType,RestorationType	wrapper: `*`(x`gensym155, y`gensym155: RestorationType): RestorationType	
+`*`	dav1d/wrapper.html#*,RestorationType,int	wrapper: `*`(x`gensym156: RestorationType; y`gensym156: int): RestorationType	
+`*`	dav1d/wrapper.html#*,int,RestorationType	wrapper: `*`(x`gensym156: int; y`gensym156: RestorationType): RestorationType	
+`div`	dav1d/wrapper.html#div,RestorationType,cint	wrapper: `div`(x`gensym157: RestorationType; y`gensym157: cint): RestorationType	
+`div`	dav1d/wrapper.html#div,cint,RestorationType	wrapper: `div`(x`gensym157: cint; y`gensym157: RestorationType): RestorationType	
+`div`	dav1d/wrapper.html#div,RestorationType,RestorationType	wrapper: `div`(x`gensym157, y`gensym157: RestorationType): RestorationType	
+`div`	dav1d/wrapper.html#div,RestorationType,int	wrapper: `div`(x`gensym158: RestorationType; y`gensym158: int): RestorationType	
+`div`	dav1d/wrapper.html#div,int,RestorationType	wrapper: `div`(x`gensym158: int; y`gensym158: RestorationType): RestorationType	
+`mod`	dav1d/wrapper.html#mod,RestorationType,cint	wrapper: `mod`(x`gensym159: RestorationType; y`gensym159: cint): RestorationType	
+`mod`	dav1d/wrapper.html#mod,cint,RestorationType	wrapper: `mod`(x`gensym159: cint; y`gensym159: RestorationType): RestorationType	
+`mod`	dav1d/wrapper.html#mod,RestorationType,RestorationType	wrapper: `mod`(x`gensym159, y`gensym159: RestorationType): RestorationType	
+`mod`	dav1d/wrapper.html#mod,RestorationType,int	wrapper: `mod`(x`gensym160: RestorationType; y`gensym160: int): RestorationType	
+`mod`	dav1d/wrapper.html#mod,int,RestorationType	wrapper: `mod`(x`gensym160: int; y`gensym160: RestorationType): RestorationType	
+`shl`	dav1d/wrapper.html#shl,RestorationType,cint	wrapper: `shl`(x`gensym161: RestorationType; y`gensym161: cint): RestorationType	
+`shl`	dav1d/wrapper.html#shl,cint,RestorationType	wrapper: `shl`(x`gensym161: cint; y`gensym161: RestorationType): RestorationType	
+`shl`	dav1d/wrapper.html#shl,RestorationType,RestorationType	wrapper: `shl`(x`gensym161, y`gensym161: RestorationType): RestorationType	
+`shl`	dav1d/wrapper.html#shl,RestorationType,int	wrapper: `shl`(x`gensym162: RestorationType; y`gensym162: int): RestorationType	
+`shl`	dav1d/wrapper.html#shl,int,RestorationType	wrapper: `shl`(x`gensym162: int; y`gensym162: RestorationType): RestorationType	
+`shr`	dav1d/wrapper.html#shr,RestorationType,cint	wrapper: `shr`(x`gensym163: RestorationType; y`gensym163: cint): RestorationType	
+`shr`	dav1d/wrapper.html#shr,cint,RestorationType	wrapper: `shr`(x`gensym163: cint; y`gensym163: RestorationType): RestorationType	
+`shr`	dav1d/wrapper.html#shr,RestorationType,RestorationType	wrapper: `shr`(x`gensym163, y`gensym163: RestorationType): RestorationType	
+`shr`	dav1d/wrapper.html#shr,RestorationType,int	wrapper: `shr`(x`gensym164: RestorationType; y`gensym164: int): RestorationType	
+`shr`	dav1d/wrapper.html#shr,int,RestorationType	wrapper: `shr`(x`gensym164: int; y`gensym164: RestorationType): RestorationType	
+`or`	dav1d/wrapper.html#or,RestorationType,cint	wrapper: `or`(x`gensym165: RestorationType; y`gensym165: cint): RestorationType	
+`or`	dav1d/wrapper.html#or,cint,RestorationType	wrapper: `or`(x`gensym165: cint; y`gensym165: RestorationType): RestorationType	
+`or`	dav1d/wrapper.html#or,RestorationType,RestorationType	wrapper: `or`(x`gensym165, y`gensym165: RestorationType): RestorationType	
+`or`	dav1d/wrapper.html#or,RestorationType,int	wrapper: `or`(x`gensym166: RestorationType; y`gensym166: int): RestorationType	
+`or`	dav1d/wrapper.html#or,int,RestorationType	wrapper: `or`(x`gensym166: int; y`gensym166: RestorationType): RestorationType	
+`and`	dav1d/wrapper.html#and,RestorationType,cint	wrapper: `and`(x`gensym167: RestorationType; y`gensym167: cint): RestorationType	
+`and`	dav1d/wrapper.html#and,cint,RestorationType	wrapper: `and`(x`gensym167: cint; y`gensym167: RestorationType): RestorationType	
+`and`	dav1d/wrapper.html#and,RestorationType,RestorationType	wrapper: `and`(x`gensym167, y`gensym167: RestorationType): RestorationType	
+`and`	dav1d/wrapper.html#and,RestorationType,int	wrapper: `and`(x`gensym168: RestorationType; y`gensym168: int): RestorationType	
+`and`	dav1d/wrapper.html#and,int,RestorationType	wrapper: `and`(x`gensym168: int; y`gensym168: RestorationType): RestorationType	
+`xor`	dav1d/wrapper.html#xor,RestorationType,cint	wrapper: `xor`(x`gensym169: RestorationType; y`gensym169: cint): RestorationType	
+`xor`	dav1d/wrapper.html#xor,cint,RestorationType	wrapper: `xor`(x`gensym169: cint; y`gensym169: RestorationType): RestorationType	
+`xor`	dav1d/wrapper.html#xor,RestorationType,RestorationType	wrapper: `xor`(x`gensym169, y`gensym169: RestorationType): RestorationType	
+`xor`	dav1d/wrapper.html#xor,RestorationType,int	wrapper: `xor`(x`gensym170: RestorationType; y`gensym170: int): RestorationType	
+`xor`	dav1d/wrapper.html#xor,int,RestorationType	wrapper: `xor`(x`gensym170: int; y`gensym170: RestorationType): RestorationType	
+`&lt;`	dav1d/wrapper.html#<,RestorationType,cint	wrapper: `&lt;`(x`gensym171: RestorationType; y`gensym171: cint): bool	
+`&lt;`	dav1d/wrapper.html#<,cint,RestorationType	wrapper: `&lt;`(x`gensym171: cint; y`gensym171: RestorationType): bool	
+`&lt;`	dav1d/wrapper.html#<,RestorationType,RestorationType	wrapper: `&lt;`(x`gensym171, y`gensym171: RestorationType): bool	
+`&lt;`	dav1d/wrapper.html#<,RestorationType,int	wrapper: `&lt;`(x`gensym172: RestorationType; y`gensym172: int): bool	
+`&lt;`	dav1d/wrapper.html#<,int,RestorationType	wrapper: `&lt;`(x`gensym172: int; y`gensym172: RestorationType): bool	
+`&lt;=`	dav1d/wrapper.html#<=,RestorationType,cint	wrapper: `&lt;=`(x`gensym173: RestorationType; y`gensym173: cint): bool	
+`&lt;=`	dav1d/wrapper.html#<=,cint,RestorationType	wrapper: `&lt;=`(x`gensym173: cint; y`gensym173: RestorationType): bool	
+`&lt;=`	dav1d/wrapper.html#<=,RestorationType,RestorationType	wrapper: `&lt;=`(x`gensym173, y`gensym173: RestorationType): bool	
+`&lt;=`	dav1d/wrapper.html#<=,RestorationType,int	wrapper: `&lt;=`(x`gensym174: RestorationType; y`gensym174: int): bool	
+`&lt;=`	dav1d/wrapper.html#<=,int,RestorationType	wrapper: `&lt;=`(x`gensym174: int; y`gensym174: RestorationType): bool	
+`==`	dav1d/wrapper.html#==,RestorationType,cint	wrapper: `==`(x`gensym175: RestorationType; y`gensym175: cint): bool	
+`==`	dav1d/wrapper.html#==,cint,RestorationType	wrapper: `==`(x`gensym175: cint; y`gensym175: RestorationType): bool	
+`==`	dav1d/wrapper.html#==,RestorationType,RestorationType	wrapper: `==`(x`gensym175, y`gensym175: RestorationType): bool	
+`==`	dav1d/wrapper.html#==,RestorationType,int	wrapper: `==`(x`gensym176: RestorationType; y`gensym176: int): bool	
+`==`	dav1d/wrapper.html#==,int,RestorationType	wrapper: `==`(x`gensym176: int; y`gensym176: RestorationType): bool	
+`&gt;`	dav1d/wrapper.html#>,RestorationType,cint	wrapper: `&gt;`(x`gensym177: RestorationType; y`gensym177: cint): bool	
+`&gt;`	dav1d/wrapper.html#>,cint,RestorationType	wrapper: `&gt;`(x`gensym177: cint; y`gensym177: RestorationType): bool	
+`&gt;`	dav1d/wrapper.html#>,RestorationType,RestorationType	wrapper: `&gt;`(x`gensym177, y`gensym177: RestorationType): bool	
+`&gt;`	dav1d/wrapper.html#>,RestorationType,int	wrapper: `&gt;`(x`gensym178: RestorationType; y`gensym178: int): bool	
+`&gt;`	dav1d/wrapper.html#>,int,RestorationType	wrapper: `&gt;`(x`gensym178: int; y`gensym178: RestorationType): bool	
+`&gt;=`	dav1d/wrapper.html#>=,RestorationType,cint	wrapper: `&gt;=`(x`gensym179: RestorationType; y`gensym179: cint): bool	
+`&gt;=`	dav1d/wrapper.html#>=,cint,RestorationType	wrapper: `&gt;=`(x`gensym179: cint; y`gensym179: RestorationType): bool	
+`&gt;=`	dav1d/wrapper.html#>=,RestorationType,RestorationType	wrapper: `&gt;=`(x`gensym179, y`gensym179: RestorationType): bool	
+`&gt;=`	dav1d/wrapper.html#>=,RestorationType,int	wrapper: `&gt;=`(x`gensym180: RestorationType; y`gensym180: int): bool	
+`&gt;=`	dav1d/wrapper.html#>=,int,RestorationType	wrapper: `&gt;=`(x`gensym180: int; y`gensym180: RestorationType): bool	
+`/`	dav1d/wrapper.html#/,RestorationType,RestorationType	wrapper: `/`(x`gensym181, y`gensym181: RestorationType): RestorationType	
+`/`	dav1d/wrapper.html#/,RestorationType,cint	wrapper: `/`(x`gensym181: RestorationType; y`gensym181: cint): RestorationType	
+`/`	dav1d/wrapper.html#/,cint,RestorationType	wrapper: `/`(x`gensym181: cint; y`gensym181: RestorationType): RestorationType	
+`/`	dav1d/wrapper.html#/,RestorationType,int	wrapper: `/`(x`gensym181: RestorationType; y`gensym181: int): RestorationType	
+`/`	dav1d/wrapper.html#/,int,RestorationType	wrapper: `/`(x`gensym181: int; y`gensym181: RestorationType): RestorationType	
+`$`	dav1d/wrapper.html#$,RestorationType	wrapper: `$`(x`gensym181: RestorationType): string	
+`not`	dav1d/wrapper.html#not,RestorationType	wrapper: `not`(x`gensym181: RestorationType): RestorationType	
+WarpedMotionType	dav1d/wrapper.html#WarpedMotionType	wrapper: WarpedMotionType	
+`+`	dav1d/wrapper.html#+,WarpedMotionType,cint	wrapper: `+`(x`gensym183: WarpedMotionType; y`gensym183: cint): WarpedMotionType	
+`+`	dav1d/wrapper.html#+,cint,WarpedMotionType	wrapper: `+`(x`gensym183: cint; y`gensym183: WarpedMotionType): WarpedMotionType	
+`+`	dav1d/wrapper.html#+,WarpedMotionType,WarpedMotionType	wrapper: `+`(x`gensym183, y`gensym183: WarpedMotionType): WarpedMotionType	
+`+`	dav1d/wrapper.html#+,WarpedMotionType,int	wrapper: `+`(x`gensym184: WarpedMotionType; y`gensym184: int): WarpedMotionType	
+`+`	dav1d/wrapper.html#+,int,WarpedMotionType	wrapper: `+`(x`gensym184: int; y`gensym184: WarpedMotionType): WarpedMotionType	
+`-`	dav1d/wrapper.html#-,WarpedMotionType,cint	wrapper: `-`(x`gensym185: WarpedMotionType; y`gensym185: cint): WarpedMotionType	
+`-`	dav1d/wrapper.html#-,cint,WarpedMotionType	wrapper: `-`(x`gensym185: cint; y`gensym185: WarpedMotionType): WarpedMotionType	
+`-`	dav1d/wrapper.html#-,WarpedMotionType,WarpedMotionType	wrapper: `-`(x`gensym185, y`gensym185: WarpedMotionType): WarpedMotionType	
+`-`	dav1d/wrapper.html#-,WarpedMotionType,int	wrapper: `-`(x`gensym186: WarpedMotionType; y`gensym186: int): WarpedMotionType	
+`-`	dav1d/wrapper.html#-,int,WarpedMotionType	wrapper: `-`(x`gensym186: int; y`gensym186: WarpedMotionType): WarpedMotionType	
+`*`	dav1d/wrapper.html#*,WarpedMotionType,cint	wrapper: `*`(x`gensym187: WarpedMotionType; y`gensym187: cint): WarpedMotionType	
+`*`	dav1d/wrapper.html#*,cint,WarpedMotionType	wrapper: `*`(x`gensym187: cint; y`gensym187: WarpedMotionType): WarpedMotionType	
+`*`	dav1d/wrapper.html#*,WarpedMotionType,WarpedMotionType	wrapper: `*`(x`gensym187, y`gensym187: WarpedMotionType): WarpedMotionType	
+`*`	dav1d/wrapper.html#*,WarpedMotionType,int	wrapper: `*`(x`gensym188: WarpedMotionType; y`gensym188: int): WarpedMotionType	
+`*`	dav1d/wrapper.html#*,int,WarpedMotionType	wrapper: `*`(x`gensym188: int; y`gensym188: WarpedMotionType): WarpedMotionType	
+`div`	dav1d/wrapper.html#div,WarpedMotionType,cint	wrapper: `div`(x`gensym189: WarpedMotionType; y`gensym189: cint): WarpedMotionType	
+`div`	dav1d/wrapper.html#div,cint,WarpedMotionType	wrapper: `div`(x`gensym189: cint; y`gensym189: WarpedMotionType): WarpedMotionType	
+`div`	dav1d/wrapper.html#div,WarpedMotionType,WarpedMotionType	wrapper: `div`(x`gensym189, y`gensym189: WarpedMotionType): WarpedMotionType	
+`div`	dav1d/wrapper.html#div,WarpedMotionType,int	wrapper: `div`(x`gensym190: WarpedMotionType; y`gensym190: int): WarpedMotionType	
+`div`	dav1d/wrapper.html#div,int,WarpedMotionType	wrapper: `div`(x`gensym190: int; y`gensym190: WarpedMotionType): WarpedMotionType	
+`mod`	dav1d/wrapper.html#mod,WarpedMotionType,cint	wrapper: `mod`(x`gensym191: WarpedMotionType; y`gensym191: cint): WarpedMotionType	
+`mod`	dav1d/wrapper.html#mod,cint,WarpedMotionType	wrapper: `mod`(x`gensym191: cint; y`gensym191: WarpedMotionType): WarpedMotionType	
+`mod`	dav1d/wrapper.html#mod,WarpedMotionType,WarpedMotionType	wrapper: `mod`(x`gensym191, y`gensym191: WarpedMotionType): WarpedMotionType	
+`mod`	dav1d/wrapper.html#mod,WarpedMotionType,int	wrapper: `mod`(x`gensym192: WarpedMotionType; y`gensym192: int): WarpedMotionType	
+`mod`	dav1d/wrapper.html#mod,int,WarpedMotionType	wrapper: `mod`(x`gensym192: int; y`gensym192: WarpedMotionType): WarpedMotionType	
+`shl`	dav1d/wrapper.html#shl,WarpedMotionType,cint	wrapper: `shl`(x`gensym193: WarpedMotionType; y`gensym193: cint): WarpedMotionType	
+`shl`	dav1d/wrapper.html#shl,cint,WarpedMotionType	wrapper: `shl`(x`gensym193: cint; y`gensym193: WarpedMotionType): WarpedMotionType	
+`shl`	dav1d/wrapper.html#shl,WarpedMotionType,WarpedMotionType	wrapper: `shl`(x`gensym193, y`gensym193: WarpedMotionType): WarpedMotionType	
+`shl`	dav1d/wrapper.html#shl,WarpedMotionType,int	wrapper: `shl`(x`gensym194: WarpedMotionType; y`gensym194: int): WarpedMotionType	
+`shl`	dav1d/wrapper.html#shl,int,WarpedMotionType	wrapper: `shl`(x`gensym194: int; y`gensym194: WarpedMotionType): WarpedMotionType	
+`shr`	dav1d/wrapper.html#shr,WarpedMotionType,cint	wrapper: `shr`(x`gensym195: WarpedMotionType; y`gensym195: cint): WarpedMotionType	
+`shr`	dav1d/wrapper.html#shr,cint,WarpedMotionType	wrapper: `shr`(x`gensym195: cint; y`gensym195: WarpedMotionType): WarpedMotionType	
+`shr`	dav1d/wrapper.html#shr,WarpedMotionType,WarpedMotionType	wrapper: `shr`(x`gensym195, y`gensym195: WarpedMotionType): WarpedMotionType	
+`shr`	dav1d/wrapper.html#shr,WarpedMotionType,int	wrapper: `shr`(x`gensym196: WarpedMotionType; y`gensym196: int): WarpedMotionType	
+`shr`	dav1d/wrapper.html#shr,int,WarpedMotionType	wrapper: `shr`(x`gensym196: int; y`gensym196: WarpedMotionType): WarpedMotionType	
+`or`	dav1d/wrapper.html#or,WarpedMotionType,cint	wrapper: `or`(x`gensym197: WarpedMotionType; y`gensym197: cint): WarpedMotionType	
+`or`	dav1d/wrapper.html#or,cint,WarpedMotionType	wrapper: `or`(x`gensym197: cint; y`gensym197: WarpedMotionType): WarpedMotionType	
+`or`	dav1d/wrapper.html#or,WarpedMotionType,WarpedMotionType	wrapper: `or`(x`gensym197, y`gensym197: WarpedMotionType): WarpedMotionType	
+`or`	dav1d/wrapper.html#or,WarpedMotionType,int	wrapper: `or`(x`gensym198: WarpedMotionType; y`gensym198: int): WarpedMotionType	
+`or`	dav1d/wrapper.html#or,int,WarpedMotionType	wrapper: `or`(x`gensym198: int; y`gensym198: WarpedMotionType): WarpedMotionType	
+`and`	dav1d/wrapper.html#and,WarpedMotionType,cint	wrapper: `and`(x`gensym199: WarpedMotionType; y`gensym199: cint): WarpedMotionType	
+`and`	dav1d/wrapper.html#and,cint,WarpedMotionType	wrapper: `and`(x`gensym199: cint; y`gensym199: WarpedMotionType): WarpedMotionType	
+`and`	dav1d/wrapper.html#and,WarpedMotionType,WarpedMotionType	wrapper: `and`(x`gensym199, y`gensym199: WarpedMotionType): WarpedMotionType	
+`and`	dav1d/wrapper.html#and,WarpedMotionType,int	wrapper: `and`(x`gensym200: WarpedMotionType; y`gensym200: int): WarpedMotionType	
+`and`	dav1d/wrapper.html#and,int,WarpedMotionType	wrapper: `and`(x`gensym200: int; y`gensym200: WarpedMotionType): WarpedMotionType	
+`xor`	dav1d/wrapper.html#xor,WarpedMotionType,cint	wrapper: `xor`(x`gensym201: WarpedMotionType; y`gensym201: cint): WarpedMotionType	
+`xor`	dav1d/wrapper.html#xor,cint,WarpedMotionType	wrapper: `xor`(x`gensym201: cint; y`gensym201: WarpedMotionType): WarpedMotionType	
+`xor`	dav1d/wrapper.html#xor,WarpedMotionType,WarpedMotionType	wrapper: `xor`(x`gensym201, y`gensym201: WarpedMotionType): WarpedMotionType	
+`xor`	dav1d/wrapper.html#xor,WarpedMotionType,int	wrapper: `xor`(x`gensym202: WarpedMotionType; y`gensym202: int): WarpedMotionType	
+`xor`	dav1d/wrapper.html#xor,int,WarpedMotionType	wrapper: `xor`(x`gensym202: int; y`gensym202: WarpedMotionType): WarpedMotionType	
+`&lt;`	dav1d/wrapper.html#<,WarpedMotionType,cint	wrapper: `&lt;`(x`gensym203: WarpedMotionType; y`gensym203: cint): bool	
+`&lt;`	dav1d/wrapper.html#<,cint,WarpedMotionType	wrapper: `&lt;`(x`gensym203: cint; y`gensym203: WarpedMotionType): bool	
+`&lt;`	dav1d/wrapper.html#<,WarpedMotionType,WarpedMotionType	wrapper: `&lt;`(x`gensym203, y`gensym203: WarpedMotionType): bool	
+`&lt;`	dav1d/wrapper.html#<,WarpedMotionType,int	wrapper: `&lt;`(x`gensym204: WarpedMotionType; y`gensym204: int): bool	
+`&lt;`	dav1d/wrapper.html#<,int,WarpedMotionType	wrapper: `&lt;`(x`gensym204: int; y`gensym204: WarpedMotionType): bool	
+`&lt;=`	dav1d/wrapper.html#<=,WarpedMotionType,cint	wrapper: `&lt;=`(x`gensym205: WarpedMotionType; y`gensym205: cint): bool	
+`&lt;=`	dav1d/wrapper.html#<=,cint,WarpedMotionType	wrapper: `&lt;=`(x`gensym205: cint; y`gensym205: WarpedMotionType): bool	
+`&lt;=`	dav1d/wrapper.html#<=,WarpedMotionType,WarpedMotionType	wrapper: `&lt;=`(x`gensym205, y`gensym205: WarpedMotionType): bool	
+`&lt;=`	dav1d/wrapper.html#<=,WarpedMotionType,int	wrapper: `&lt;=`(x`gensym206: WarpedMotionType; y`gensym206: int): bool	
+`&lt;=`	dav1d/wrapper.html#<=,int,WarpedMotionType	wrapper: `&lt;=`(x`gensym206: int; y`gensym206: WarpedMotionType): bool	
+`==`	dav1d/wrapper.html#==,WarpedMotionType,cint	wrapper: `==`(x`gensym207: WarpedMotionType; y`gensym207: cint): bool	
+`==`	dav1d/wrapper.html#==,cint,WarpedMotionType	wrapper: `==`(x`gensym207: cint; y`gensym207: WarpedMotionType): bool	
+`==`	dav1d/wrapper.html#==,WarpedMotionType,WarpedMotionType	wrapper: `==`(x`gensym207, y`gensym207: WarpedMotionType): bool	
+`==`	dav1d/wrapper.html#==,WarpedMotionType,int	wrapper: `==`(x`gensym208: WarpedMotionType; y`gensym208: int): bool	
+`==`	dav1d/wrapper.html#==,int,WarpedMotionType	wrapper: `==`(x`gensym208: int; y`gensym208: WarpedMotionType): bool	
+`&gt;`	dav1d/wrapper.html#>,WarpedMotionType,cint	wrapper: `&gt;`(x`gensym209: WarpedMotionType; y`gensym209: cint): bool	
+`&gt;`	dav1d/wrapper.html#>,cint,WarpedMotionType	wrapper: `&gt;`(x`gensym209: cint; y`gensym209: WarpedMotionType): bool	
+`&gt;`	dav1d/wrapper.html#>,WarpedMotionType,WarpedMotionType	wrapper: `&gt;`(x`gensym209, y`gensym209: WarpedMotionType): bool	
+`&gt;`	dav1d/wrapper.html#>,WarpedMotionType,int	wrapper: `&gt;`(x`gensym210: WarpedMotionType; y`gensym210: int): bool	
+`&gt;`	dav1d/wrapper.html#>,int,WarpedMotionType	wrapper: `&gt;`(x`gensym210: int; y`gensym210: WarpedMotionType): bool	
+`&gt;=`	dav1d/wrapper.html#>=,WarpedMotionType,cint	wrapper: `&gt;=`(x`gensym211: WarpedMotionType; y`gensym211: cint): bool	
+`&gt;=`	dav1d/wrapper.html#>=,cint,WarpedMotionType	wrapper: `&gt;=`(x`gensym211: cint; y`gensym211: WarpedMotionType): bool	
+`&gt;=`	dav1d/wrapper.html#>=,WarpedMotionType,WarpedMotionType	wrapper: `&gt;=`(x`gensym211, y`gensym211: WarpedMotionType): bool	
+`&gt;=`	dav1d/wrapper.html#>=,WarpedMotionType,int	wrapper: `&gt;=`(x`gensym212: WarpedMotionType; y`gensym212: int): bool	
+`&gt;=`	dav1d/wrapper.html#>=,int,WarpedMotionType	wrapper: `&gt;=`(x`gensym212: int; y`gensym212: WarpedMotionType): bool	
+`/`	dav1d/wrapper.html#/,WarpedMotionType,WarpedMotionType	wrapper: `/`(x`gensym213, y`gensym213: WarpedMotionType): WarpedMotionType	
+`/`	dav1d/wrapper.html#/,WarpedMotionType,cint	wrapper: `/`(x`gensym213: WarpedMotionType; y`gensym213: cint): WarpedMotionType	
+`/`	dav1d/wrapper.html#/,cint,WarpedMotionType	wrapper: `/`(x`gensym213: cint; y`gensym213: WarpedMotionType): WarpedMotionType	
+`/`	dav1d/wrapper.html#/,WarpedMotionType,int	wrapper: `/`(x`gensym213: WarpedMotionType; y`gensym213: int): WarpedMotionType	
+`/`	dav1d/wrapper.html#/,int,WarpedMotionType	wrapper: `/`(x`gensym213: int; y`gensym213: WarpedMotionType): WarpedMotionType	
+`$`	dav1d/wrapper.html#$,WarpedMotionType	wrapper: `$`(x`gensym213: WarpedMotionType): string	
+`not`	dav1d/wrapper.html#not,WarpedMotionType	wrapper: `not`(x`gensym213: WarpedMotionType): WarpedMotionType	
+PixelLayout	dav1d/wrapper.html#PixelLayout	wrapper: PixelLayout	
+`+`	dav1d/wrapper.html#+,PixelLayout,cint	wrapper: `+`(x`gensym215: PixelLayout; y`gensym215: cint): PixelLayout	
+`+`	dav1d/wrapper.html#+,cint,PixelLayout	wrapper: `+`(x`gensym215: cint; y`gensym215: PixelLayout): PixelLayout	
+`+`	dav1d/wrapper.html#+,PixelLayout,PixelLayout	wrapper: `+`(x`gensym215, y`gensym215: PixelLayout): PixelLayout	
+`+`	dav1d/wrapper.html#+,PixelLayout,int	wrapper: `+`(x`gensym216: PixelLayout; y`gensym216: int): PixelLayout	
+`+`	dav1d/wrapper.html#+,int,PixelLayout	wrapper: `+`(x`gensym216: int; y`gensym216: PixelLayout): PixelLayout	
+`-`	dav1d/wrapper.html#-,PixelLayout,cint	wrapper: `-`(x`gensym217: PixelLayout; y`gensym217: cint): PixelLayout	
+`-`	dav1d/wrapper.html#-,cint,PixelLayout	wrapper: `-`(x`gensym217: cint; y`gensym217: PixelLayout): PixelLayout	
+`-`	dav1d/wrapper.html#-,PixelLayout,PixelLayout	wrapper: `-`(x`gensym217, y`gensym217: PixelLayout): PixelLayout	
+`-`	dav1d/wrapper.html#-,PixelLayout,int	wrapper: `-`(x`gensym218: PixelLayout; y`gensym218: int): PixelLayout	
+`-`	dav1d/wrapper.html#-,int,PixelLayout	wrapper: `-`(x`gensym218: int; y`gensym218: PixelLayout): PixelLayout	
+`*`	dav1d/wrapper.html#*,PixelLayout,cint	wrapper: `*`(x`gensym219: PixelLayout; y`gensym219: cint): PixelLayout	
+`*`	dav1d/wrapper.html#*,cint,PixelLayout	wrapper: `*`(x`gensym219: cint; y`gensym219: PixelLayout): PixelLayout	
+`*`	dav1d/wrapper.html#*,PixelLayout,PixelLayout	wrapper: `*`(x`gensym219, y`gensym219: PixelLayout): PixelLayout	
+`*`	dav1d/wrapper.html#*,PixelLayout,int	wrapper: `*`(x`gensym220: PixelLayout; y`gensym220: int): PixelLayout	
+`*`	dav1d/wrapper.html#*,int,PixelLayout	wrapper: `*`(x`gensym220: int; y`gensym220: PixelLayout): PixelLayout	
+`div`	dav1d/wrapper.html#div,PixelLayout,cint	wrapper: `div`(x`gensym221: PixelLayout; y`gensym221: cint): PixelLayout	
+`div`	dav1d/wrapper.html#div,cint,PixelLayout	wrapper: `div`(x`gensym221: cint; y`gensym221: PixelLayout): PixelLayout	
+`div`	dav1d/wrapper.html#div,PixelLayout,PixelLayout	wrapper: `div`(x`gensym221, y`gensym221: PixelLayout): PixelLayout	
+`div`	dav1d/wrapper.html#div,PixelLayout,int	wrapper: `div`(x`gensym222: PixelLayout; y`gensym222: int): PixelLayout	
+`div`	dav1d/wrapper.html#div,int,PixelLayout	wrapper: `div`(x`gensym222: int; y`gensym222: PixelLayout): PixelLayout	
+`mod`	dav1d/wrapper.html#mod,PixelLayout,cint	wrapper: `mod`(x`gensym223: PixelLayout; y`gensym223: cint): PixelLayout	
+`mod`	dav1d/wrapper.html#mod,cint,PixelLayout	wrapper: `mod`(x`gensym223: cint; y`gensym223: PixelLayout): PixelLayout	
+`mod`	dav1d/wrapper.html#mod,PixelLayout,PixelLayout	wrapper: `mod`(x`gensym223, y`gensym223: PixelLayout): PixelLayout	
+`mod`	dav1d/wrapper.html#mod,PixelLayout,int	wrapper: `mod`(x`gensym224: PixelLayout; y`gensym224: int): PixelLayout	
+`mod`	dav1d/wrapper.html#mod,int,PixelLayout	wrapper: `mod`(x`gensym224: int; y`gensym224: PixelLayout): PixelLayout	
+`shl`	dav1d/wrapper.html#shl,PixelLayout,cint	wrapper: `shl`(x`gensym225: PixelLayout; y`gensym225: cint): PixelLayout	
+`shl`	dav1d/wrapper.html#shl,cint,PixelLayout	wrapper: `shl`(x`gensym225: cint; y`gensym225: PixelLayout): PixelLayout	
+`shl`	dav1d/wrapper.html#shl,PixelLayout,PixelLayout	wrapper: `shl`(x`gensym225, y`gensym225: PixelLayout): PixelLayout	
+`shl`	dav1d/wrapper.html#shl,PixelLayout,int	wrapper: `shl`(x`gensym226: PixelLayout; y`gensym226: int): PixelLayout	
+`shl`	dav1d/wrapper.html#shl,int,PixelLayout	wrapper: `shl`(x`gensym226: int; y`gensym226: PixelLayout): PixelLayout	
+`shr`	dav1d/wrapper.html#shr,PixelLayout,cint	wrapper: `shr`(x`gensym227: PixelLayout; y`gensym227: cint): PixelLayout	
+`shr`	dav1d/wrapper.html#shr,cint,PixelLayout	wrapper: `shr`(x`gensym227: cint; y`gensym227: PixelLayout): PixelLayout	
+`shr`	dav1d/wrapper.html#shr,PixelLayout,PixelLayout	wrapper: `shr`(x`gensym227, y`gensym227: PixelLayout): PixelLayout	
+`shr`	dav1d/wrapper.html#shr,PixelLayout,int	wrapper: `shr`(x`gensym228: PixelLayout; y`gensym228: int): PixelLayout	
+`shr`	dav1d/wrapper.html#shr,int,PixelLayout	wrapper: `shr`(x`gensym228: int; y`gensym228: PixelLayout): PixelLayout	
+`or`	dav1d/wrapper.html#or,PixelLayout,cint	wrapper: `or`(x`gensym229: PixelLayout; y`gensym229: cint): PixelLayout	
+`or`	dav1d/wrapper.html#or,cint,PixelLayout	wrapper: `or`(x`gensym229: cint; y`gensym229: PixelLayout): PixelLayout	
+`or`	dav1d/wrapper.html#or,PixelLayout,PixelLayout	wrapper: `or`(x`gensym229, y`gensym229: PixelLayout): PixelLayout	
+`or`	dav1d/wrapper.html#or,PixelLayout,int	wrapper: `or`(x`gensym230: PixelLayout; y`gensym230: int): PixelLayout	
+`or`	dav1d/wrapper.html#or,int,PixelLayout	wrapper: `or`(x`gensym230: int; y`gensym230: PixelLayout): PixelLayout	
+`and`	dav1d/wrapper.html#and,PixelLayout,cint	wrapper: `and`(x`gensym231: PixelLayout; y`gensym231: cint): PixelLayout	
+`and`	dav1d/wrapper.html#and,cint,PixelLayout	wrapper: `and`(x`gensym231: cint; y`gensym231: PixelLayout): PixelLayout	
+`and`	dav1d/wrapper.html#and,PixelLayout,PixelLayout	wrapper: `and`(x`gensym231, y`gensym231: PixelLayout): PixelLayout	
+`and`	dav1d/wrapper.html#and,PixelLayout,int	wrapper: `and`(x`gensym232: PixelLayout; y`gensym232: int): PixelLayout	
+`and`	dav1d/wrapper.html#and,int,PixelLayout	wrapper: `and`(x`gensym232: int; y`gensym232: PixelLayout): PixelLayout	
+`xor`	dav1d/wrapper.html#xor,PixelLayout,cint	wrapper: `xor`(x`gensym233: PixelLayout; y`gensym233: cint): PixelLayout	
+`xor`	dav1d/wrapper.html#xor,cint,PixelLayout	wrapper: `xor`(x`gensym233: cint; y`gensym233: PixelLayout): PixelLayout	
+`xor`	dav1d/wrapper.html#xor,PixelLayout,PixelLayout	wrapper: `xor`(x`gensym233, y`gensym233: PixelLayout): PixelLayout	
+`xor`	dav1d/wrapper.html#xor,PixelLayout,int	wrapper: `xor`(x`gensym234: PixelLayout; y`gensym234: int): PixelLayout	
+`xor`	dav1d/wrapper.html#xor,int,PixelLayout	wrapper: `xor`(x`gensym234: int; y`gensym234: PixelLayout): PixelLayout	
+`&lt;`	dav1d/wrapper.html#<,PixelLayout,cint	wrapper: `&lt;`(x`gensym235: PixelLayout; y`gensym235: cint): bool	
+`&lt;`	dav1d/wrapper.html#<,cint,PixelLayout	wrapper: `&lt;`(x`gensym235: cint; y`gensym235: PixelLayout): bool	
+`&lt;`	dav1d/wrapper.html#<,PixelLayout,PixelLayout	wrapper: `&lt;`(x`gensym235, y`gensym235: PixelLayout): bool	
+`&lt;`	dav1d/wrapper.html#<,PixelLayout,int	wrapper: `&lt;`(x`gensym236: PixelLayout; y`gensym236: int): bool	
+`&lt;`	dav1d/wrapper.html#<,int,PixelLayout	wrapper: `&lt;`(x`gensym236: int; y`gensym236: PixelLayout): bool	
+`&lt;=`	dav1d/wrapper.html#<=,PixelLayout,cint	wrapper: `&lt;=`(x`gensym237: PixelLayout; y`gensym237: cint): bool	
+`&lt;=`	dav1d/wrapper.html#<=,cint,PixelLayout	wrapper: `&lt;=`(x`gensym237: cint; y`gensym237: PixelLayout): bool	
+`&lt;=`	dav1d/wrapper.html#<=,PixelLayout,PixelLayout	wrapper: `&lt;=`(x`gensym237, y`gensym237: PixelLayout): bool	
+`&lt;=`	dav1d/wrapper.html#<=,PixelLayout,int	wrapper: `&lt;=`(x`gensym238: PixelLayout; y`gensym238: int): bool	
+`&lt;=`	dav1d/wrapper.html#<=,int,PixelLayout	wrapper: `&lt;=`(x`gensym238: int; y`gensym238: PixelLayout): bool	
+`==`	dav1d/wrapper.html#==,PixelLayout,cint	wrapper: `==`(x`gensym239: PixelLayout; y`gensym239: cint): bool	
+`==`	dav1d/wrapper.html#==,cint,PixelLayout	wrapper: `==`(x`gensym239: cint; y`gensym239: PixelLayout): bool	
+`==`	dav1d/wrapper.html#==,PixelLayout,PixelLayout	wrapper: `==`(x`gensym239, y`gensym239: PixelLayout): bool	
+`==`	dav1d/wrapper.html#==,PixelLayout,int	wrapper: `==`(x`gensym240: PixelLayout; y`gensym240: int): bool	
+`==`	dav1d/wrapper.html#==,int,PixelLayout	wrapper: `==`(x`gensym240: int; y`gensym240: PixelLayout): bool	
+`&gt;`	dav1d/wrapper.html#>,PixelLayout,cint	wrapper: `&gt;`(x`gensym241: PixelLayout; y`gensym241: cint): bool	
+`&gt;`	dav1d/wrapper.html#>,cint,PixelLayout	wrapper: `&gt;`(x`gensym241: cint; y`gensym241: PixelLayout): bool	
+`&gt;`	dav1d/wrapper.html#>,PixelLayout,PixelLayout	wrapper: `&gt;`(x`gensym241, y`gensym241: PixelLayout): bool	
+`&gt;`	dav1d/wrapper.html#>,PixelLayout,int	wrapper: `&gt;`(x`gensym242: PixelLayout; y`gensym242: int): bool	
+`&gt;`	dav1d/wrapper.html#>,int,PixelLayout	wrapper: `&gt;`(x`gensym242: int; y`gensym242: PixelLayout): bool	
+`&gt;=`	dav1d/wrapper.html#>=,PixelLayout,cint	wrapper: `&gt;=`(x`gensym243: PixelLayout; y`gensym243: cint): bool	
+`&gt;=`	dav1d/wrapper.html#>=,cint,PixelLayout	wrapper: `&gt;=`(x`gensym243: cint; y`gensym243: PixelLayout): bool	
+`&gt;=`	dav1d/wrapper.html#>=,PixelLayout,PixelLayout	wrapper: `&gt;=`(x`gensym243, y`gensym243: PixelLayout): bool	
+`&gt;=`	dav1d/wrapper.html#>=,PixelLayout,int	wrapper: `&gt;=`(x`gensym244: PixelLayout; y`gensym244: int): bool	
+`&gt;=`	dav1d/wrapper.html#>=,int,PixelLayout	wrapper: `&gt;=`(x`gensym244: int; y`gensym244: PixelLayout): bool	
+`/`	dav1d/wrapper.html#/,PixelLayout,PixelLayout	wrapper: `/`(x`gensym245, y`gensym245: PixelLayout): PixelLayout	
+`/`	dav1d/wrapper.html#/,PixelLayout,cint	wrapper: `/`(x`gensym245: PixelLayout; y`gensym245: cint): PixelLayout	
+`/`	dav1d/wrapper.html#/,cint,PixelLayout	wrapper: `/`(x`gensym245: cint; y`gensym245: PixelLayout): PixelLayout	
+`/`	dav1d/wrapper.html#/,PixelLayout,int	wrapper: `/`(x`gensym245: PixelLayout; y`gensym245: int): PixelLayout	
+`/`	dav1d/wrapper.html#/,int,PixelLayout	wrapper: `/`(x`gensym245: int; y`gensym245: PixelLayout): PixelLayout	
+`$`	dav1d/wrapper.html#$,PixelLayout	wrapper: `$`(x`gensym245: PixelLayout): string	
+`not`	dav1d/wrapper.html#not,PixelLayout	wrapper: `not`(x`gensym245: PixelLayout): PixelLayout	
+FrameType	dav1d/wrapper.html#FrameType	wrapper: FrameType	
+`+`	dav1d/wrapper.html#+,FrameType,cint	wrapper: `+`(x`gensym247: FrameType; y`gensym247: cint): FrameType	
+`+`	dav1d/wrapper.html#+,cint,FrameType	wrapper: `+`(x`gensym247: cint; y`gensym247: FrameType): FrameType	
+`+`	dav1d/wrapper.html#+,FrameType,FrameType	wrapper: `+`(x`gensym247, y`gensym247: FrameType): FrameType	
+`+`	dav1d/wrapper.html#+,FrameType,int	wrapper: `+`(x`gensym248: FrameType; y`gensym248: int): FrameType	
+`+`	dav1d/wrapper.html#+,int,FrameType	wrapper: `+`(x`gensym248: int; y`gensym248: FrameType): FrameType	
+`-`	dav1d/wrapper.html#-,FrameType,cint	wrapper: `-`(x`gensym249: FrameType; y`gensym249: cint): FrameType	
+`-`	dav1d/wrapper.html#-,cint,FrameType	wrapper: `-`(x`gensym249: cint; y`gensym249: FrameType): FrameType	
+`-`	dav1d/wrapper.html#-,FrameType,FrameType	wrapper: `-`(x`gensym249, y`gensym249: FrameType): FrameType	
+`-`	dav1d/wrapper.html#-,FrameType,int	wrapper: `-`(x`gensym250: FrameType; y`gensym250: int): FrameType	
+`-`	dav1d/wrapper.html#-,int,FrameType	wrapper: `-`(x`gensym250: int; y`gensym250: FrameType): FrameType	
+`*`	dav1d/wrapper.html#*,FrameType,cint	wrapper: `*`(x`gensym251: FrameType; y`gensym251: cint): FrameType	
+`*`	dav1d/wrapper.html#*,cint,FrameType	wrapper: `*`(x`gensym251: cint; y`gensym251: FrameType): FrameType	
+`*`	dav1d/wrapper.html#*,FrameType,FrameType	wrapper: `*`(x`gensym251, y`gensym251: FrameType): FrameType	
+`*`	dav1d/wrapper.html#*,FrameType,int	wrapper: `*`(x`gensym252: FrameType; y`gensym252: int): FrameType	
+`*`	dav1d/wrapper.html#*,int,FrameType	wrapper: `*`(x`gensym252: int; y`gensym252: FrameType): FrameType	
+`div`	dav1d/wrapper.html#div,FrameType,cint	wrapper: `div`(x`gensym253: FrameType; y`gensym253: cint): FrameType	
+`div`	dav1d/wrapper.html#div,cint,FrameType	wrapper: `div`(x`gensym253: cint; y`gensym253: FrameType): FrameType	
+`div`	dav1d/wrapper.html#div,FrameType,FrameType	wrapper: `div`(x`gensym253, y`gensym253: FrameType): FrameType	
+`div`	dav1d/wrapper.html#div,FrameType,int	wrapper: `div`(x`gensym254: FrameType; y`gensym254: int): FrameType	
+`div`	dav1d/wrapper.html#div,int,FrameType	wrapper: `div`(x`gensym254: int; y`gensym254: FrameType): FrameType	
+`mod`	dav1d/wrapper.html#mod,FrameType,cint	wrapper: `mod`(x`gensym255: FrameType; y`gensym255: cint): FrameType	
+`mod`	dav1d/wrapper.html#mod,cint,FrameType	wrapper: `mod`(x`gensym255: cint; y`gensym255: FrameType): FrameType	
+`mod`	dav1d/wrapper.html#mod,FrameType,FrameType	wrapper: `mod`(x`gensym255, y`gensym255: FrameType): FrameType	
+`mod`	dav1d/wrapper.html#mod,FrameType,int	wrapper: `mod`(x`gensym256: FrameType; y`gensym256: int): FrameType	
+`mod`	dav1d/wrapper.html#mod,int,FrameType	wrapper: `mod`(x`gensym256: int; y`gensym256: FrameType): FrameType	
+`shl`	dav1d/wrapper.html#shl,FrameType,cint	wrapper: `shl`(x`gensym257: FrameType; y`gensym257: cint): FrameType	
+`shl`	dav1d/wrapper.html#shl,cint,FrameType	wrapper: `shl`(x`gensym257: cint; y`gensym257: FrameType): FrameType	
+`shl`	dav1d/wrapper.html#shl,FrameType,FrameType	wrapper: `shl`(x`gensym257, y`gensym257: FrameType): FrameType	
+`shl`	dav1d/wrapper.html#shl,FrameType,int	wrapper: `shl`(x`gensym258: FrameType; y`gensym258: int): FrameType	
+`shl`	dav1d/wrapper.html#shl,int,FrameType	wrapper: `shl`(x`gensym258: int; y`gensym258: FrameType): FrameType	
+`shr`	dav1d/wrapper.html#shr,FrameType,cint	wrapper: `shr`(x`gensym259: FrameType; y`gensym259: cint): FrameType	
+`shr`	dav1d/wrapper.html#shr,cint,FrameType	wrapper: `shr`(x`gensym259: cint; y`gensym259: FrameType): FrameType	
+`shr`	dav1d/wrapper.html#shr,FrameType,FrameType	wrapper: `shr`(x`gensym259, y`gensym259: FrameType): FrameType	
+`shr`	dav1d/wrapper.html#shr,FrameType,int	wrapper: `shr`(x`gensym260: FrameType; y`gensym260: int): FrameType	
+`shr`	dav1d/wrapper.html#shr,int,FrameType	wrapper: `shr`(x`gensym260: int; y`gensym260: FrameType): FrameType	
+`or`	dav1d/wrapper.html#or,FrameType,cint	wrapper: `or`(x`gensym261: FrameType; y`gensym261: cint): FrameType	
+`or`	dav1d/wrapper.html#or,cint,FrameType	wrapper: `or`(x`gensym261: cint; y`gensym261: FrameType): FrameType	
+`or`	dav1d/wrapper.html#or,FrameType,FrameType	wrapper: `or`(x`gensym261, y`gensym261: FrameType): FrameType	
+`or`	dav1d/wrapper.html#or,FrameType,int	wrapper: `or`(x`gensym262: FrameType; y`gensym262: int): FrameType	
+`or`	dav1d/wrapper.html#or,int,FrameType	wrapper: `or`(x`gensym262: int; y`gensym262: FrameType): FrameType	
+`and`	dav1d/wrapper.html#and,FrameType,cint	wrapper: `and`(x`gensym263: FrameType; y`gensym263: cint): FrameType	
+`and`	dav1d/wrapper.html#and,cint,FrameType	wrapper: `and`(x`gensym263: cint; y`gensym263: FrameType): FrameType	
+`and`	dav1d/wrapper.html#and,FrameType,FrameType	wrapper: `and`(x`gensym263, y`gensym263: FrameType): FrameType	
+`and`	dav1d/wrapper.html#and,FrameType,int	wrapper: `and`(x`gensym264: FrameType; y`gensym264: int): FrameType	
+`and`	dav1d/wrapper.html#and,int,FrameType	wrapper: `and`(x`gensym264: int; y`gensym264: FrameType): FrameType	
+`xor`	dav1d/wrapper.html#xor,FrameType,cint	wrapper: `xor`(x`gensym265: FrameType; y`gensym265: cint): FrameType	
+`xor`	dav1d/wrapper.html#xor,cint,FrameType	wrapper: `xor`(x`gensym265: cint; y`gensym265: FrameType): FrameType	
+`xor`	dav1d/wrapper.html#xor,FrameType,FrameType	wrapper: `xor`(x`gensym265, y`gensym265: FrameType): FrameType	
+`xor`	dav1d/wrapper.html#xor,FrameType,int	wrapper: `xor`(x`gensym266: FrameType; y`gensym266: int): FrameType	
+`xor`	dav1d/wrapper.html#xor,int,FrameType	wrapper: `xor`(x`gensym266: int; y`gensym266: FrameType): FrameType	
+`&lt;`	dav1d/wrapper.html#<,FrameType,cint	wrapper: `&lt;`(x`gensym267: FrameType; y`gensym267: cint): bool	
+`&lt;`	dav1d/wrapper.html#<,cint,FrameType	wrapper: `&lt;`(x`gensym267: cint; y`gensym267: FrameType): bool	
+`&lt;`	dav1d/wrapper.html#<,FrameType,FrameType	wrapper: `&lt;`(x`gensym267, y`gensym267: FrameType): bool	
+`&lt;`	dav1d/wrapper.html#<,FrameType,int	wrapper: `&lt;`(x`gensym268: FrameType; y`gensym268: int): bool	
+`&lt;`	dav1d/wrapper.html#<,int,FrameType	wrapper: `&lt;`(x`gensym268: int; y`gensym268: FrameType): bool	
+`&lt;=`	dav1d/wrapper.html#<=,FrameType,cint	wrapper: `&lt;=`(x`gensym269: FrameType; y`gensym269: cint): bool	
+`&lt;=`	dav1d/wrapper.html#<=,cint,FrameType	wrapper: `&lt;=`(x`gensym269: cint; y`gensym269: FrameType): bool	
+`&lt;=`	dav1d/wrapper.html#<=,FrameType,FrameType	wrapper: `&lt;=`(x`gensym269, y`gensym269: FrameType): bool	
+`&lt;=`	dav1d/wrapper.html#<=,FrameType,int	wrapper: `&lt;=`(x`gensym270: FrameType; y`gensym270: int): bool	
+`&lt;=`	dav1d/wrapper.html#<=,int,FrameType	wrapper: `&lt;=`(x`gensym270: int; y`gensym270: FrameType): bool	
+`==`	dav1d/wrapper.html#==,FrameType,cint	wrapper: `==`(x`gensym271: FrameType; y`gensym271: cint): bool	
+`==`	dav1d/wrapper.html#==,cint,FrameType	wrapper: `==`(x`gensym271: cint; y`gensym271: FrameType): bool	
+`==`	dav1d/wrapper.html#==,FrameType,FrameType	wrapper: `==`(x`gensym271, y`gensym271: FrameType): bool	
+`==`	dav1d/wrapper.html#==,FrameType,int	wrapper: `==`(x`gensym272: FrameType; y`gensym272: int): bool	
+`==`	dav1d/wrapper.html#==,int,FrameType	wrapper: `==`(x`gensym272: int; y`gensym272: FrameType): bool	
+`&gt;`	dav1d/wrapper.html#>,FrameType,cint	wrapper: `&gt;`(x`gensym273: FrameType; y`gensym273: cint): bool	
+`&gt;`	dav1d/wrapper.html#>,cint,FrameType	wrapper: `&gt;`(x`gensym273: cint; y`gensym273: FrameType): bool	
+`&gt;`	dav1d/wrapper.html#>,FrameType,FrameType	wrapper: `&gt;`(x`gensym273, y`gensym273: FrameType): bool	
+`&gt;`	dav1d/wrapper.html#>,FrameType,int	wrapper: `&gt;`(x`gensym274: FrameType; y`gensym274: int): bool	
+`&gt;`	dav1d/wrapper.html#>,int,FrameType	wrapper: `&gt;`(x`gensym274: int; y`gensym274: FrameType): bool	
+`&gt;=`	dav1d/wrapper.html#>=,FrameType,cint	wrapper: `&gt;=`(x`gensym275: FrameType; y`gensym275: cint): bool	
+`&gt;=`	dav1d/wrapper.html#>=,cint,FrameType	wrapper: `&gt;=`(x`gensym275: cint; y`gensym275: FrameType): bool	
+`&gt;=`	dav1d/wrapper.html#>=,FrameType,FrameType	wrapper: `&gt;=`(x`gensym275, y`gensym275: FrameType): bool	
+`&gt;=`	dav1d/wrapper.html#>=,FrameType,int	wrapper: `&gt;=`(x`gensym276: FrameType; y`gensym276: int): bool	
+`&gt;=`	dav1d/wrapper.html#>=,int,FrameType	wrapper: `&gt;=`(x`gensym276: int; y`gensym276: FrameType): bool	
+`/`	dav1d/wrapper.html#/,FrameType,FrameType	wrapper: `/`(x`gensym277, y`gensym277: FrameType): FrameType	
+`/`	dav1d/wrapper.html#/,FrameType,cint	wrapper: `/`(x`gensym277: FrameType; y`gensym277: cint): FrameType	
+`/`	dav1d/wrapper.html#/,cint,FrameType	wrapper: `/`(x`gensym277: cint; y`gensym277: FrameType): FrameType	
+`/`	dav1d/wrapper.html#/,FrameType,int	wrapper: `/`(x`gensym277: FrameType; y`gensym277: int): FrameType	
+`/`	dav1d/wrapper.html#/,int,FrameType	wrapper: `/`(x`gensym277: int; y`gensym277: FrameType): FrameType	
+`$`	dav1d/wrapper.html#$,FrameType	wrapper: `$`(x`gensym277: FrameType): string	
+`not`	dav1d/wrapper.html#not,FrameType	wrapper: `not`(x`gensym277: FrameType): FrameType	
+ColorPrimaries	dav1d/wrapper.html#ColorPrimaries	wrapper: ColorPrimaries	
+`+`	dav1d/wrapper.html#+,ColorPrimaries,cint	wrapper: `+`(x`gensym279: ColorPrimaries; y`gensym279: cint): ColorPrimaries	
+`+`	dav1d/wrapper.html#+,cint,ColorPrimaries	wrapper: `+`(x`gensym279: cint; y`gensym279: ColorPrimaries): ColorPrimaries	
+`+`	dav1d/wrapper.html#+,ColorPrimaries,ColorPrimaries	wrapper: `+`(x`gensym279, y`gensym279: ColorPrimaries): ColorPrimaries	
+`+`	dav1d/wrapper.html#+,ColorPrimaries,int	wrapper: `+`(x`gensym280: ColorPrimaries; y`gensym280: int): ColorPrimaries	
+`+`	dav1d/wrapper.html#+,int,ColorPrimaries	wrapper: `+`(x`gensym280: int; y`gensym280: ColorPrimaries): ColorPrimaries	
+`-`	dav1d/wrapper.html#-,ColorPrimaries,cint	wrapper: `-`(x`gensym281: ColorPrimaries; y`gensym281: cint): ColorPrimaries	
+`-`	dav1d/wrapper.html#-,cint,ColorPrimaries	wrapper: `-`(x`gensym281: cint; y`gensym281: ColorPrimaries): ColorPrimaries	
+`-`	dav1d/wrapper.html#-,ColorPrimaries,ColorPrimaries	wrapper: `-`(x`gensym281, y`gensym281: ColorPrimaries): ColorPrimaries	
+`-`	dav1d/wrapper.html#-,ColorPrimaries,int	wrapper: `-`(x`gensym282: ColorPrimaries; y`gensym282: int): ColorPrimaries	
+`-`	dav1d/wrapper.html#-,int,ColorPrimaries	wrapper: `-`(x`gensym282: int; y`gensym282: ColorPrimaries): ColorPrimaries	
+`*`	dav1d/wrapper.html#*,ColorPrimaries,cint	wrapper: `*`(x`gensym283: ColorPrimaries; y`gensym283: cint): ColorPrimaries	
+`*`	dav1d/wrapper.html#*,cint,ColorPrimaries	wrapper: `*`(x`gensym283: cint; y`gensym283: ColorPrimaries): ColorPrimaries	
+`*`	dav1d/wrapper.html#*,ColorPrimaries,ColorPrimaries	wrapper: `*`(x`gensym283, y`gensym283: ColorPrimaries): ColorPrimaries	
+`*`	dav1d/wrapper.html#*,ColorPrimaries,int	wrapper: `*`(x`gensym284: ColorPrimaries; y`gensym284: int): ColorPrimaries	
+`*`	dav1d/wrapper.html#*,int,ColorPrimaries	wrapper: `*`(x`gensym284: int; y`gensym284: ColorPrimaries): ColorPrimaries	
+`div`	dav1d/wrapper.html#div,ColorPrimaries,cint	wrapper: `div`(x`gensym285: ColorPrimaries; y`gensym285: cint): ColorPrimaries	
+`div`	dav1d/wrapper.html#div,cint,ColorPrimaries	wrapper: `div`(x`gensym285: cint; y`gensym285: ColorPrimaries): ColorPrimaries	
+`div`	dav1d/wrapper.html#div,ColorPrimaries,ColorPrimaries	wrapper: `div`(x`gensym285, y`gensym285: ColorPrimaries): ColorPrimaries	
+`div`	dav1d/wrapper.html#div,ColorPrimaries,int	wrapper: `div`(x`gensym286: ColorPrimaries; y`gensym286: int): ColorPrimaries	
+`div`	dav1d/wrapper.html#div,int,ColorPrimaries	wrapper: `div`(x`gensym286: int; y`gensym286: ColorPrimaries): ColorPrimaries	
+`mod`	dav1d/wrapper.html#mod,ColorPrimaries,cint	wrapper: `mod`(x`gensym287: ColorPrimaries; y`gensym287: cint): ColorPrimaries	
+`mod`	dav1d/wrapper.html#mod,cint,ColorPrimaries	wrapper: `mod`(x`gensym287: cint; y`gensym287: ColorPrimaries): ColorPrimaries	
+`mod`	dav1d/wrapper.html#mod,ColorPrimaries,ColorPrimaries	wrapper: `mod`(x`gensym287, y`gensym287: ColorPrimaries): ColorPrimaries	
+`mod`	dav1d/wrapper.html#mod,ColorPrimaries,int	wrapper: `mod`(x`gensym288: ColorPrimaries; y`gensym288: int): ColorPrimaries	
+`mod`	dav1d/wrapper.html#mod,int,ColorPrimaries	wrapper: `mod`(x`gensym288: int; y`gensym288: ColorPrimaries): ColorPrimaries	
+`shl`	dav1d/wrapper.html#shl,ColorPrimaries,cint	wrapper: `shl`(x`gensym289: ColorPrimaries; y`gensym289: cint): ColorPrimaries	
+`shl`	dav1d/wrapper.html#shl,cint,ColorPrimaries	wrapper: `shl`(x`gensym289: cint; y`gensym289: ColorPrimaries): ColorPrimaries	
+`shl`	dav1d/wrapper.html#shl,ColorPrimaries,ColorPrimaries	wrapper: `shl`(x`gensym289, y`gensym289: ColorPrimaries): ColorPrimaries	
+`shl`	dav1d/wrapper.html#shl,ColorPrimaries,int	wrapper: `shl`(x`gensym290: ColorPrimaries; y`gensym290: int): ColorPrimaries	
+`shl`	dav1d/wrapper.html#shl,int,ColorPrimaries	wrapper: `shl`(x`gensym290: int; y`gensym290: ColorPrimaries): ColorPrimaries	
+`shr`	dav1d/wrapper.html#shr,ColorPrimaries,cint	wrapper: `shr`(x`gensym291: ColorPrimaries; y`gensym291: cint): ColorPrimaries	
+`shr`	dav1d/wrapper.html#shr,cint,ColorPrimaries	wrapper: `shr`(x`gensym291: cint; y`gensym291: ColorPrimaries): ColorPrimaries	
+`shr`	dav1d/wrapper.html#shr,ColorPrimaries,ColorPrimaries	wrapper: `shr`(x`gensym291, y`gensym291: ColorPrimaries): ColorPrimaries	
+`shr`	dav1d/wrapper.html#shr,ColorPrimaries,int	wrapper: `shr`(x`gensym292: ColorPrimaries; y`gensym292: int): ColorPrimaries	
+`shr`	dav1d/wrapper.html#shr,int,ColorPrimaries	wrapper: `shr`(x`gensym292: int; y`gensym292: ColorPrimaries): ColorPrimaries	
+`or`	dav1d/wrapper.html#or,ColorPrimaries,cint	wrapper: `or`(x`gensym293: ColorPrimaries; y`gensym293: cint): ColorPrimaries	
+`or`	dav1d/wrapper.html#or,cint,ColorPrimaries	wrapper: `or`(x`gensym293: cint; y`gensym293: ColorPrimaries): ColorPrimaries	
+`or`	dav1d/wrapper.html#or,ColorPrimaries,ColorPrimaries	wrapper: `or`(x`gensym293, y`gensym293: ColorPrimaries): ColorPrimaries	
+`or`	dav1d/wrapper.html#or,ColorPrimaries,int	wrapper: `or`(x`gensym294: ColorPrimaries; y`gensym294: int): ColorPrimaries	
+`or`	dav1d/wrapper.html#or,int,ColorPrimaries	wrapper: `or`(x`gensym294: int; y`gensym294: ColorPrimaries): ColorPrimaries	
+`and`	dav1d/wrapper.html#and,ColorPrimaries,cint	wrapper: `and`(x`gensym295: ColorPrimaries; y`gensym295: cint): ColorPrimaries	
+`and`	dav1d/wrapper.html#and,cint,ColorPrimaries	wrapper: `and`(x`gensym295: cint; y`gensym295: ColorPrimaries): ColorPrimaries	
+`and`	dav1d/wrapper.html#and,ColorPrimaries,ColorPrimaries	wrapper: `and`(x`gensym295, y`gensym295: ColorPrimaries): ColorPrimaries	
+`and`	dav1d/wrapper.html#and,ColorPrimaries,int	wrapper: `and`(x`gensym296: ColorPrimaries; y`gensym296: int): ColorPrimaries	
+`and`	dav1d/wrapper.html#and,int,ColorPrimaries	wrapper: `and`(x`gensym296: int; y`gensym296: ColorPrimaries): ColorPrimaries	
+`xor`	dav1d/wrapper.html#xor,ColorPrimaries,cint	wrapper: `xor`(x`gensym297: ColorPrimaries; y`gensym297: cint): ColorPrimaries	
+`xor`	dav1d/wrapper.html#xor,cint,ColorPrimaries	wrapper: `xor`(x`gensym297: cint; y`gensym297: ColorPrimaries): ColorPrimaries	
+`xor`	dav1d/wrapper.html#xor,ColorPrimaries,ColorPrimaries	wrapper: `xor`(x`gensym297, y`gensym297: ColorPrimaries): ColorPrimaries	
+`xor`	dav1d/wrapper.html#xor,ColorPrimaries,int	wrapper: `xor`(x`gensym298: ColorPrimaries; y`gensym298: int): ColorPrimaries	
+`xor`	dav1d/wrapper.html#xor,int,ColorPrimaries	wrapper: `xor`(x`gensym298: int; y`gensym298: ColorPrimaries): ColorPrimaries	
+`&lt;`	dav1d/wrapper.html#<,ColorPrimaries,cint	wrapper: `&lt;`(x`gensym299: ColorPrimaries; y`gensym299: cint): bool	
+`&lt;`	dav1d/wrapper.html#<,cint,ColorPrimaries	wrapper: `&lt;`(x`gensym299: cint; y`gensym299: ColorPrimaries): bool	
+`&lt;`	dav1d/wrapper.html#<,ColorPrimaries,ColorPrimaries	wrapper: `&lt;`(x`gensym299, y`gensym299: ColorPrimaries): bool	
+`&lt;`	dav1d/wrapper.html#<,ColorPrimaries,int	wrapper: `&lt;`(x`gensym300: ColorPrimaries; y`gensym300: int): bool	
+`&lt;`	dav1d/wrapper.html#<,int,ColorPrimaries	wrapper: `&lt;`(x`gensym300: int; y`gensym300: ColorPrimaries): bool	
+`&lt;=`	dav1d/wrapper.html#<=,ColorPrimaries,cint	wrapper: `&lt;=`(x`gensym301: ColorPrimaries; y`gensym301: cint): bool	
+`&lt;=`	dav1d/wrapper.html#<=,cint,ColorPrimaries	wrapper: `&lt;=`(x`gensym301: cint; y`gensym301: ColorPrimaries): bool	
+`&lt;=`	dav1d/wrapper.html#<=,ColorPrimaries,ColorPrimaries	wrapper: `&lt;=`(x`gensym301, y`gensym301: ColorPrimaries): bool	
+`&lt;=`	dav1d/wrapper.html#<=,ColorPrimaries,int	wrapper: `&lt;=`(x`gensym302: ColorPrimaries; y`gensym302: int): bool	
+`&lt;=`	dav1d/wrapper.html#<=,int,ColorPrimaries	wrapper: `&lt;=`(x`gensym302: int; y`gensym302: ColorPrimaries): bool	
+`==`	dav1d/wrapper.html#==,ColorPrimaries,cint	wrapper: `==`(x`gensym303: ColorPrimaries; y`gensym303: cint): bool	
+`==`	dav1d/wrapper.html#==,cint,ColorPrimaries	wrapper: `==`(x`gensym303: cint; y`gensym303: ColorPrimaries): bool	
+`==`	dav1d/wrapper.html#==,ColorPrimaries,ColorPrimaries	wrapper: `==`(x`gensym303, y`gensym303: ColorPrimaries): bool	
+`==`	dav1d/wrapper.html#==,ColorPrimaries,int	wrapper: `==`(x`gensym304: ColorPrimaries; y`gensym304: int): bool	
+`==`	dav1d/wrapper.html#==,int,ColorPrimaries	wrapper: `==`(x`gensym304: int; y`gensym304: ColorPrimaries): bool	
+`&gt;`	dav1d/wrapper.html#>,ColorPrimaries,cint	wrapper: `&gt;`(x`gensym305: ColorPrimaries; y`gensym305: cint): bool	
+`&gt;`	dav1d/wrapper.html#>,cint,ColorPrimaries	wrapper: `&gt;`(x`gensym305: cint; y`gensym305: ColorPrimaries): bool	
+`&gt;`	dav1d/wrapper.html#>,ColorPrimaries,ColorPrimaries	wrapper: `&gt;`(x`gensym305, y`gensym305: ColorPrimaries): bool	
+`&gt;`	dav1d/wrapper.html#>,ColorPrimaries,int	wrapper: `&gt;`(x`gensym306: ColorPrimaries; y`gensym306: int): bool	
+`&gt;`	dav1d/wrapper.html#>,int,ColorPrimaries	wrapper: `&gt;`(x`gensym306: int; y`gensym306: ColorPrimaries): bool	
+`&gt;=`	dav1d/wrapper.html#>=,ColorPrimaries,cint	wrapper: `&gt;=`(x`gensym307: ColorPrimaries; y`gensym307: cint): bool	
+`&gt;=`	dav1d/wrapper.html#>=,cint,ColorPrimaries	wrapper: `&gt;=`(x`gensym307: cint; y`gensym307: ColorPrimaries): bool	
+`&gt;=`	dav1d/wrapper.html#>=,ColorPrimaries,ColorPrimaries	wrapper: `&gt;=`(x`gensym307, y`gensym307: ColorPrimaries): bool	
+`&gt;=`	dav1d/wrapper.html#>=,ColorPrimaries,int	wrapper: `&gt;=`(x`gensym308: ColorPrimaries; y`gensym308: int): bool	
+`&gt;=`	dav1d/wrapper.html#>=,int,ColorPrimaries	wrapper: `&gt;=`(x`gensym308: int; y`gensym308: ColorPrimaries): bool	
+`/`	dav1d/wrapper.html#/,ColorPrimaries,ColorPrimaries	wrapper: `/`(x`gensym309, y`gensym309: ColorPrimaries): ColorPrimaries	
+`/`	dav1d/wrapper.html#/,ColorPrimaries,cint	wrapper: `/`(x`gensym309: ColorPrimaries; y`gensym309: cint): ColorPrimaries	
+`/`	dav1d/wrapper.html#/,cint,ColorPrimaries	wrapper: `/`(x`gensym309: cint; y`gensym309: ColorPrimaries): ColorPrimaries	
+`/`	dav1d/wrapper.html#/,ColorPrimaries,int	wrapper: `/`(x`gensym309: ColorPrimaries; y`gensym309: int): ColorPrimaries	
+`/`	dav1d/wrapper.html#/,int,ColorPrimaries	wrapper: `/`(x`gensym309: int; y`gensym309: ColorPrimaries): ColorPrimaries	
+`$`	dav1d/wrapper.html#$,ColorPrimaries	wrapper: `$`(x`gensym309: ColorPrimaries): string	
+`not`	dav1d/wrapper.html#not,ColorPrimaries	wrapper: `not`(x`gensym309: ColorPrimaries): ColorPrimaries	
+TransferCharacteristics	dav1d/wrapper.html#TransferCharacteristics	wrapper: TransferCharacteristics	
+`+`	dav1d/wrapper.html#+,TransferCharacteristics,cint	wrapper: `+`(x`gensym311: TransferCharacteristics; y`gensym311: cint): TransferCharacteristics	
+`+`	dav1d/wrapper.html#+,cint,TransferCharacteristics	wrapper: `+`(x`gensym311: cint; y`gensym311: TransferCharacteristics): TransferCharacteristics	
+`+`	dav1d/wrapper.html#+,TransferCharacteristics,TransferCharacteristics	wrapper: `+`(x`gensym311, y`gensym311: TransferCharacteristics): TransferCharacteristics	
+`+`	dav1d/wrapper.html#+,TransferCharacteristics,int	wrapper: `+`(x`gensym312: TransferCharacteristics; y`gensym312: int): TransferCharacteristics	
+`+`	dav1d/wrapper.html#+,int,TransferCharacteristics	wrapper: `+`(x`gensym312: int; y`gensym312: TransferCharacteristics): TransferCharacteristics	
+`-`	dav1d/wrapper.html#-,TransferCharacteristics,cint	wrapper: `-`(x`gensym313: TransferCharacteristics; y`gensym313: cint): TransferCharacteristics	
+`-`	dav1d/wrapper.html#-,cint,TransferCharacteristics	wrapper: `-`(x`gensym313: cint; y`gensym313: TransferCharacteristics): TransferCharacteristics	
+`-`	dav1d/wrapper.html#-,TransferCharacteristics,TransferCharacteristics	wrapper: `-`(x`gensym313, y`gensym313: TransferCharacteristics): TransferCharacteristics	
+`-`	dav1d/wrapper.html#-,TransferCharacteristics,int	wrapper: `-`(x`gensym314: TransferCharacteristics; y`gensym314: int): TransferCharacteristics	
+`-`	dav1d/wrapper.html#-,int,TransferCharacteristics	wrapper: `-`(x`gensym314: int; y`gensym314: TransferCharacteristics): TransferCharacteristics	
+`*`	dav1d/wrapper.html#*,TransferCharacteristics,cint	wrapper: `*`(x`gensym315: TransferCharacteristics; y`gensym315: cint): TransferCharacteristics	
+`*`	dav1d/wrapper.html#*,cint,TransferCharacteristics	wrapper: `*`(x`gensym315: cint; y`gensym315: TransferCharacteristics): TransferCharacteristics	
+`*`	dav1d/wrapper.html#*,TransferCharacteristics,TransferCharacteristics	wrapper: `*`(x`gensym315, y`gensym315: TransferCharacteristics): TransferCharacteristics	
+`*`	dav1d/wrapper.html#*,TransferCharacteristics,int	wrapper: `*`(x`gensym316: TransferCharacteristics; y`gensym316: int): TransferCharacteristics	
+`*`	dav1d/wrapper.html#*,int,TransferCharacteristics	wrapper: `*`(x`gensym316: int; y`gensym316: TransferCharacteristics): TransferCharacteristics	
+`div`	dav1d/wrapper.html#div,TransferCharacteristics,cint	wrapper: `div`(x`gensym317: TransferCharacteristics; y`gensym317: cint): TransferCharacteristics	
+`div`	dav1d/wrapper.html#div,cint,TransferCharacteristics	wrapper: `div`(x`gensym317: cint; y`gensym317: TransferCharacteristics): TransferCharacteristics	
+`div`	dav1d/wrapper.html#div,TransferCharacteristics,TransferCharacteristics	wrapper: `div`(x`gensym317, y`gensym317: TransferCharacteristics): TransferCharacteristics	
+`div`	dav1d/wrapper.html#div,TransferCharacteristics,int	wrapper: `div`(x`gensym318: TransferCharacteristics; y`gensym318: int): TransferCharacteristics	
+`div`	dav1d/wrapper.html#div,int,TransferCharacteristics	wrapper: `div`(x`gensym318: int; y`gensym318: TransferCharacteristics): TransferCharacteristics	
+`mod`	dav1d/wrapper.html#mod,TransferCharacteristics,cint	wrapper: `mod`(x`gensym319: TransferCharacteristics; y`gensym319: cint): TransferCharacteristics	
+`mod`	dav1d/wrapper.html#mod,cint,TransferCharacteristics	wrapper: `mod`(x`gensym319: cint; y`gensym319: TransferCharacteristics): TransferCharacteristics	
+`mod`	dav1d/wrapper.html#mod,TransferCharacteristics,TransferCharacteristics	wrapper: `mod`(x`gensym319, y`gensym319: TransferCharacteristics): TransferCharacteristics	
+`mod`	dav1d/wrapper.html#mod,TransferCharacteristics,int	wrapper: `mod`(x`gensym320: TransferCharacteristics; y`gensym320: int): TransferCharacteristics	
+`mod`	dav1d/wrapper.html#mod,int,TransferCharacteristics	wrapper: `mod`(x`gensym320: int; y`gensym320: TransferCharacteristics): TransferCharacteristics	
+`shl`	dav1d/wrapper.html#shl,TransferCharacteristics,cint	wrapper: `shl`(x`gensym321: TransferCharacteristics; y`gensym321: cint): TransferCharacteristics	
+`shl`	dav1d/wrapper.html#shl,cint,TransferCharacteristics	wrapper: `shl`(x`gensym321: cint; y`gensym321: TransferCharacteristics): TransferCharacteristics	
+`shl`	dav1d/wrapper.html#shl,TransferCharacteristics,TransferCharacteristics	wrapper: `shl`(x`gensym321, y`gensym321: TransferCharacteristics): TransferCharacteristics	
+`shl`	dav1d/wrapper.html#shl,TransferCharacteristics,int	wrapper: `shl`(x`gensym322: TransferCharacteristics; y`gensym322: int): TransferCharacteristics	
+`shl`	dav1d/wrapper.html#shl,int,TransferCharacteristics	wrapper: `shl`(x`gensym322: int; y`gensym322: TransferCharacteristics): TransferCharacteristics	
+`shr`	dav1d/wrapper.html#shr,TransferCharacteristics,cint	wrapper: `shr`(x`gensym323: TransferCharacteristics; y`gensym323: cint): TransferCharacteristics	
+`shr`	dav1d/wrapper.html#shr,cint,TransferCharacteristics	wrapper: `shr`(x`gensym323: cint; y`gensym323: TransferCharacteristics): TransferCharacteristics	
+`shr`	dav1d/wrapper.html#shr,TransferCharacteristics,TransferCharacteristics	wrapper: `shr`(x`gensym323, y`gensym323: TransferCharacteristics): TransferCharacteristics	
+`shr`	dav1d/wrapper.html#shr,TransferCharacteristics,int	wrapper: `shr`(x`gensym324: TransferCharacteristics; y`gensym324: int): TransferCharacteristics	
+`shr`	dav1d/wrapper.html#shr,int,TransferCharacteristics	wrapper: `shr`(x`gensym324: int; y`gensym324: TransferCharacteristics): TransferCharacteristics	
+`or`	dav1d/wrapper.html#or,TransferCharacteristics,cint	wrapper: `or`(x`gensym325: TransferCharacteristics; y`gensym325: cint): TransferCharacteristics	
+`or`	dav1d/wrapper.html#or,cint,TransferCharacteristics	wrapper: `or`(x`gensym325: cint; y`gensym325: TransferCharacteristics): TransferCharacteristics	
+`or`	dav1d/wrapper.html#or,TransferCharacteristics,TransferCharacteristics	wrapper: `or`(x`gensym325, y`gensym325: TransferCharacteristics): TransferCharacteristics	
+`or`	dav1d/wrapper.html#or,TransferCharacteristics,int	wrapper: `or`(x`gensym326: TransferCharacteristics; y`gensym326: int): TransferCharacteristics	
+`or`	dav1d/wrapper.html#or,int,TransferCharacteristics	wrapper: `or`(x`gensym326: int; y`gensym326: TransferCharacteristics): TransferCharacteristics	
+`and`	dav1d/wrapper.html#and,TransferCharacteristics,cint	wrapper: `and`(x`gensym327: TransferCharacteristics; y`gensym327: cint): TransferCharacteristics	
+`and`	dav1d/wrapper.html#and,cint,TransferCharacteristics	wrapper: `and`(x`gensym327: cint; y`gensym327: TransferCharacteristics): TransferCharacteristics	
+`and`	dav1d/wrapper.html#and,TransferCharacteristics,TransferCharacteristics	wrapper: `and`(x`gensym327, y`gensym327: TransferCharacteristics): TransferCharacteristics	
+`and`	dav1d/wrapper.html#and,TransferCharacteristics,int	wrapper: `and`(x`gensym328: TransferCharacteristics; y`gensym328: int): TransferCharacteristics	
+`and`	dav1d/wrapper.html#and,int,TransferCharacteristics	wrapper: `and`(x`gensym328: int; y`gensym328: TransferCharacteristics): TransferCharacteristics	
+`xor`	dav1d/wrapper.html#xor,TransferCharacteristics,cint	wrapper: `xor`(x`gensym329: TransferCharacteristics; y`gensym329: cint): TransferCharacteristics	
+`xor`	dav1d/wrapper.html#xor,cint,TransferCharacteristics	wrapper: `xor`(x`gensym329: cint; y`gensym329: TransferCharacteristics): TransferCharacteristics	
+`xor`	dav1d/wrapper.html#xor,TransferCharacteristics,TransferCharacteristics	wrapper: `xor`(x`gensym329, y`gensym329: TransferCharacteristics): TransferCharacteristics	
+`xor`	dav1d/wrapper.html#xor,TransferCharacteristics,int	wrapper: `xor`(x`gensym330: TransferCharacteristics; y`gensym330: int): TransferCharacteristics	
+`xor`	dav1d/wrapper.html#xor,int,TransferCharacteristics	wrapper: `xor`(x`gensym330: int; y`gensym330: TransferCharacteristics): TransferCharacteristics	
+`&lt;`	dav1d/wrapper.html#<,TransferCharacteristics,cint	wrapper: `&lt;`(x`gensym331: TransferCharacteristics; y`gensym331: cint): bool	
+`&lt;`	dav1d/wrapper.html#<,cint,TransferCharacteristics	wrapper: `&lt;`(x`gensym331: cint; y`gensym331: TransferCharacteristics): bool	
+`&lt;`	dav1d/wrapper.html#<,TransferCharacteristics,TransferCharacteristics	wrapper: `&lt;`(x`gensym331, y`gensym331: TransferCharacteristics): bool	
+`&lt;`	dav1d/wrapper.html#<,TransferCharacteristics,int	wrapper: `&lt;`(x`gensym332: TransferCharacteristics; y`gensym332: int): bool	
+`&lt;`	dav1d/wrapper.html#<,int,TransferCharacteristics	wrapper: `&lt;`(x`gensym332: int; y`gensym332: TransferCharacteristics): bool	
+`&lt;=`	dav1d/wrapper.html#<=,TransferCharacteristics,cint	wrapper: `&lt;=`(x`gensym333: TransferCharacteristics; y`gensym333: cint): bool	
+`&lt;=`	dav1d/wrapper.html#<=,cint,TransferCharacteristics	wrapper: `&lt;=`(x`gensym333: cint; y`gensym333: TransferCharacteristics): bool	
+`&lt;=`	dav1d/wrapper.html#<=,TransferCharacteristics,TransferCharacteristics	wrapper: `&lt;=`(x`gensym333, y`gensym333: TransferCharacteristics): bool	
+`&lt;=`	dav1d/wrapper.html#<=,TransferCharacteristics,int	wrapper: `&lt;=`(x`gensym334: TransferCharacteristics; y`gensym334: int): bool	
+`&lt;=`	dav1d/wrapper.html#<=,int,TransferCharacteristics	wrapper: `&lt;=`(x`gensym334: int; y`gensym334: TransferCharacteristics): bool	
+`==`	dav1d/wrapper.html#==,TransferCharacteristics,cint	wrapper: `==`(x`gensym335: TransferCharacteristics; y`gensym335: cint): bool	
+`==`	dav1d/wrapper.html#==,cint,TransferCharacteristics	wrapper: `==`(x`gensym335: cint; y`gensym335: TransferCharacteristics): bool	
+`==`	dav1d/wrapper.html#==,TransferCharacteristics,TransferCharacteristics	wrapper: `==`(x`gensym335, y`gensym335: TransferCharacteristics): bool	
+`==`	dav1d/wrapper.html#==,TransferCharacteristics,int	wrapper: `==`(x`gensym336: TransferCharacteristics; y`gensym336: int): bool	
+`==`	dav1d/wrapper.html#==,int,TransferCharacteristics	wrapper: `==`(x`gensym336: int; y`gensym336: TransferCharacteristics): bool	
+`&gt;`	dav1d/wrapper.html#>,TransferCharacteristics,cint	wrapper: `&gt;`(x`gensym337: TransferCharacteristics; y`gensym337: cint): bool	
+`&gt;`	dav1d/wrapper.html#>,cint,TransferCharacteristics	wrapper: `&gt;`(x`gensym337: cint; y`gensym337: TransferCharacteristics): bool	
+`&gt;`	dav1d/wrapper.html#>,TransferCharacteristics,TransferCharacteristics	wrapper: `&gt;`(x`gensym337, y`gensym337: TransferCharacteristics): bool	
+`&gt;`	dav1d/wrapper.html#>,TransferCharacteristics,int	wrapper: `&gt;`(x`gensym338: TransferCharacteristics; y`gensym338: int): bool	
+`&gt;`	dav1d/wrapper.html#>,int,TransferCharacteristics	wrapper: `&gt;`(x`gensym338: int; y`gensym338: TransferCharacteristics): bool	
+`&gt;=`	dav1d/wrapper.html#>=,TransferCharacteristics,cint	wrapper: `&gt;=`(x`gensym339: TransferCharacteristics; y`gensym339: cint): bool	
+`&gt;=`	dav1d/wrapper.html#>=,cint,TransferCharacteristics	wrapper: `&gt;=`(x`gensym339: cint; y`gensym339: TransferCharacteristics): bool	
+`&gt;=`	dav1d/wrapper.html#>=,TransferCharacteristics,TransferCharacteristics	wrapper: `&gt;=`(x`gensym339, y`gensym339: TransferCharacteristics): bool	
+`&gt;=`	dav1d/wrapper.html#>=,TransferCharacteristics,int	wrapper: `&gt;=`(x`gensym340: TransferCharacteristics; y`gensym340: int): bool	
+`&gt;=`	dav1d/wrapper.html#>=,int,TransferCharacteristics	wrapper: `&gt;=`(x`gensym340: int; y`gensym340: TransferCharacteristics): bool	
+`/`	dav1d/wrapper.html#/,TransferCharacteristics,TransferCharacteristics	wrapper: `/`(x`gensym341, y`gensym341: TransferCharacteristics): TransferCharacteristics	
+`/`	dav1d/wrapper.html#/,TransferCharacteristics,cint	wrapper: `/`(x`gensym341: TransferCharacteristics; y`gensym341: cint): TransferCharacteristics	
+`/`	dav1d/wrapper.html#/,cint,TransferCharacteristics	wrapper: `/`(x`gensym341: cint; y`gensym341: TransferCharacteristics): TransferCharacteristics	
+`/`	dav1d/wrapper.html#/,TransferCharacteristics,int	wrapper: `/`(x`gensym341: TransferCharacteristics; y`gensym341: int): TransferCharacteristics	
+`/`	dav1d/wrapper.html#/,int,TransferCharacteristics	wrapper: `/`(x`gensym341: int; y`gensym341: TransferCharacteristics): TransferCharacteristics	
+`$`	dav1d/wrapper.html#$,TransferCharacteristics	wrapper: `$`(x`gensym341: TransferCharacteristics): string	
+`not`	dav1d/wrapper.html#not,TransferCharacteristics	wrapper: `not`(x`gensym341: TransferCharacteristics): TransferCharacteristics	
+MatrixCoefficients	dav1d/wrapper.html#MatrixCoefficients	wrapper: MatrixCoefficients	
+`+`	dav1d/wrapper.html#+,MatrixCoefficients,cint	wrapper: `+`(x`gensym343: MatrixCoefficients; y`gensym343: cint): MatrixCoefficients	
+`+`	dav1d/wrapper.html#+,cint,MatrixCoefficients	wrapper: `+`(x`gensym343: cint; y`gensym343: MatrixCoefficients): MatrixCoefficients	
+`+`	dav1d/wrapper.html#+,MatrixCoefficients,MatrixCoefficients	wrapper: `+`(x`gensym343, y`gensym343: MatrixCoefficients): MatrixCoefficients	
+`+`	dav1d/wrapper.html#+,MatrixCoefficients,int	wrapper: `+`(x`gensym344: MatrixCoefficients; y`gensym344: int): MatrixCoefficients	
+`+`	dav1d/wrapper.html#+,int,MatrixCoefficients	wrapper: `+`(x`gensym344: int; y`gensym344: MatrixCoefficients): MatrixCoefficients	
+`-`	dav1d/wrapper.html#-,MatrixCoefficients,cint	wrapper: `-`(x`gensym345: MatrixCoefficients; y`gensym345: cint): MatrixCoefficients	
+`-`	dav1d/wrapper.html#-,cint,MatrixCoefficients	wrapper: `-`(x`gensym345: cint; y`gensym345: MatrixCoefficients): MatrixCoefficients	
+`-`	dav1d/wrapper.html#-,MatrixCoefficients,MatrixCoefficients	wrapper: `-`(x`gensym345, y`gensym345: MatrixCoefficients): MatrixCoefficients	
+`-`	dav1d/wrapper.html#-,MatrixCoefficients,int	wrapper: `-`(x`gensym346: MatrixCoefficients; y`gensym346: int): MatrixCoefficients	
+`-`	dav1d/wrapper.html#-,int,MatrixCoefficients	wrapper: `-`(x`gensym346: int; y`gensym346: MatrixCoefficients): MatrixCoefficients	
+`*`	dav1d/wrapper.html#*,MatrixCoefficients,cint	wrapper: `*`(x`gensym347: MatrixCoefficients; y`gensym347: cint): MatrixCoefficients	
+`*`	dav1d/wrapper.html#*,cint,MatrixCoefficients	wrapper: `*`(x`gensym347: cint; y`gensym347: MatrixCoefficients): MatrixCoefficients	
+`*`	dav1d/wrapper.html#*,MatrixCoefficients,MatrixCoefficients	wrapper: `*`(x`gensym347, y`gensym347: MatrixCoefficients): MatrixCoefficients	
+`*`	dav1d/wrapper.html#*,MatrixCoefficients,int	wrapper: `*`(x`gensym348: MatrixCoefficients; y`gensym348: int): MatrixCoefficients	
+`*`	dav1d/wrapper.html#*,int,MatrixCoefficients	wrapper: `*`(x`gensym348: int; y`gensym348: MatrixCoefficients): MatrixCoefficients	
+`div`	dav1d/wrapper.html#div,MatrixCoefficients,cint	wrapper: `div`(x`gensym349: MatrixCoefficients; y`gensym349: cint): MatrixCoefficients	
+`div`	dav1d/wrapper.html#div,cint,MatrixCoefficients	wrapper: `div`(x`gensym349: cint; y`gensym349: MatrixCoefficients): MatrixCoefficients	
+`div`	dav1d/wrapper.html#div,MatrixCoefficients,MatrixCoefficients	wrapper: `div`(x`gensym349, y`gensym349: MatrixCoefficients): MatrixCoefficients	
+`div`	dav1d/wrapper.html#div,MatrixCoefficients,int	wrapper: `div`(x`gensym350: MatrixCoefficients; y`gensym350: int): MatrixCoefficients	
+`div`	dav1d/wrapper.html#div,int,MatrixCoefficients	wrapper: `div`(x`gensym350: int; y`gensym350: MatrixCoefficients): MatrixCoefficients	
+`mod`	dav1d/wrapper.html#mod,MatrixCoefficients,cint	wrapper: `mod`(x`gensym351: MatrixCoefficients; y`gensym351: cint): MatrixCoefficients	
+`mod`	dav1d/wrapper.html#mod,cint,MatrixCoefficients	wrapper: `mod`(x`gensym351: cint; y`gensym351: MatrixCoefficients): MatrixCoefficients	
+`mod`	dav1d/wrapper.html#mod,MatrixCoefficients,MatrixCoefficients	wrapper: `mod`(x`gensym351, y`gensym351: MatrixCoefficients): MatrixCoefficients	
+`mod`	dav1d/wrapper.html#mod,MatrixCoefficients,int	wrapper: `mod`(x`gensym352: MatrixCoefficients; y`gensym352: int): MatrixCoefficients	
+`mod`	dav1d/wrapper.html#mod,int,MatrixCoefficients	wrapper: `mod`(x`gensym352: int; y`gensym352: MatrixCoefficients): MatrixCoefficients	
+`shl`	dav1d/wrapper.html#shl,MatrixCoefficients,cint	wrapper: `shl`(x`gensym353: MatrixCoefficients; y`gensym353: cint): MatrixCoefficients	
+`shl`	dav1d/wrapper.html#shl,cint,MatrixCoefficients	wrapper: `shl`(x`gensym353: cint; y`gensym353: MatrixCoefficients): MatrixCoefficients	
+`shl`	dav1d/wrapper.html#shl,MatrixCoefficients,MatrixCoefficients	wrapper: `shl`(x`gensym353, y`gensym353: MatrixCoefficients): MatrixCoefficients	
+`shl`	dav1d/wrapper.html#shl,MatrixCoefficients,int	wrapper: `shl`(x`gensym354: MatrixCoefficients; y`gensym354: int): MatrixCoefficients	
+`shl`	dav1d/wrapper.html#shl,int,MatrixCoefficients	wrapper: `shl`(x`gensym354: int; y`gensym354: MatrixCoefficients): MatrixCoefficients	
+`shr`	dav1d/wrapper.html#shr,MatrixCoefficients,cint	wrapper: `shr`(x`gensym355: MatrixCoefficients; y`gensym355: cint): MatrixCoefficients	
+`shr`	dav1d/wrapper.html#shr,cint,MatrixCoefficients	wrapper: `shr`(x`gensym355: cint; y`gensym355: MatrixCoefficients): MatrixCoefficients	
+`shr`	dav1d/wrapper.html#shr,MatrixCoefficients,MatrixCoefficients	wrapper: `shr`(x`gensym355, y`gensym355: MatrixCoefficients): MatrixCoefficients	
+`shr`	dav1d/wrapper.html#shr,MatrixCoefficients,int	wrapper: `shr`(x`gensym356: MatrixCoefficients; y`gensym356: int): MatrixCoefficients	
+`shr`	dav1d/wrapper.html#shr,int,MatrixCoefficients	wrapper: `shr`(x`gensym356: int; y`gensym356: MatrixCoefficients): MatrixCoefficients	
+`or`	dav1d/wrapper.html#or,MatrixCoefficients,cint	wrapper: `or`(x`gensym357: MatrixCoefficients; y`gensym357: cint): MatrixCoefficients	
+`or`	dav1d/wrapper.html#or,cint,MatrixCoefficients	wrapper: `or`(x`gensym357: cint; y`gensym357: MatrixCoefficients): MatrixCoefficients	
+`or`	dav1d/wrapper.html#or,MatrixCoefficients,MatrixCoefficients	wrapper: `or`(x`gensym357, y`gensym357: MatrixCoefficients): MatrixCoefficients	
+`or`	dav1d/wrapper.html#or,MatrixCoefficients,int	wrapper: `or`(x`gensym358: MatrixCoefficients; y`gensym358: int): MatrixCoefficients	
+`or`	dav1d/wrapper.html#or,int,MatrixCoefficients	wrapper: `or`(x`gensym358: int; y`gensym358: MatrixCoefficients): MatrixCoefficients	
+`and`	dav1d/wrapper.html#and,MatrixCoefficients,cint	wrapper: `and`(x`gensym359: MatrixCoefficients; y`gensym359: cint): MatrixCoefficients	
+`and`	dav1d/wrapper.html#and,cint,MatrixCoefficients	wrapper: `and`(x`gensym359: cint; y`gensym359: MatrixCoefficients): MatrixCoefficients	
+`and`	dav1d/wrapper.html#and,MatrixCoefficients,MatrixCoefficients	wrapper: `and`(x`gensym359, y`gensym359: MatrixCoefficients): MatrixCoefficients	
+`and`	dav1d/wrapper.html#and,MatrixCoefficients,int	wrapper: `and`(x`gensym360: MatrixCoefficients; y`gensym360: int): MatrixCoefficients	
+`and`	dav1d/wrapper.html#and,int,MatrixCoefficients	wrapper: `and`(x`gensym360: int; y`gensym360: MatrixCoefficients): MatrixCoefficients	
+`xor`	dav1d/wrapper.html#xor,MatrixCoefficients,cint	wrapper: `xor`(x`gensym361: MatrixCoefficients; y`gensym361: cint): MatrixCoefficients	
+`xor`	dav1d/wrapper.html#xor,cint,MatrixCoefficients	wrapper: `xor`(x`gensym361: cint; y`gensym361: MatrixCoefficients): MatrixCoefficients	
+`xor`	dav1d/wrapper.html#xor,MatrixCoefficients,MatrixCoefficients	wrapper: `xor`(x`gensym361, y`gensym361: MatrixCoefficients): MatrixCoefficients	
+`xor`	dav1d/wrapper.html#xor,MatrixCoefficients,int	wrapper: `xor`(x`gensym362: MatrixCoefficients; y`gensym362: int): MatrixCoefficients	
+`xor`	dav1d/wrapper.html#xor,int,MatrixCoefficients	wrapper: `xor`(x`gensym362: int; y`gensym362: MatrixCoefficients): MatrixCoefficients	
+`&lt;`	dav1d/wrapper.html#<,MatrixCoefficients,cint	wrapper: `&lt;`(x`gensym363: MatrixCoefficients; y`gensym363: cint): bool	
+`&lt;`	dav1d/wrapper.html#<,cint,MatrixCoefficients	wrapper: `&lt;`(x`gensym363: cint; y`gensym363: MatrixCoefficients): bool	
+`&lt;`	dav1d/wrapper.html#<,MatrixCoefficients,MatrixCoefficients	wrapper: `&lt;`(x`gensym363, y`gensym363: MatrixCoefficients): bool	
+`&lt;`	dav1d/wrapper.html#<,MatrixCoefficients,int	wrapper: `&lt;`(x`gensym364: MatrixCoefficients; y`gensym364: int): bool	
+`&lt;`	dav1d/wrapper.html#<,int,MatrixCoefficients	wrapper: `&lt;`(x`gensym364: int; y`gensym364: MatrixCoefficients): bool	
+`&lt;=`	dav1d/wrapper.html#<=,MatrixCoefficients,cint	wrapper: `&lt;=`(x`gensym365: MatrixCoefficients; y`gensym365: cint): bool	
+`&lt;=`	dav1d/wrapper.html#<=,cint,MatrixCoefficients	wrapper: `&lt;=`(x`gensym365: cint; y`gensym365: MatrixCoefficients): bool	
+`&lt;=`	dav1d/wrapper.html#<=,MatrixCoefficients,MatrixCoefficients	wrapper: `&lt;=`(x`gensym365, y`gensym365: MatrixCoefficients): bool	
+`&lt;=`	dav1d/wrapper.html#<=,MatrixCoefficients,int	wrapper: `&lt;=`(x`gensym366: MatrixCoefficients; y`gensym366: int): bool	
+`&lt;=`	dav1d/wrapper.html#<=,int,MatrixCoefficients	wrapper: `&lt;=`(x`gensym366: int; y`gensym366: MatrixCoefficients): bool	
+`==`	dav1d/wrapper.html#==,MatrixCoefficients,cint	wrapper: `==`(x`gensym367: MatrixCoefficients; y`gensym367: cint): bool	
+`==`	dav1d/wrapper.html#==,cint,MatrixCoefficients	wrapper: `==`(x`gensym367: cint; y`gensym367: MatrixCoefficients): bool	
+`==`	dav1d/wrapper.html#==,MatrixCoefficients,MatrixCoefficients	wrapper: `==`(x`gensym367, y`gensym367: MatrixCoefficients): bool	
+`==`	dav1d/wrapper.html#==,MatrixCoefficients,int	wrapper: `==`(x`gensym368: MatrixCoefficients; y`gensym368: int): bool	
+`==`	dav1d/wrapper.html#==,int,MatrixCoefficients	wrapper: `==`(x`gensym368: int; y`gensym368: MatrixCoefficients): bool	
+`&gt;`	dav1d/wrapper.html#>,MatrixCoefficients,cint	wrapper: `&gt;`(x`gensym369: MatrixCoefficients; y`gensym369: cint): bool	
+`&gt;`	dav1d/wrapper.html#>,cint,MatrixCoefficients	wrapper: `&gt;`(x`gensym369: cint; y`gensym369: MatrixCoefficients): bool	
+`&gt;`	dav1d/wrapper.html#>,MatrixCoefficients,MatrixCoefficients	wrapper: `&gt;`(x`gensym369, y`gensym369: MatrixCoefficients): bool	
+`&gt;`	dav1d/wrapper.html#>,MatrixCoefficients,int	wrapper: `&gt;`(x`gensym370: MatrixCoefficients; y`gensym370: int): bool	
+`&gt;`	dav1d/wrapper.html#>,int,MatrixCoefficients	wrapper: `&gt;`(x`gensym370: int; y`gensym370: MatrixCoefficients): bool	
+`&gt;=`	dav1d/wrapper.html#>=,MatrixCoefficients,cint	wrapper: `&gt;=`(x`gensym371: MatrixCoefficients; y`gensym371: cint): bool	
+`&gt;=`	dav1d/wrapper.html#>=,cint,MatrixCoefficients	wrapper: `&gt;=`(x`gensym371: cint; y`gensym371: MatrixCoefficients): bool	
+`&gt;=`	dav1d/wrapper.html#>=,MatrixCoefficients,MatrixCoefficients	wrapper: `&gt;=`(x`gensym371, y`gensym371: MatrixCoefficients): bool	
+`&gt;=`	dav1d/wrapper.html#>=,MatrixCoefficients,int	wrapper: `&gt;=`(x`gensym372: MatrixCoefficients; y`gensym372: int): bool	
+`&gt;=`	dav1d/wrapper.html#>=,int,MatrixCoefficients	wrapper: `&gt;=`(x`gensym372: int; y`gensym372: MatrixCoefficients): bool	
+`/`	dav1d/wrapper.html#/,MatrixCoefficients,MatrixCoefficients	wrapper: `/`(x`gensym373, y`gensym373: MatrixCoefficients): MatrixCoefficients	
+`/`	dav1d/wrapper.html#/,MatrixCoefficients,cint	wrapper: `/`(x`gensym373: MatrixCoefficients; y`gensym373: cint): MatrixCoefficients	
+`/`	dav1d/wrapper.html#/,cint,MatrixCoefficients	wrapper: `/`(x`gensym373: cint; y`gensym373: MatrixCoefficients): MatrixCoefficients	
+`/`	dav1d/wrapper.html#/,MatrixCoefficients,int	wrapper: `/`(x`gensym373: MatrixCoefficients; y`gensym373: int): MatrixCoefficients	
+`/`	dav1d/wrapper.html#/,int,MatrixCoefficients	wrapper: `/`(x`gensym373: int; y`gensym373: MatrixCoefficients): MatrixCoefficients	
+`$`	dav1d/wrapper.html#$,MatrixCoefficients	wrapper: `$`(x`gensym373: MatrixCoefficients): string	
+`not`	dav1d/wrapper.html#not,MatrixCoefficients	wrapper: `not`(x`gensym373: MatrixCoefficients): MatrixCoefficients	
+ChromaSamplePosition	dav1d/wrapper.html#ChromaSamplePosition	wrapper: ChromaSamplePosition	
+`+`	dav1d/wrapper.html#+,ChromaSamplePosition,cint	wrapper: `+`(x`gensym375: ChromaSamplePosition; y`gensym375: cint): ChromaSamplePosition	
+`+`	dav1d/wrapper.html#+,cint,ChromaSamplePosition	wrapper: `+`(x`gensym375: cint; y`gensym375: ChromaSamplePosition): ChromaSamplePosition	
+`+`	dav1d/wrapper.html#+,ChromaSamplePosition,ChromaSamplePosition	wrapper: `+`(x`gensym375, y`gensym375: ChromaSamplePosition): ChromaSamplePosition	
+`+`	dav1d/wrapper.html#+,ChromaSamplePosition,int	wrapper: `+`(x`gensym376: ChromaSamplePosition; y`gensym376: int): ChromaSamplePosition	
+`+`	dav1d/wrapper.html#+,int,ChromaSamplePosition	wrapper: `+`(x`gensym376: int; y`gensym376: ChromaSamplePosition): ChromaSamplePosition	
+`-`	dav1d/wrapper.html#-,ChromaSamplePosition,cint	wrapper: `-`(x`gensym377: ChromaSamplePosition; y`gensym377: cint): ChromaSamplePosition	
+`-`	dav1d/wrapper.html#-,cint,ChromaSamplePosition	wrapper: `-`(x`gensym377: cint; y`gensym377: ChromaSamplePosition): ChromaSamplePosition	
+`-`	dav1d/wrapper.html#-,ChromaSamplePosition,ChromaSamplePosition	wrapper: `-`(x`gensym377, y`gensym377: ChromaSamplePosition): ChromaSamplePosition	
+`-`	dav1d/wrapper.html#-,ChromaSamplePosition,int	wrapper: `-`(x`gensym378: ChromaSamplePosition; y`gensym378: int): ChromaSamplePosition	
+`-`	dav1d/wrapper.html#-,int,ChromaSamplePosition	wrapper: `-`(x`gensym378: int; y`gensym378: ChromaSamplePosition): ChromaSamplePosition	
+`*`	dav1d/wrapper.html#*,ChromaSamplePosition,cint	wrapper: `*`(x`gensym379: ChromaSamplePosition; y`gensym379: cint): ChromaSamplePosition	
+`*`	dav1d/wrapper.html#*,cint,ChromaSamplePosition	wrapper: `*`(x`gensym379: cint; y`gensym379: ChromaSamplePosition): ChromaSamplePosition	
+`*`	dav1d/wrapper.html#*,ChromaSamplePosition,ChromaSamplePosition	wrapper: `*`(x`gensym379, y`gensym379: ChromaSamplePosition): ChromaSamplePosition	
+`*`	dav1d/wrapper.html#*,ChromaSamplePosition,int	wrapper: `*`(x`gensym380: ChromaSamplePosition; y`gensym380: int): ChromaSamplePosition	
+`*`	dav1d/wrapper.html#*,int,ChromaSamplePosition	wrapper: `*`(x`gensym380: int; y`gensym380: ChromaSamplePosition): ChromaSamplePosition	
+`div`	dav1d/wrapper.html#div,ChromaSamplePosition,cint	wrapper: `div`(x`gensym381: ChromaSamplePosition; y`gensym381: cint): ChromaSamplePosition	
+`div`	dav1d/wrapper.html#div,cint,ChromaSamplePosition	wrapper: `div`(x`gensym381: cint; y`gensym381: ChromaSamplePosition): ChromaSamplePosition	
+`div`	dav1d/wrapper.html#div,ChromaSamplePosition,ChromaSamplePosition	wrapper: `div`(x`gensym381, y`gensym381: ChromaSamplePosition): ChromaSamplePosition	
+`div`	dav1d/wrapper.html#div,ChromaSamplePosition,int	wrapper: `div`(x`gensym382: ChromaSamplePosition; y`gensym382: int): ChromaSamplePosition	
+`div`	dav1d/wrapper.html#div,int,ChromaSamplePosition	wrapper: `div`(x`gensym382: int; y`gensym382: ChromaSamplePosition): ChromaSamplePosition	
+`mod`	dav1d/wrapper.html#mod,ChromaSamplePosition,cint	wrapper: `mod`(x`gensym383: ChromaSamplePosition; y`gensym383: cint): ChromaSamplePosition	
+`mod`	dav1d/wrapper.html#mod,cint,ChromaSamplePosition	wrapper: `mod`(x`gensym383: cint; y`gensym383: ChromaSamplePosition): ChromaSamplePosition	
+`mod`	dav1d/wrapper.html#mod,ChromaSamplePosition,ChromaSamplePosition	wrapper: `mod`(x`gensym383, y`gensym383: ChromaSamplePosition): ChromaSamplePosition	
+`mod`	dav1d/wrapper.html#mod,ChromaSamplePosition,int	wrapper: `mod`(x`gensym384: ChromaSamplePosition; y`gensym384: int): ChromaSamplePosition	
+`mod`	dav1d/wrapper.html#mod,int,ChromaSamplePosition	wrapper: `mod`(x`gensym384: int; y`gensym384: ChromaSamplePosition): ChromaSamplePosition	
+`shl`	dav1d/wrapper.html#shl,ChromaSamplePosition,cint	wrapper: `shl`(x`gensym385: ChromaSamplePosition; y`gensym385: cint): ChromaSamplePosition	
+`shl`	dav1d/wrapper.html#shl,cint,ChromaSamplePosition	wrapper: `shl`(x`gensym385: cint; y`gensym385: ChromaSamplePosition): ChromaSamplePosition	
+`shl`	dav1d/wrapper.html#shl,ChromaSamplePosition,ChromaSamplePosition	wrapper: `shl`(x`gensym385, y`gensym385: ChromaSamplePosition): ChromaSamplePosition	
+`shl`	dav1d/wrapper.html#shl,ChromaSamplePosition,int	wrapper: `shl`(x`gensym386: ChromaSamplePosition; y`gensym386: int): ChromaSamplePosition	
+`shl`	dav1d/wrapper.html#shl,int,ChromaSamplePosition	wrapper: `shl`(x`gensym386: int; y`gensym386: ChromaSamplePosition): ChromaSamplePosition	
+`shr`	dav1d/wrapper.html#shr,ChromaSamplePosition,cint	wrapper: `shr`(x`gensym387: ChromaSamplePosition; y`gensym387: cint): ChromaSamplePosition	
+`shr`	dav1d/wrapper.html#shr,cint,ChromaSamplePosition	wrapper: `shr`(x`gensym387: cint; y`gensym387: ChromaSamplePosition): ChromaSamplePosition	
+`shr`	dav1d/wrapper.html#shr,ChromaSamplePosition,ChromaSamplePosition	wrapper: `shr`(x`gensym387, y`gensym387: ChromaSamplePosition): ChromaSamplePosition	
+`shr`	dav1d/wrapper.html#shr,ChromaSamplePosition,int	wrapper: `shr`(x`gensym388: ChromaSamplePosition; y`gensym388: int): ChromaSamplePosition	
+`shr`	dav1d/wrapper.html#shr,int,ChromaSamplePosition	wrapper: `shr`(x`gensym388: int; y`gensym388: ChromaSamplePosition): ChromaSamplePosition	
+`or`	dav1d/wrapper.html#or,ChromaSamplePosition,cint	wrapper: `or`(x`gensym389: ChromaSamplePosition; y`gensym389: cint): ChromaSamplePosition	
+`or`	dav1d/wrapper.html#or,cint,ChromaSamplePosition	wrapper: `or`(x`gensym389: cint; y`gensym389: ChromaSamplePosition): ChromaSamplePosition	
+`or`	dav1d/wrapper.html#or,ChromaSamplePosition,ChromaSamplePosition	wrapper: `or`(x`gensym389, y`gensym389: ChromaSamplePosition): ChromaSamplePosition	
+`or`	dav1d/wrapper.html#or,ChromaSamplePosition,int	wrapper: `or`(x`gensym390: ChromaSamplePosition; y`gensym390: int): ChromaSamplePosition	
+`or`	dav1d/wrapper.html#or,int,ChromaSamplePosition	wrapper: `or`(x`gensym390: int; y`gensym390: ChromaSamplePosition): ChromaSamplePosition	
+`and`	dav1d/wrapper.html#and,ChromaSamplePosition,cint	wrapper: `and`(x`gensym391: ChromaSamplePosition; y`gensym391: cint): ChromaSamplePosition	
+`and`	dav1d/wrapper.html#and,cint,ChromaSamplePosition	wrapper: `and`(x`gensym391: cint; y`gensym391: ChromaSamplePosition): ChromaSamplePosition	
+`and`	dav1d/wrapper.html#and,ChromaSamplePosition,ChromaSamplePosition	wrapper: `and`(x`gensym391, y`gensym391: ChromaSamplePosition): ChromaSamplePosition	
+`and`	dav1d/wrapper.html#and,ChromaSamplePosition,int	wrapper: `and`(x`gensym392: ChromaSamplePosition; y`gensym392: int): ChromaSamplePosition	
+`and`	dav1d/wrapper.html#and,int,ChromaSamplePosition	wrapper: `and`(x`gensym392: int; y`gensym392: ChromaSamplePosition): ChromaSamplePosition	
+`xor`	dav1d/wrapper.html#xor,ChromaSamplePosition,cint	wrapper: `xor`(x`gensym393: ChromaSamplePosition; y`gensym393: cint): ChromaSamplePosition	
+`xor`	dav1d/wrapper.html#xor,cint,ChromaSamplePosition	wrapper: `xor`(x`gensym393: cint; y`gensym393: ChromaSamplePosition): ChromaSamplePosition	
+`xor`	dav1d/wrapper.html#xor,ChromaSamplePosition,ChromaSamplePosition	wrapper: `xor`(x`gensym393, y`gensym393: ChromaSamplePosition): ChromaSamplePosition	
+`xor`	dav1d/wrapper.html#xor,ChromaSamplePosition,int	wrapper: `xor`(x`gensym394: ChromaSamplePosition; y`gensym394: int): ChromaSamplePosition	
+`xor`	dav1d/wrapper.html#xor,int,ChromaSamplePosition	wrapper: `xor`(x`gensym394: int; y`gensym394: ChromaSamplePosition): ChromaSamplePosition	
+`&lt;`	dav1d/wrapper.html#<,ChromaSamplePosition,cint	wrapper: `&lt;`(x`gensym395: ChromaSamplePosition; y`gensym395: cint): bool	
+`&lt;`	dav1d/wrapper.html#<,cint,ChromaSamplePosition	wrapper: `&lt;`(x`gensym395: cint; y`gensym395: ChromaSamplePosition): bool	
+`&lt;`	dav1d/wrapper.html#<,ChromaSamplePosition,ChromaSamplePosition	wrapper: `&lt;`(x`gensym395, y`gensym395: ChromaSamplePosition): bool	
+`&lt;`	dav1d/wrapper.html#<,ChromaSamplePosition,int	wrapper: `&lt;`(x`gensym396: ChromaSamplePosition; y`gensym396: int): bool	
+`&lt;`	dav1d/wrapper.html#<,int,ChromaSamplePosition	wrapper: `&lt;`(x`gensym396: int; y`gensym396: ChromaSamplePosition): bool	
+`&lt;=`	dav1d/wrapper.html#<=,ChromaSamplePosition,cint	wrapper: `&lt;=`(x`gensym397: ChromaSamplePosition; y`gensym397: cint): bool	
+`&lt;=`	dav1d/wrapper.html#<=,cint,ChromaSamplePosition	wrapper: `&lt;=`(x`gensym397: cint; y`gensym397: ChromaSamplePosition): bool	
+`&lt;=`	dav1d/wrapper.html#<=,ChromaSamplePosition,ChromaSamplePosition	wrapper: `&lt;=`(x`gensym397, y`gensym397: ChromaSamplePosition): bool	
+`&lt;=`	dav1d/wrapper.html#<=,ChromaSamplePosition,int	wrapper: `&lt;=`(x`gensym398: ChromaSamplePosition; y`gensym398: int): bool	
+`&lt;=`	dav1d/wrapper.html#<=,int,ChromaSamplePosition	wrapper: `&lt;=`(x`gensym398: int; y`gensym398: ChromaSamplePosition): bool	
+`==`	dav1d/wrapper.html#==,ChromaSamplePosition,cint	wrapper: `==`(x`gensym399: ChromaSamplePosition; y`gensym399: cint): bool	
+`==`	dav1d/wrapper.html#==,cint,ChromaSamplePosition	wrapper: `==`(x`gensym399: cint; y`gensym399: ChromaSamplePosition): bool	
+`==`	dav1d/wrapper.html#==,ChromaSamplePosition,ChromaSamplePosition	wrapper: `==`(x`gensym399, y`gensym399: ChromaSamplePosition): bool	
+`==`	dav1d/wrapper.html#==,ChromaSamplePosition,int	wrapper: `==`(x`gensym400: ChromaSamplePosition; y`gensym400: int): bool	
+`==`	dav1d/wrapper.html#==,int,ChromaSamplePosition	wrapper: `==`(x`gensym400: int; y`gensym400: ChromaSamplePosition): bool	
+`&gt;`	dav1d/wrapper.html#>,ChromaSamplePosition,cint	wrapper: `&gt;`(x`gensym401: ChromaSamplePosition; y`gensym401: cint): bool	
+`&gt;`	dav1d/wrapper.html#>,cint,ChromaSamplePosition	wrapper: `&gt;`(x`gensym401: cint; y`gensym401: ChromaSamplePosition): bool	
+`&gt;`	dav1d/wrapper.html#>,ChromaSamplePosition,ChromaSamplePosition	wrapper: `&gt;`(x`gensym401, y`gensym401: ChromaSamplePosition): bool	
+`&gt;`	dav1d/wrapper.html#>,ChromaSamplePosition,int	wrapper: `&gt;`(x`gensym402: ChromaSamplePosition; y`gensym402: int): bool	
+`&gt;`	dav1d/wrapper.html#>,int,ChromaSamplePosition	wrapper: `&gt;`(x`gensym402: int; y`gensym402: ChromaSamplePosition): bool	
+`&gt;=`	dav1d/wrapper.html#>=,ChromaSamplePosition,cint	wrapper: `&gt;=`(x`gensym403: ChromaSamplePosition; y`gensym403: cint): bool	
+`&gt;=`	dav1d/wrapper.html#>=,cint,ChromaSamplePosition	wrapper: `&gt;=`(x`gensym403: cint; y`gensym403: ChromaSamplePosition): bool	
+`&gt;=`	dav1d/wrapper.html#>=,ChromaSamplePosition,ChromaSamplePosition	wrapper: `&gt;=`(x`gensym403, y`gensym403: ChromaSamplePosition): bool	
+`&gt;=`	dav1d/wrapper.html#>=,ChromaSamplePosition,int	wrapper: `&gt;=`(x`gensym404: ChromaSamplePosition; y`gensym404: int): bool	
+`&gt;=`	dav1d/wrapper.html#>=,int,ChromaSamplePosition	wrapper: `&gt;=`(x`gensym404: int; y`gensym404: ChromaSamplePosition): bool	
+`/`	dav1d/wrapper.html#/,ChromaSamplePosition,ChromaSamplePosition	wrapper: `/`(x`gensym405, y`gensym405: ChromaSamplePosition): ChromaSamplePosition	
+`/`	dav1d/wrapper.html#/,ChromaSamplePosition,cint	wrapper: `/`(x`gensym405: ChromaSamplePosition; y`gensym405: cint): ChromaSamplePosition	
+`/`	dav1d/wrapper.html#/,cint,ChromaSamplePosition	wrapper: `/`(x`gensym405: cint; y`gensym405: ChromaSamplePosition): ChromaSamplePosition	
+`/`	dav1d/wrapper.html#/,ChromaSamplePosition,int	wrapper: `/`(x`gensym405: ChromaSamplePosition; y`gensym405: int): ChromaSamplePosition	
+`/`	dav1d/wrapper.html#/,int,ChromaSamplePosition	wrapper: `/`(x`gensym405: int; y`gensym405: ChromaSamplePosition): ChromaSamplePosition	
+`$`	dav1d/wrapper.html#$,ChromaSamplePosition	wrapper: `$`(x`gensym405: ChromaSamplePosition): string	
+`not`	dav1d/wrapper.html#not,ChromaSamplePosition	wrapper: `not`(x`gensym405: ChromaSamplePosition): ChromaSamplePosition	
+MAX_CDEF_STRENGTHS	dav1d/wrapper.html#MAX_CDEF_STRENGTHS	wrapper: MAX_CDEF_STRENGTHS	
+MAX_OPERATING_POINTS	dav1d/wrapper.html#MAX_OPERATING_POINTS	wrapper: MAX_OPERATING_POINTS	
+MAX_TILE_COLS	dav1d/wrapper.html#MAX_TILE_COLS	wrapper: MAX_TILE_COLS	
+MAX_TILE_ROWS	dav1d/wrapper.html#MAX_TILE_ROWS	wrapper: MAX_TILE_ROWS	
+MAX_SEGMENTS	dav1d/wrapper.html#MAX_SEGMENTS	wrapper: MAX_SEGMENTS	
+NUM_REF_FRAMES	dav1d/wrapper.html#NUM_REF_FRAMES	wrapper: NUM_REF_FRAMES	
+PRIMARY_REF_NONE	dav1d/wrapper.html#PRIMARY_REF_NONE	wrapper: PRIMARY_REF_NONE	
+REFS_PER_FRAME	dav1d/wrapper.html#REFS_PER_FRAME	wrapper: REFS_PER_FRAME	
+TOTAL_REFS_PER_FRAME	dav1d/wrapper.html#TOTAL_REFS_PER_FRAME	wrapper: TOTAL_REFS_PER_FRAME	
+OBU_SEQ_HDR	dav1d/wrapper.html#OBU_SEQ_HDR	wrapper: OBU_SEQ_HDR	
+OBU_TD	dav1d/wrapper.html#OBU_TD	wrapper: OBU_TD	
+OBU_FRAME_HDR	dav1d/wrapper.html#OBU_FRAME_HDR	wrapper: OBU_FRAME_HDR	
+OBU_TILE_GRP	dav1d/wrapper.html#OBU_TILE_GRP	wrapper: OBU_TILE_GRP	
+OBU_METADATA	dav1d/wrapper.html#OBU_METADATA	wrapper: OBU_METADATA	
+OBU_FRAME	dav1d/wrapper.html#OBU_FRAME	wrapper: OBU_FRAME	
+OBU_REDUNDANT_FRAME_HDR	dav1d/wrapper.html#OBU_REDUNDANT_FRAME_HDR	wrapper: OBU_REDUNDANT_FRAME_HDR	
+OBU_PADDING	dav1d/wrapper.html#OBU_PADDING	wrapper: OBU_PADDING	
+TX_4X4_ONLY	dav1d/wrapper.html#TX_4X4_ONLY	wrapper: TX_4X4_ONLY	
+TX_LARGEST	dav1d/wrapper.html#TX_LARGEST	wrapper: TX_LARGEST	
+TX_SWITCHABLE	dav1d/wrapper.html#TX_SWITCHABLE	wrapper: TX_SWITCHABLE	
+N_TX_MODES	dav1d/wrapper.html#N_TX_MODES	wrapper: N_TX_MODES	
+FILTER_8TAP_REGULAR	dav1d/wrapper.html#FILTER_8TAP_REGULAR	wrapper: FILTER_8TAP_REGULAR	
+FILTER_8TAP_SMOOTH	dav1d/wrapper.html#FILTER_8TAP_SMOOTH	wrapper: FILTER_8TAP_SMOOTH	
+FILTER_8TAP_SHARP	dav1d/wrapper.html#FILTER_8TAP_SHARP	wrapper: FILTER_8TAP_SHARP	
+N_SWITCHABLE_FILTERS	dav1d/wrapper.html#N_SWITCHABLE_FILTERS	wrapper: N_SWITCHABLE_FILTERS	
+FILTER_BILINEAR	dav1d/wrapper.html#FILTER_BILINEAR	wrapper: FILTER_BILINEAR	
+N_FILTERS	dav1d/wrapper.html#N_FILTERS	wrapper: N_FILTERS	
+FILTER_SWITCHABLE	dav1d/wrapper.html#FILTER_SWITCHABLE	wrapper: FILTER_SWITCHABLE	
+OFF	dav1d/wrapper.html#OFF	wrapper: OFF	
+ON	dav1d/wrapper.html#ON	wrapper: ON	
+ADAPTIVE	dav1d/wrapper.html#ADAPTIVE	wrapper: ADAPTIVE	
+RESTORATION_NONE	dav1d/wrapper.html#RESTORATION_NONE	wrapper: RESTORATION_NONE	
+RESTORATION_SWITCHABLE	dav1d/wrapper.html#RESTORATION_SWITCHABLE	wrapper: RESTORATION_SWITCHABLE	
+RESTORATION_WIENER	dav1d/wrapper.html#RESTORATION_WIENER	wrapper: RESTORATION_WIENER	
+RESTORATION_SGRPROJ	dav1d/wrapper.html#RESTORATION_SGRPROJ	wrapper: RESTORATION_SGRPROJ	
+WM_TYPE_IDENTITY	dav1d/wrapper.html#WM_TYPE_IDENTITY	wrapper: WM_TYPE_IDENTITY	
+WM_TYPE_TRANSLATION	dav1d/wrapper.html#WM_TYPE_TRANSLATION	wrapper: WM_TYPE_TRANSLATION	
+WM_TYPE_ROT_ZOOM	dav1d/wrapper.html#WM_TYPE_ROT_ZOOM	wrapper: WM_TYPE_ROT_ZOOM	
+WM_TYPE_AFFINE	dav1d/wrapper.html#WM_TYPE_AFFINE	wrapper: WM_TYPE_AFFINE	
+PIXEL_LAYOUT_I400	dav1d/wrapper.html#PIXEL_LAYOUT_I400	wrapper: PIXEL_LAYOUT_I400	
+PIXEL_LAYOUT_I420	dav1d/wrapper.html#PIXEL_LAYOUT_I420	wrapper: PIXEL_LAYOUT_I420	
+PIXEL_LAYOUT_I422	dav1d/wrapper.html#PIXEL_LAYOUT_I422	wrapper: PIXEL_LAYOUT_I422	
+PIXEL_LAYOUT_I444	dav1d/wrapper.html#PIXEL_LAYOUT_I444	wrapper: PIXEL_LAYOUT_I444	
+FRAME_TYPE_KEY	dav1d/wrapper.html#FRAME_TYPE_KEY	wrapper: FRAME_TYPE_KEY	
+FRAME_TYPE_INTER	dav1d/wrapper.html#FRAME_TYPE_INTER	wrapper: FRAME_TYPE_INTER	
+FRAME_TYPE_INTRA	dav1d/wrapper.html#FRAME_TYPE_INTRA	wrapper: FRAME_TYPE_INTRA	
+FRAME_TYPE_SWITCH	dav1d/wrapper.html#FRAME_TYPE_SWITCH	wrapper: FRAME_TYPE_SWITCH	
+COLOR_PRI_BT709	dav1d/wrapper.html#COLOR_PRI_BT709	wrapper: COLOR_PRI_BT709	
+COLOR_PRI_UNKNOWN	dav1d/wrapper.html#COLOR_PRI_UNKNOWN	wrapper: COLOR_PRI_UNKNOWN	
+COLOR_PRI_BT470M	dav1d/wrapper.html#COLOR_PRI_BT470M	wrapper: COLOR_PRI_BT470M	
+COLOR_PRI_BT470BG	dav1d/wrapper.html#COLOR_PRI_BT470BG	wrapper: COLOR_PRI_BT470BG	
+COLOR_PRI_BT601	dav1d/wrapper.html#COLOR_PRI_BT601	wrapper: COLOR_PRI_BT601	
+COLOR_PRI_SMPTE240	dav1d/wrapper.html#COLOR_PRI_SMPTE240	wrapper: COLOR_PRI_SMPTE240	
+COLOR_PRI_FILM	dav1d/wrapper.html#COLOR_PRI_FILM	wrapper: COLOR_PRI_FILM	
+COLOR_PRI_BT2020	dav1d/wrapper.html#COLOR_PRI_BT2020	wrapper: COLOR_PRI_BT2020	
+COLOR_PRI_XYZ	dav1d/wrapper.html#COLOR_PRI_XYZ	wrapper: COLOR_PRI_XYZ	
+COLOR_PRI_SMPTE431	dav1d/wrapper.html#COLOR_PRI_SMPTE431	wrapper: COLOR_PRI_SMPTE431	
+COLOR_PRI_SMPTE432	dav1d/wrapper.html#COLOR_PRI_SMPTE432	wrapper: COLOR_PRI_SMPTE432	
+COLOR_PRI_EBU3213	dav1d/wrapper.html#COLOR_PRI_EBU3213	wrapper: COLOR_PRI_EBU3213	
+COLOR_PRI_RESERVED	dav1d/wrapper.html#COLOR_PRI_RESERVED	wrapper: COLOR_PRI_RESERVED	
+TRC_BT709	dav1d/wrapper.html#TRC_BT709	wrapper: TRC_BT709	
+TRC_UNKNOWN	dav1d/wrapper.html#TRC_UNKNOWN	wrapper: TRC_UNKNOWN	
+TRC_BT470M	dav1d/wrapper.html#TRC_BT470M	wrapper: TRC_BT470M	
+TRC_BT470BG	dav1d/wrapper.html#TRC_BT470BG	wrapper: TRC_BT470BG	
+TRC_BT601	dav1d/wrapper.html#TRC_BT601	wrapper: TRC_BT601	
+TRC_SMPTE240	dav1d/wrapper.html#TRC_SMPTE240	wrapper: TRC_SMPTE240	
+TRC_LINEAR	dav1d/wrapper.html#TRC_LINEAR	wrapper: TRC_LINEAR	
+TRC_LOG100	dav1d/wrapper.html#TRC_LOG100	wrapper: TRC_LOG100	
+TRC_LOG100_SQRT10	dav1d/wrapper.html#TRC_LOG100_SQRT10	wrapper: TRC_LOG100_SQRT10	
+TRC_IEC61966	dav1d/wrapper.html#TRC_IEC61966	wrapper: TRC_IEC61966	
+TRC_BT1361	dav1d/wrapper.html#TRC_BT1361	wrapper: TRC_BT1361	
+TRC_SRGB	dav1d/wrapper.html#TRC_SRGB	wrapper: TRC_SRGB	
+TRC_BT2020_10BIT	dav1d/wrapper.html#TRC_BT2020_10BIT	wrapper: TRC_BT2020_10BIT	
+TRC_BT2020_12BIT	dav1d/wrapper.html#TRC_BT2020_12BIT	wrapper: TRC_BT2020_12BIT	
+TRC_SMPTE2084	dav1d/wrapper.html#TRC_SMPTE2084	wrapper: TRC_SMPTE2084	
+TRC_SMPTE428	dav1d/wrapper.html#TRC_SMPTE428	wrapper: TRC_SMPTE428	
+TRC_HLG	dav1d/wrapper.html#TRC_HLG	wrapper: TRC_HLG	
+TRC_RESERVED	dav1d/wrapper.html#TRC_RESERVED	wrapper: TRC_RESERVED	
+MC_IDENTITY	dav1d/wrapper.html#MC_IDENTITY	wrapper: MC_IDENTITY	
+MC_BT709	dav1d/wrapper.html#MC_BT709	wrapper: MC_BT709	
+MC_UNKNOWN	dav1d/wrapper.html#MC_UNKNOWN	wrapper: MC_UNKNOWN	
+MC_FCC	dav1d/wrapper.html#MC_FCC	wrapper: MC_FCC	
+MC_BT470BG	dav1d/wrapper.html#MC_BT470BG	wrapper: MC_BT470BG	
+MC_BT601	dav1d/wrapper.html#MC_BT601	wrapper: MC_BT601	
+MC_SMPTE240	dav1d/wrapper.html#MC_SMPTE240	wrapper: MC_SMPTE240	
+MC_SMPTE_YCGCO	dav1d/wrapper.html#MC_SMPTE_YCGCO	wrapper: MC_SMPTE_YCGCO	
+MC_BT2020_NCL	dav1d/wrapper.html#MC_BT2020_NCL	wrapper: MC_BT2020_NCL	
+MC_BT2020_CL	dav1d/wrapper.html#MC_BT2020_CL	wrapper: MC_BT2020_CL	
+MC_SMPTE2085	dav1d/wrapper.html#MC_SMPTE2085	wrapper: MC_SMPTE2085	
+MC_CHROMAT_NCL	dav1d/wrapper.html#MC_CHROMAT_NCL	wrapper: MC_CHROMAT_NCL	
+MC_CHROMAT_CL	dav1d/wrapper.html#MC_CHROMAT_CL	wrapper: MC_CHROMAT_CL	
+MC_ICTCP	dav1d/wrapper.html#MC_ICTCP	wrapper: MC_ICTCP	
+MC_RESERVED	dav1d/wrapper.html#MC_RESERVED	wrapper: MC_RESERVED	
+CHR_UNKNOWN	dav1d/wrapper.html#CHR_UNKNOWN	wrapper: CHR_UNKNOWN	
+CHR_VERTICAL	dav1d/wrapper.html#CHR_VERTICAL	wrapper: CHR_VERTICAL	
+CHR_COLOCATED	dav1d/wrapper.html#CHR_COLOCATED	wrapper: CHR_COLOCATED	
+PICTURE_ALIGNMENT	dav1d/wrapper.html#PICTURE_ALIGNMENT	wrapper: PICTURE_ALIGNMENT	
+API_VERSION_MAJOR	dav1d/wrapper.html#API_VERSION_MAJOR	wrapper: API_VERSION_MAJOR	
+API_VERSION_MINOR	dav1d/wrapper.html#API_VERSION_MINOR	wrapper: API_VERSION_MINOR	
+API_VERSION_PATCH	dav1d/wrapper.html#API_VERSION_PATCH	wrapper: API_VERSION_PATCH	
+MAX_FRAME_THREADS	dav1d/wrapper.html#MAX_FRAME_THREADS	wrapper: MAX_FRAME_THREADS	
+MAX_TILE_THREADS	dav1d/wrapper.html#MAX_TILE_THREADS	wrapper: MAX_TILE_THREADS	
+UserData	dav1d/wrapper.html#UserData	wrapper: UserData	
+DataProps	dav1d/wrapper.html#DataProps	wrapper: DataProps	
+Type_dav1dh1	dav1d/wrapper.html#Type_dav1dh1	wrapper: Type_dav1dh1	
+Union_dav1dh1	dav1d/wrapper.html#Union_dav1dh1	wrapper: Union_dav1dh1	
+WarpedMotionParams	dav1d/wrapper.html#WarpedMotionParams	wrapper: WarpedMotionParams	
+ContentLightLevel	dav1d/wrapper.html#ContentLightLevel	wrapper: ContentLightLevel	
+MasteringDisplay	dav1d/wrapper.html#MasteringDisplay	wrapper: MasteringDisplay	
+ITUTT35	dav1d/wrapper.html#ITUTT35	wrapper: ITUTT35	
+SequenceHeader	dav1d/wrapper.html#SequenceHeader	wrapper: SequenceHeader	
+SegmentationData	dav1d/wrapper.html#SegmentationData	wrapper: SegmentationData	
+SegmentationDataSet	dav1d/wrapper.html#SegmentationDataSet	wrapper: SegmentationDataSet	
+LoopfilterModeRefDeltas	dav1d/wrapper.html#LoopfilterModeRefDeltas	wrapper: LoopfilterModeRefDeltas	
+FilmGrainData	dav1d/wrapper.html#FilmGrainData	wrapper: FilmGrainData	
+Type_dav1dh2	dav1d/wrapper.html#Type_dav1dh2	wrapper: Type_dav1dh2	
+Type_dav1dh3	dav1d/wrapper.html#Type_dav1dh3	wrapper: Type_dav1dh3	
+Type_dav1dh4	dav1d/wrapper.html#Type_dav1dh4	wrapper: Type_dav1dh4	
+Type_dav1dh5	dav1d/wrapper.html#Type_dav1dh5	wrapper: Type_dav1dh5	
+Type_dav1dh6	dav1d/wrapper.html#Type_dav1dh6	wrapper: Type_dav1dh6	
+Type_dav1dh8	dav1d/wrapper.html#Type_dav1dh8	wrapper: Type_dav1dh8	
+Type_dav1dh9	dav1d/wrapper.html#Type_dav1dh9	wrapper: Type_dav1dh9	
+Type_dav1dh7	dav1d/wrapper.html#Type_dav1dh7	wrapper: Type_dav1dh7	
+Type_dav1dh10	dav1d/wrapper.html#Type_dav1dh10	wrapper: Type_dav1dh10	
+Type_dav1dh11	dav1d/wrapper.html#Type_dav1dh11	wrapper: Type_dav1dh11	
+Type_dav1dh12	dav1d/wrapper.html#Type_dav1dh12	wrapper: Type_dav1dh12	
+FrameHeader	dav1d/wrapper.html#FrameHeader	wrapper: FrameHeader	
+PictureParameters	dav1d/wrapper.html#PictureParameters	wrapper: PictureParameters	
+cPicture	dav1d/wrapper.html#cPicture	wrapper: cPicture	
+PicAllocator	dav1d/wrapper.html#PicAllocator	wrapper: PicAllocator	
+cData	dav1d/wrapper.html#cData	wrapper: cData	
+Context	dav1d/wrapper.html#Context	wrapper: Context	
+Ref	dav1d/wrapper.html#Ref	wrapper: Ref	
+Logger	dav1d/wrapper.html#Logger	wrapper: Logger	
+Settings	dav1d/wrapper.html#Settings	wrapper: Settings	
+picture_unref	dav1d/wrapper.html#picture_unref,ptr.cPicture	wrapper: picture_unref(p: ptr cPicture)	
+data_create	dav1d/wrapper.html#data_create,ptr.cData,uint	wrapper: data_create(data: ptr cData; sz: uint): ptr uint8	
+data_wrap	dav1d/wrapper.html#data_wrap,ptr.cData,ptr.uint8,uint,proc(ptr.uint8,pointer),pointer	wrapper: data_wrap(data: ptr cData; buf: ptr uint8; sz: uint;\n          free_callback: proc (buf: ptr uint8; cookie: pointer) {.cdecl.};\n          cookie: pointer): cint	
+data_wrap_user_data	dav1d/wrapper.html#data_wrap_user_data,ptr.cData,ptr.uint8,proc(ptr.uint8,pointer),pointer	wrapper: data_wrap_user_data(data: ptr cData; user_data: ptr uint8; free_callback: proc (\n    user_data: ptr uint8; cookie: pointer) {.cdecl.}; cookie: pointer): cint	
+data_unref	dav1d/wrapper.html#data_unref,ptr.cData	wrapper: data_unref(data: ptr cData)	
+version	dav1d/wrapper.html#version	wrapper: version(): cstring	
+default_settings	dav1d/wrapper.html#default_settings,ptr.Settings	wrapper: default_settings(s: ptr Settings)	
+open	dav1d/wrapper.html#open,ptr.ptr.Context,ptr.Settings	wrapper: open(c_out: ptr ptr Context; s: ptr Settings): cint	
+parse_sequence_header	dav1d/wrapper.html#parse_sequence_header,ptr.SequenceHeader,ptr.uint8,uint	wrapper: parse_sequence_header(out: ptr SequenceHeader; buf: ptr uint8; sz: uint): cint	
+send_data	dav1d/wrapper.html#send_data,ptr.Context,ptr.cData	wrapper: send_data(c: ptr Context; in: ptr cData): cint	
+get_picture	dav1d/wrapper.html#get_picture,ptr.Context,ptr.cPicture	wrapper: get_picture(c: ptr Context; out: ptr cPicture): cint	
+close	dav1d/wrapper.html#close,ptr.ptr.Context	wrapper: close(c_out: ptr ptr Context)	
+flush	dav1d/wrapper.html#flush,ptr.Context	wrapper: flush(c: ptr Context)	

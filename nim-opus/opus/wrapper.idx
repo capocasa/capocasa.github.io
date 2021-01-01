@@ -1,0 +1,120 @@
+opusStd	opus/wrapper.html#opusStd	wrapper: opusStd	
+opusGit	opus/wrapper.html#opusGit	wrapper: opusGit	
+opusDL	opus/wrapper.html#opusDL	wrapper: opusDL	
+opusConan	opus/wrapper.html#opusConan	wrapper: opusConan	
+opusJBB	opus/wrapper.html#opusJBB	wrapper: opusJBB	
+opusStatic	opus/wrapper.html#opusStatic	wrapper: opusStatic	
+opusSetVer	opus/wrapper.html#opusSetVer	wrapper: opusSetVer	
+opusPath	opus/wrapper.html#opusPath	wrapper: opusPath	
+opusLPath	opus/wrapper.html#opusLPath	wrapper: opusLPath	
+opusLDeps	opus/wrapper.html#opusLDeps	wrapper: opusLDeps	
+OK	opus/wrapper.html#OK	wrapper: OK	
+BAD_ARG	opus/wrapper.html#BAD_ARG	wrapper: BAD_ARG	
+BUFFER_TOO_SMALL	opus/wrapper.html#BUFFER_TOO_SMALL	wrapper: BUFFER_TOO_SMALL	
+INTERNAL_ERROR	opus/wrapper.html#INTERNAL_ERROR	wrapper: INTERNAL_ERROR	
+INVALID_PACKET	opus/wrapper.html#INVALID_PACKET	wrapper: INVALID_PACKET	
+UNIMPLEMENTED	opus/wrapper.html#UNIMPLEMENTED	wrapper: UNIMPLEMENTED	
+INVALID_STATE	opus/wrapper.html#INVALID_STATE	wrapper: INVALID_STATE	
+ALLOC_FAIL	opus/wrapper.html#ALLOC_FAIL	wrapper: ALLOC_FAIL	
+SET_APPLICATION_REQUEST	opus/wrapper.html#SET_APPLICATION_REQUEST	wrapper: SET_APPLICATION_REQUEST	
+GET_APPLICATION_REQUEST	opus/wrapper.html#GET_APPLICATION_REQUEST	wrapper: GET_APPLICATION_REQUEST	
+SET_BITRATE_REQUEST	opus/wrapper.html#SET_BITRATE_REQUEST	wrapper: SET_BITRATE_REQUEST	
+GET_BITRATE_REQUEST	opus/wrapper.html#GET_BITRATE_REQUEST	wrapper: GET_BITRATE_REQUEST	
+SET_MAX_BANDWIDTH_REQUEST	opus/wrapper.html#SET_MAX_BANDWIDTH_REQUEST	wrapper: SET_MAX_BANDWIDTH_REQUEST	
+GET_MAX_BANDWIDTH_REQUEST	opus/wrapper.html#GET_MAX_BANDWIDTH_REQUEST	wrapper: GET_MAX_BANDWIDTH_REQUEST	
+SET_VBR_REQUEST	opus/wrapper.html#SET_VBR_REQUEST	wrapper: SET_VBR_REQUEST	
+GET_VBR_REQUEST	opus/wrapper.html#GET_VBR_REQUEST	wrapper: GET_VBR_REQUEST	
+SET_BANDWIDTH_REQUEST	opus/wrapper.html#SET_BANDWIDTH_REQUEST	wrapper: SET_BANDWIDTH_REQUEST	
+GET_BANDWIDTH_REQUEST	opus/wrapper.html#GET_BANDWIDTH_REQUEST	wrapper: GET_BANDWIDTH_REQUEST	
+SET_COMPLEXITY_REQUEST	opus/wrapper.html#SET_COMPLEXITY_REQUEST	wrapper: SET_COMPLEXITY_REQUEST	
+GET_COMPLEXITY_REQUEST	opus/wrapper.html#GET_COMPLEXITY_REQUEST	wrapper: GET_COMPLEXITY_REQUEST	
+SET_INBAND_FEC_REQUEST	opus/wrapper.html#SET_INBAND_FEC_REQUEST	wrapper: SET_INBAND_FEC_REQUEST	
+GET_INBAND_FEC_REQUEST	opus/wrapper.html#GET_INBAND_FEC_REQUEST	wrapper: GET_INBAND_FEC_REQUEST	
+SET_PACKET_LOSS_PERC_REQUEST	opus/wrapper.html#SET_PACKET_LOSS_PERC_REQUEST	wrapper: SET_PACKET_LOSS_PERC_REQUEST	
+GET_PACKET_LOSS_PERC_REQUEST	opus/wrapper.html#GET_PACKET_LOSS_PERC_REQUEST	wrapper: GET_PACKET_LOSS_PERC_REQUEST	
+SET_DTX_REQUEST	opus/wrapper.html#SET_DTX_REQUEST	wrapper: SET_DTX_REQUEST	
+GET_DTX_REQUEST	opus/wrapper.html#GET_DTX_REQUEST	wrapper: GET_DTX_REQUEST	
+SET_VBR_CONSTRAINT_REQUEST	opus/wrapper.html#SET_VBR_CONSTRAINT_REQUEST	wrapper: SET_VBR_CONSTRAINT_REQUEST	
+GET_VBR_CONSTRAINT_REQUEST	opus/wrapper.html#GET_VBR_CONSTRAINT_REQUEST	wrapper: GET_VBR_CONSTRAINT_REQUEST	
+SET_FORCE_CHANNELS_REQUEST	opus/wrapper.html#SET_FORCE_CHANNELS_REQUEST	wrapper: SET_FORCE_CHANNELS_REQUEST	
+GET_FORCE_CHANNELS_REQUEST	opus/wrapper.html#GET_FORCE_CHANNELS_REQUEST	wrapper: GET_FORCE_CHANNELS_REQUEST	
+SET_SIGNAL_REQUEST	opus/wrapper.html#SET_SIGNAL_REQUEST	wrapper: SET_SIGNAL_REQUEST	
+GET_SIGNAL_REQUEST	opus/wrapper.html#GET_SIGNAL_REQUEST	wrapper: GET_SIGNAL_REQUEST	
+GET_LOOKAHEAD_REQUEST	opus/wrapper.html#GET_LOOKAHEAD_REQUEST	wrapper: GET_LOOKAHEAD_REQUEST	
+GET_SAMPLE_RATE_REQUEST	opus/wrapper.html#GET_SAMPLE_RATE_REQUEST	wrapper: GET_SAMPLE_RATE_REQUEST	
+GET_FINAL_RANGE_REQUEST	opus/wrapper.html#GET_FINAL_RANGE_REQUEST	wrapper: GET_FINAL_RANGE_REQUEST	
+GET_PITCH_REQUEST	opus/wrapper.html#GET_PITCH_REQUEST	wrapper: GET_PITCH_REQUEST	
+SET_GAIN_REQUEST	opus/wrapper.html#SET_GAIN_REQUEST	wrapper: SET_GAIN_REQUEST	
+GET_GAIN_REQUEST	opus/wrapper.html#GET_GAIN_REQUEST	wrapper: GET_GAIN_REQUEST	
+SET_LSB_DEPTH_REQUEST	opus/wrapper.html#SET_LSB_DEPTH_REQUEST	wrapper: SET_LSB_DEPTH_REQUEST	
+GET_LSB_DEPTH_REQUEST	opus/wrapper.html#GET_LSB_DEPTH_REQUEST	wrapper: GET_LSB_DEPTH_REQUEST	
+GET_LAST_PACKET_DURATION_REQUEST	opus/wrapper.html#GET_LAST_PACKET_DURATION_REQUEST	wrapper: GET_LAST_PACKET_DURATION_REQUEST	
+SET_EXPERT_FRAME_DURATION_REQUEST	opus/wrapper.html#SET_EXPERT_FRAME_DURATION_REQUEST	wrapper: SET_EXPERT_FRAME_DURATION_REQUEST	
+GET_EXPERT_FRAME_DURATION_REQUEST	opus/wrapper.html#GET_EXPERT_FRAME_DURATION_REQUEST	wrapper: GET_EXPERT_FRAME_DURATION_REQUEST	
+SET_PREDICTION_DISABLED_REQUEST	opus/wrapper.html#SET_PREDICTION_DISABLED_REQUEST	wrapper: SET_PREDICTION_DISABLED_REQUEST	
+GET_PREDICTION_DISABLED_REQUEST	opus/wrapper.html#GET_PREDICTION_DISABLED_REQUEST	wrapper: GET_PREDICTION_DISABLED_REQUEST	
+SET_PHASE_INVERSION_DISABLED_REQUEST	opus/wrapper.html#SET_PHASE_INVERSION_DISABLED_REQUEST	wrapper: SET_PHASE_INVERSION_DISABLED_REQUEST	
+GET_PHASE_INVERSION_DISABLED_REQUEST	opus/wrapper.html#GET_PHASE_INVERSION_DISABLED_REQUEST	wrapper: GET_PHASE_INVERSION_DISABLED_REQUEST	
+GET_IN_DTX_REQUEST	opus/wrapper.html#GET_IN_DTX_REQUEST	wrapper: GET_IN_DTX_REQUEST	
+AUTO	opus/wrapper.html#AUTO	wrapper: AUTO	
+BITRATE_MAX	opus/wrapper.html#BITRATE_MAX	wrapper: BITRATE_MAX	
+APPLICATION_VOIP	opus/wrapper.html#APPLICATION_VOIP	wrapper: APPLICATION_VOIP	
+APPLICATION_AUDIO	opus/wrapper.html#APPLICATION_AUDIO	wrapper: APPLICATION_AUDIO	
+APPLICATION_RESTRICTED_LOWDELAY	opus/wrapper.html#APPLICATION_RESTRICTED_LOWDELAY	wrapper: APPLICATION_RESTRICTED_LOWDELAY	
+SIGNAL_VOICE	opus/wrapper.html#SIGNAL_VOICE	wrapper: SIGNAL_VOICE	
+SIGNAL_MUSIC	opus/wrapper.html#SIGNAL_MUSIC	wrapper: SIGNAL_MUSIC	
+BANDWIDTH_NARROWBAND	opus/wrapper.html#BANDWIDTH_NARROWBAND	wrapper: BANDWIDTH_NARROWBAND	
+BANDWIDTH_MEDIUMBAND	opus/wrapper.html#BANDWIDTH_MEDIUMBAND	wrapper: BANDWIDTH_MEDIUMBAND	
+BANDWIDTH_WIDEBAND	opus/wrapper.html#BANDWIDTH_WIDEBAND	wrapper: BANDWIDTH_WIDEBAND	
+BANDWIDTH_SUPERWIDEBAND	opus/wrapper.html#BANDWIDTH_SUPERWIDEBAND	wrapper: BANDWIDTH_SUPERWIDEBAND	
+BANDWIDTH_FULLBAND	opus/wrapper.html#BANDWIDTH_FULLBAND	wrapper: BANDWIDTH_FULLBAND	
+FRAMESIZE_ARG	opus/wrapper.html#FRAMESIZE_ARG	wrapper: FRAMESIZE_ARG	
+FRAMESIZE_2_5_MS	opus/wrapper.html#FRAMESIZE_2_5_MS	wrapper: FRAMESIZE_2_5_MS	
+FRAMESIZE_5_MS	opus/wrapper.html#FRAMESIZE_5_MS	wrapper: FRAMESIZE_5_MS	
+FRAMESIZE_10_MS	opus/wrapper.html#FRAMESIZE_10_MS	wrapper: FRAMESIZE_10_MS	
+FRAMESIZE_20_MS	opus/wrapper.html#FRAMESIZE_20_MS	wrapper: FRAMESIZE_20_MS	
+FRAMESIZE_40_MS	opus/wrapper.html#FRAMESIZE_40_MS	wrapper: FRAMESIZE_40_MS	
+FRAMESIZE_60_MS	opus/wrapper.html#FRAMESIZE_60_MS	wrapper: FRAMESIZE_60_MS	
+FRAMESIZE_80_MS	opus/wrapper.html#FRAMESIZE_80_MS	wrapper: FRAMESIZE_80_MS	
+FRAMESIZE_100_MS	opus/wrapper.html#FRAMESIZE_100_MS	wrapper: FRAMESIZE_100_MS	
+FRAMESIZE_120_MS	opus/wrapper.html#FRAMESIZE_120_MS	wrapper: FRAMESIZE_120_MS	
+RESET_STATE	opus/wrapper.html#RESET_STATE	wrapper: RESET_STATE	
+Encoder	opus/wrapper.html#Encoder	wrapper: Encoder	
+cDecoder	opus/wrapper.html#cDecoder	wrapper: cDecoder	
+Repacketizer	opus/wrapper.html#Repacketizer	wrapper: Repacketizer	
+strerror	opus/wrapper.html#strerror,cint	wrapper: strerror(error: cint): cstring	
+get_version_string	opus/wrapper.html#get_version_string	wrapper: get_version_string(): cstring	
+encoder_get_size	opus/wrapper.html#encoder_get_size,cint	wrapper: encoder_get_size(channels: cint): cint	
+encoder_create	opus/wrapper.html#encoder_create,int32,cint,cint,ptr.cint	wrapper: encoder_create(Fs: int32; channels: cint; application: cint; error: ptr cint): ptr Encoder	
+encoder_init	opus/wrapper.html#encoder_init,ptr.Encoder,int32,cint,cint	wrapper: encoder_init(st: ptr Encoder; Fs: int32; channels: cint; application: cint): cint	
+encode	opus/wrapper.html#encode,ptr.Encoder,ptr.int16,cint,ptr.cuchar,int32	wrapper: encode(st: ptr Encoder; pcm: ptr int16; frame_size: cint; data: ptr cuchar;\n       max_data_bytes: int32): int32	
+encode_float	opus/wrapper.html#encode_float,ptr.Encoder,ptr.cfloat,cint,ptr.cuchar,int32	wrapper: encode_float(st: ptr Encoder; pcm: ptr cfloat; frame_size: cint;\n             data: ptr cuchar; max_data_bytes: int32): int32	
+encoder_destroy	opus/wrapper.html#encoder_destroy,ptr.Encoder	wrapper: encoder_destroy(st: ptr Encoder)	
+encoder_ctl	opus/wrapper.html#encoder_ctl,ptr.Encoder,cint	wrapper: encoder_ctl(st: ptr Encoder; request: cint): cint	
+decoder_get_size	opus/wrapper.html#decoder_get_size,cint	wrapper: decoder_get_size(channels: cint): cint	
+decoder_create	opus/wrapper.html#decoder_create,int32,cint,ptr.cint	wrapper: decoder_create(Fs: int32; channels: cint; error: ptr cint): ptr cDecoder	
+decoder_init	opus/wrapper.html#decoder_init,ptr.cDecoder,int32,cint	wrapper: decoder_init(st: ptr cDecoder; Fs: int32; channels: cint): cint	
+decode	opus/wrapper.html#decode,ptr.cDecoder,ptr.cuchar,int32,ptr.int16,cint,cint	wrapper: decode(st: ptr cDecoder; data: ptr cuchar; len: int32; pcm: ptr int16;\n       frame_size: cint; decode_fec: cint): cint	
+decode_float	opus/wrapper.html#decode_float,ptr.cDecoder,ptr.cuchar,int32,ptr.cfloat,cint,cint	wrapper: decode_float(st: ptr cDecoder; data: ptr cuchar; len: int32; pcm: ptr cfloat;\n             frame_size: cint; decode_fec: cint): cint	
+decoder_ctl	opus/wrapper.html#decoder_ctl,ptr.cDecoder,cint	wrapper: decoder_ctl(st: ptr cDecoder; request: cint): cint	
+decoder_destroy	opus/wrapper.html#decoder_destroy,ptr.cDecoder	wrapper: decoder_destroy(st: ptr cDecoder)	
+packet_parse	opus/wrapper.html#packet_parse,ptr.cuchar,int32,ptr.cuchar,array[,ptr.cuchar],array[,int16],ptr.cint	wrapper: packet_parse(data: ptr cuchar; len: int32; out_toc: ptr cuchar;\n             frames: array[48, ptr cuchar]; size: array[48, int16];\n             payload_offset: ptr cint): cint	
+packet_get_bandwidth	opus/wrapper.html#packet_get_bandwidth,ptr.cuchar	wrapper: packet_get_bandwidth(data: ptr cuchar): cint	
+packet_get_samples_per_frame	opus/wrapper.html#packet_get_samples_per_frame,ptr.cuchar,int32	wrapper: packet_get_samples_per_frame(data: ptr cuchar; Fs: int32): cint	
+packet_get_nb_channels	opus/wrapper.html#packet_get_nb_channels,ptr.cuchar	wrapper: packet_get_nb_channels(data: ptr cuchar): cint	
+packet_get_nb_frames	opus/wrapper.html#packet_get_nb_frames,UncheckedArray[cuchar],int32	wrapper: packet_get_nb_frames(packet: UncheckedArray[cuchar]; len: int32): cint	
+packet_get_nb_samples	opus/wrapper.html#packet_get_nb_samples,UncheckedArray[cuchar],int32,int32	wrapper: packet_get_nb_samples(packet: UncheckedArray[cuchar]; len: int32; Fs: int32): cint	
+decoder_get_nb_samples	opus/wrapper.html#decoder_get_nb_samples,ptr.cDecoder,UncheckedArray[cuchar],int32	wrapper: decoder_get_nb_samples(dec: ptr cDecoder; packet: UncheckedArray[cuchar];\n                       len: int32): cint	
+pcm_soft_clip	opus/wrapper.html#pcm_soft_clip,ptr.cfloat,cint,cint,ptr.cfloat	wrapper: pcm_soft_clip(pcm: ptr cfloat; frame_size: cint; channels: cint;\n              softclip_mem: ptr cfloat)	
+repacketizer_get_size	opus/wrapper.html#repacketizer_get_size	wrapper: repacketizer_get_size(): cint	
+repacketizer_init	opus/wrapper.html#repacketizer_init,ptr.Repacketizer	wrapper: repacketizer_init(rp: ptr Repacketizer): ptr Repacketizer	
+repacketizer_create	opus/wrapper.html#repacketizer_create	wrapper: repacketizer_create(): ptr Repacketizer	
+repacketizer_destroy	opus/wrapper.html#repacketizer_destroy,ptr.Repacketizer	wrapper: repacketizer_destroy(rp: ptr Repacketizer)	
+repacketizer_cat	opus/wrapper.html#repacketizer_cat,ptr.Repacketizer,ptr.cuchar,int32	wrapper: repacketizer_cat(rp: ptr Repacketizer; data: ptr cuchar; len: int32): cint	
+repacketizer_out_range	opus/wrapper.html#repacketizer_out_range,ptr.Repacketizer,cint,cint,ptr.cuchar,int32	wrapper: repacketizer_out_range(rp: ptr Repacketizer; begin: cint; end: cint;\n                       data: ptr cuchar; maxlen: int32): int32	
+repacketizer_get_nb_frames	opus/wrapper.html#repacketizer_get_nb_frames,ptr.Repacketizer	wrapper: repacketizer_get_nb_frames(rp: ptr Repacketizer): cint	
+repacketizer_out	opus/wrapper.html#repacketizer_out,ptr.Repacketizer,ptr.cuchar,int32	wrapper: repacketizer_out(rp: ptr Repacketizer; data: ptr cuchar; maxlen: int32): int32	
+packet_pad	opus/wrapper.html#packet_pad,ptr.cuchar,int32,int32	wrapper: packet_pad(data: ptr cuchar; len: int32; new_len: int32): cint	
+packet_unpad	opus/wrapper.html#packet_unpad,ptr.cuchar,int32	wrapper: packet_unpad(data: ptr cuchar; len: int32): int32	
+multistream_packet_pad	opus/wrapper.html#multistream_packet_pad,ptr.cuchar,int32,int32,cint	wrapper: multistream_packet_pad(data: ptr cuchar; len: int32; new_len: int32;\n                       nb_streams: cint): cint	
+multistream_packet_unpad	opus/wrapper.html#multistream_packet_unpad,ptr.cuchar,int32,cint	wrapper: multistream_packet_unpad(data: ptr cuchar; len: int32; nb_streams: cint): int32	

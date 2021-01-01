@@ -1,0 +1,16 @@
+InitError	dav1d.html#InitError	dav1d: InitError	
+DecodeError	dav1d.html#DecodeError	dav1d: DecodeError	
+BufferError	dav1d.html#BufferError	dav1d: BufferError	
+DecoderObj	dav1d.html#DecoderObj	dav1d: DecoderObj	
+Decoder	dav1d.html#Decoder	dav1d: Decoder	
+PictureObj	dav1d.html#PictureObj	dav1d: PictureObj	
+Picture	dav1d.html#Picture	dav1d: Picture	
+DataObj	dav1d.html#DataObj	dav1d: DataObj	
+Data	dav1d.html#Data	dav1d: Data	
+newDecoder	dav1d.html#newDecoder	dav1d: newDecoder(): Decoder	
+newData	dav1d.html#newData,openArray[byte]	dav1d: newData(encoded: openArray[byte]): Data	
+newData	dav1d.html#newData.t,ptr.UncheckedArray[byte],int	dav1d: newData(encoded: ptr UncheckedArray[byte]; len: int): Data	
+send	dav1d.html#send,Decoder,Data	dav1d: send(decoder: Decoder; data: Data)	
+send	dav1d.html#send.t,Decoder,openArray[byte]	dav1d: send(decoder: Decoder; encoded: openArray[byte])	
+send	dav1d.html#send.t,Decoder,ptr.UncheckedArray[byte],int	dav1d: send(decoder: Decoder; encoded: ptr UncheckedArray[byte]; len: int)	
+getPicture	dav1d.html#getPicture,Decoder	dav1d: getPicture(decoder: Decoder): Picture	
