@@ -108,20 +108,19 @@ function main() {
     title="BufferError = object of ValueError">BufferError</a></li>
   <li><a class="reference" href="#DecoderObj"
     title="DecoderObj = object
-  settings: Settings
-  context: ptr Context">DecoderObj</a></li>
+  settings*: Settings
+  context*: ptr Context">DecoderObj</a></li>
   <li><a class="reference" href="#Decoder"
     title="Decoder = ref DecoderObj">Decoder</a></li>
   <li><a class="reference" href="#PictureObj"
     title="PictureObj = object
-  raw*: ptr cPicture">PictureObj</a></li>
+  raw*: ptr cPicture
+  when compileOption(&quot;threads&quot;):
+      creatingThread*: int">PictureObj</a></li>
   <li><a class="reference" href="#Picture"
     title="Picture = ref PictureObj">Picture</a></li>
-  <li><a class="reference" href="#DataObj"
-    title="DataObj = object
-  raw*: ptr cData">DataObj</a></li>
   <li><a class="reference" href="#Data"
-    title="Data = ref DataObj">Data</a></li>
+    title="Data = ref cData">Data</a></li>
 
   </ul>
 </li>
@@ -218,8 +217,8 @@ Error is raised if the data send failed because decoded data need be retrieved f
 </dd>
 <a id="DecoderObj"></a>
 <dt><pre><a href="dav1d.html#DecoderObj"><span class="Identifier">DecoderObj</span></a> <span class="Other">=</span> <span class="Keyword">object</span>
-  <span class="Identifier">settings</span><span class="Other">:</span> <a href="dav1d/wrapper.html#Settings"><span class="Identifier">Settings</span></a>
-  <span class="Identifier">context</span><span class="Other">:</span> <span class="Keyword">ptr</span> <a href="dav1d/wrapper.html#Context"><span class="Identifier">Context</span></a>
+  <span class="Identifier">settings</span><span class="Operator">*</span><span class="Other">:</span> <a href="dav1d/wrapper.html#Settings"><span class="Identifier">Settings</span></a>
+  <span class="Identifier">context</span><span class="Operator">*</span><span class="Other">:</span> <span class="Keyword">ptr</span> <a href="dav1d/wrapper.html#Context"><span class="Identifier">Context</span></a>
 </pre></dt>
 <dd>
 
@@ -236,7 +235,10 @@ which in turn frees the wrapped library's untraced heap memory.
 <a id="PictureObj"></a>
 <dt><pre><a href="dav1d.html#PictureObj"><span class="Identifier">PictureObj</span></a> <span class="Other">=</span> <span class="Keyword">object</span>
   <span class="Identifier">raw</span><span class="Operator">*</span><span class="Other">:</span> <span class="Keyword">ptr</span> <a href="dav1d/wrapper.html#cPicture"><span class="Identifier">cPicture</span></a>
-</pre></dt>
+  <span class="Keyword">when</span> <span class="Identifier">compileOption</span><span class="Other">(</span><span class="StringLit">&quot;threads&quot;</span><span class="Other">)</span><span class="Other">:</span>
+      <span class="Identifier">creatingThread</span><span class="Operator">*</span><span class="Other">:</span> <span class="Identifier">int</span>
+
+  </pre></dt>
 <dd>
 
 A container object for one frame of decoded video data
@@ -249,17 +251,8 @@ A container object for one frame of decoded video data
 A memory safe reference to one frame of decoded video data
 
 </dd>
-<a id="DataObj"></a>
-<dt><pre><a href="dav1d.html#DataObj"><span class="Identifier">DataObj</span></a> <span class="Other">=</span> <span class="Keyword">object</span>
-  <span class="Identifier">raw</span><span class="Operator">*</span><span class="Other">:</span> <span class="Keyword">ptr</span> <a href="dav1d/wrapper.html#cData"><span class="Identifier">cData</span></a>
-</pre></dt>
-<dd>
-
-A container objcet for low-lavel encoded video data
-
-</dd>
 <a id="Data"></a>
-<dt><pre><a href="dav1d.html#Data"><span class="Identifier">Data</span></a> <span class="Other">=</span> <span class="Keyword">ref</span> <a href="dav1d.html#DataObj"><span class="Identifier">DataObj</span></a></pre></dt>
+<dt><pre><a href="dav1d.html#Data"><span class="Identifier">Data</span></a> <span class="Other">=</span> <span class="Keyword">ref</span> <a href="dav1d/wrapper.html#cData"><span class="Identifier">cData</span></a></pre></dt>
 <dd>
 
 A memory safe reference to encoded video data
@@ -348,7 +341,7 @@ Convenience function to send array-and-length data to dav1d
       <div class="twelve-columns footer">
         <span class="nim-sprite"></span>
         <br/>
-        <small style="color: var(--hint);">Made with Nim. Generated: 2021-01-14 12:03:07 UTC</small>
+        <small style="color: var(--hint);">Made with Nim. Generated: 2021-01-17 19:59:03 UTC</small>
       </div>
     </div>
   </div>

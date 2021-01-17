@@ -202,6 +202,8 @@ function main() {
   <ul class="simple simple-toc-section">
       <li><a class="reference" href="#newDemuxer.t%2CFile"
     title="newDemuxer(file: File): Demuxer">newDemuxer</a></li>
+  <li><a class="reference" href="#newDemuxer.t%2Cstring"
+    title="newDemuxer(filename: string): Demuxer">newDemuxer</a></li>
   <li><a class="reference" href="#toOpenArray.t%2CChunk%2Cint%2Cint"
     title="toOpenArray(chunk: Chunk; first, last: int): openArray[byte]">toOpenArray</a></li>
 
@@ -432,6 +434,13 @@ The iterater that retrieves packets from the demuxer. Note that a packet can be 
 Convenience template to create a demuxer from a file objcet If other sources are created, adding one of these keeps the interface friendly
 
 </dd>
+<a id="newDemuxer.t,string"></a>
+<dt><pre><span class="Keyword">template</span> <a href="#newDemuxer.t%2Cstring"><span class="Identifier">newDemuxer</span></a><span class="Other">(</span><span class="Identifier">filename</span><span class="Other">:</span> <span class="Identifier">string</span><span class="Other">)</span><span class="Other">:</span> <a href="nestegg.html#Demuxer"><span class="Identifier">Demuxer</span></a></pre></dt>
+<dd>
+
+Convenience template to create a demuxer from a file name. The file is kept open and can be left open on termination. If the file needs to be closed within the program, it can be done manually like so: demuxer.file.close
+
+</dd>
 <a id="toOpenArray.t,Chunk,int,int"></a>
 <dt><pre><span class="Keyword">template</span> <a href="#toOpenArray.t%2CChunk%2Cint%2Cint"><span class="Identifier">toOpenArray</span></a><span class="Other">(</span><span class="Identifier">chunk</span><span class="Other">:</span> <a href="nestegg.html#Chunk"><span class="Identifier">Chunk</span></a><span class="Other">;</span> <span class="Identifier">first</span><span class="Other">,</span> <span class="Identifier">last</span><span class="Other">:</span> <span class="Identifier">int</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">openArray</span><span class="Other">[</span><span class="Identifier">byte</span><span class="Other">]</span></pre></dt>
 <dd>
@@ -454,7 +463,7 @@ Allows passing a chunk of data to various collection functions that take an open
       <div class="twelve-columns footer">
         <span class="nim-sprite"></span>
         <br/>
-        <small style="color: var(--hint);">Made with Nim. Generated: 2021-01-14 12:03:10 UTC</small>
+        <small style="color: var(--hint);">Made with Nim. Generated: 2021-01-17 19:59:07 UTC</small>
       </div>
     </div>
   </div>
