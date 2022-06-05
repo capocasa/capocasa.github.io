@@ -175,6 +175,11 @@ function main() {
     title="initTransaction(db: Database): Transaction">initTransaction,<wbr>Database</a></li>
 
   </ul>
+  <ul class="simple nested-toc-section">len
+      <li><a class="reference" href="#len%2CDatabase"
+    title="len(db: Database): int">len,<wbr>Database</a></li>
+
+  </ul>
   <ul class="simple nested-toc-section">open
       <li><a class="reference" href="#open%2CDatabase%2Cstring"
     title="open(db: Database; name: string): Dbi">open,<wbr>Database,<wbr>string</a></li>
@@ -257,6 +262,11 @@ function main() {
   <ul class="simple nested-toc-section">del
       <li><a class="reference" href="#del.t%2CTransaction%2Cstring"
     title="del(t: Transaction; key: string)">del.t,<wbr>Transaction,<wbr>string</a></li>
+
+  </ul>
+  <ul class="simple nested-toc-section">len
+      <li><a class="reference" href="#len.t%2CTransaction"
+    title="len(t: Transaction): int">len.t,<wbr>Transaction</a></li>
 
   </ul>
   <ul class="simple nested-toc-section">reset
@@ -543,6 +553,14 @@ Calling neither <tt class="docutils literal"><span class="pre"><span class="Iden
 
 
 </dd>
+<a id="len,Database"></a>
+<dt><pre><span class="Keyword">proc</span> <a href="#len%2CDatabase"><span class="Identifier">len</span></a><span class="Other">(</span><span class="Identifier">db</span><span class="Other">:</span> <a href="limdb.html#Database"><span class="Identifier">Database</span></a><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">int</span> {.<span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">Exception</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
+<dd>
+
+Returns the number of key-value pairs in the database. .. note:<pre>This inits and resets a transaction under the hood</pre>
+
+
+</dd>
 <a id="open,Database,string"></a>
 <dt><pre><span class="Keyword">proc</span> <a href="#open%2CDatabase%2Cstring"><span class="Identifier">open</span></a><span class="Other">(</span><span class="Identifier">db</span><span class="Other">:</span> <a href="limdb.html#Database"><span class="Identifier">Database</span></a><span class="Other">;</span> <span class="Identifier">name</span><span class="Other">:</span> <span class="Identifier">string</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">Dbi</span> {.<span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">Exception</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
@@ -692,6 +710,13 @@ the value for you, giving you the more familiar interface.</pre>
 
 
 </dd>
+<a id="len.t,Transaction"></a>
+<dt><pre><span class="Keyword">template</span> <a href="#len.t%2CTransaction"><span class="Identifier">len</span></a><span class="Other">(</span><span class="Identifier">t</span><span class="Other">:</span> <a href="limdb.html#Transaction"><span class="Identifier">Transaction</span></a><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">int</span></pre></dt>
+<dd>
+
+Returns the number of key-value pairs in the database.
+
+</dd>
 <a id="reset.t,Transaction"></a>
 <dt><pre><span class="Keyword">template</span> <a href="#reset.t%2CTransaction"><span class="Identifier">reset</span></a><span class="Other">(</span><span class="Identifier">t</span><span class="Other">:</span> <a href="limdb.html#Transaction"><span class="Identifier">Transaction</span></a><span class="Other">)</span></pre></dt>
 <dd>
@@ -712,7 +737,7 @@ not `mdb_reset`- the latter does something else not covered by LimDB.</pre>
       <div class="twelve-columns footer">
         <span class="nim-sprite"></span>
         <br/>
-        <small style="color: var(--hint);">Made with Nim. Generated: 2022-06-05 22:56:31 UTC</small>
+        <small style="color: var(--hint);">Made with Nim. Generated: 2022-06-05 23:26:50 UTC</small>
       </div>
     </div>
   </div>
